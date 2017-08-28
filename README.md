@@ -26,98 +26,98 @@ Inspiración de presentaciones de [Sonia Conde](https://twitter.com/nonlessorgan
 
     * https://redfluff.github.io/speaking/refactoring-legacy-css#slide=1
 
-    [Imagen asociando dinosarius y Legacy Code](inspiration_slides/portada_carmen-ansio.png)
+    ![Imagen asociando dinosarius y Legacy Code](inspiration_slides/portada_carmen-ansio.png?raw=true)
 
 * Quién soy
 
     * https://speakerdeck.com/ireade/web-components-the-future-of-web-applications
 
-    [Imagen suya, trabajo y blog](inspiration_slides/quien_soy-ireade.png)
+    ![Imagen suya, trabajo y blog](inspiration_slides/quien_soy-ireade.png?raw=true)
 
     * http://naknak.me/postcss-codemotion2016/#/0/1
 
-    [Con enlace a twitter y página web](inspiration_slides/quien_soy_naiara-abaroa.png)
+    ![Con enlace a twitter y página web](inspiration_slides/quien_soy_naiara-abaroa.png?raw=true)
 
 * Footer
 
     * https://redfluff.github.io/speaking/refactoring-legacy-css#slide=2
 
-    [Enlace twitter y página web] (inspiration_slides/footer_carmen-ansio.png)
+    ![Enlace twitter y página web] (inspiration_slides/footer_carmen-ansio.png?raw=true)
 
 * Índice
 
     * https://speakerdeck.com/ireade/building-the-loop-introduction-to-frontend-development
 
-    [Indice de lo que se va a ver] (inspiration_slides/indice_ireade.png)
+    ![Indice de lo que se va a ver] (inspiration_slides/indice_ireade.png?raw=true)
 
 * Encabezados
 
     * http://naknak.me/postcss-codemotion2016/#/1/3
 
-    [Resaltando las palabras importantes](inspiration_slides/nuevo_tema_naiara-abaroa.png)
+    ![Resaltando las palabras importantes](inspiration_slides/nuevo_tema_naiara-abaroa.png?raw=true)
 
     * https://leaverou.github.io/talks/css-variables/#slide23
 
-    [Numerado con distinto color](inspiration_slides/encabezado_lista_lea-verou.png)
+    ![Numerado con distinto color](inspiration_slides/encabezado_lista_lea-verou.png?raw=true)
 
     * http://slides.com/sarasoueidan/tips-for-avoiding-common-svg-pitfalls-2#/16
 
-    [Color fondo distinto a página normal](inspiration_slides/encabezado_color_sara-soueidan.png)
+    ![Color fondo distinto a página normal](inspiration_slides/encabezado_color_sara-soueidan.png?raw=true)
 
     * https://speakerdeck.com/ireade/web-components-the-future-of-web-applications
 
-    [Encabezados numerados](inspiration_slides/encabezados_numero_ireade.png)
+    ![Encabezados numerados](inspiration_slides/encabezados_numero_ireade.png?raw=true)
 
     * https://www.slideshare.net/valhead/animation-in-design-systems-and-process-val-head
 
-    [Encabezado y explicación](inspiration_slides/encabezado_explicacion_val-head.png)
+    ![Encabezado y explicación](inspiration_slides/encabezado_explicacion_val-head.png?raw=true)
 
 * Página normal
 
     * http://naknak.me/postcss-codemotion2016/#/3/20
 
-    [Enlace a GitHub con imagen](inspiration_slides/enlace_github_naira-abaroa.png)
+    ![Enlace a GitHub con imagen](inspiration_slides/enlace_github_naira-abaroa.png?raw=true)
 
     * https://leaverou.github.io/talks/mavo-talk/#slide12
 
-    [Mostrar página web resultante](inspiration_slides/mostrar_pagina_web-lea-verou.png)
+    ![Mostrar página web resultante](inspiration_slides/mostrar_pagina_web-lea-verou.png?raw=true)
 
     * http://slides.com/sdrasner/svg-can-do-that#/8
 
-    [Título con fuente recurso](inspiration_slides/pagina_web_externa-sarah-drasner.png)
+    ![Título con fuente recurso](inspiration_slides/pagina_web_externa-sarah-drasner.png?raw=true)
 
     * http://slides.com/sdrasner/svg-can-do-that#/21
 
-    [Recursos: repo y demo](inspiration_slides/github_demo_sarah-drasner.png)
+    ![Recursos: repo y demo](inspiration_slides/github_demo_sarah-drasner.png?raw=true)
 
     * https://docs.google.com/presentation/d/1CoVGM8NjTX039S2gdBX8KfKAcNwrAxUjEtaQ2Lt11Zc/present?slide=id.g1e3a8db451_0_246
 
-    [Títulos que son url](inspiration_slides/titulo_url_sonia-conde.png)
+    ![Títulos que son url](inspiration_slides/titulo_url_sonia-conde.png?raw=true)
 
     * https://docs.google.com/presentation/d/1CoVGM8NjTX039S2gdBX8KfKAcNwrAxUjEtaQ2Lt11Zc/present?slide=id.g1e42348892_0_187
 
-    [Enlace GitHub e instrucciones](inspiration_slides/github_instrucciones_sonia-conde.png)
+    ![Enlace GitHub e instrucciones](inspiration_slides/github_instrucciones_sonia-conde.png?raw=true)
 
 * Con código
 
     * http://naknak.me/postcss-codemotion2016/#/2/4
 
-    [Código porción gulpfile.js](inspiration_slides/codigo_naiara-abaroa.png)
+    ![Código porción gulpfile.js](inspiration_slides/codigo_naiara-abaroa.png?raw=true)
 
     * https://leaverou.github.io/talks/css-variables/#cycles
 
-    [Código y resultado](inspiration_slides/codigo_resultado_lea-verou.png)
+    ![Código y resultado](inspiration_slides/codigo_resultado_lea-verou.png?raw=true)
 
     * https://docs.google.com/presentation/d/1CoVGM8NjTX039S2gdBX8KfKAcNwrAxUjEtaQ2Lt11Zc/present?slide=id.g1e42348892_0_201
 
-    [Código y resultado](inspiration_slides/codigo_resultado-sonia-conde.png)
+    ![Código y resultado](inspiration_slides/codigo_resultado-sonia-conde.png?raw=true)
 
     * http://slides.com/sarasoueidan/tips-for-avoiding-common-svg-pitfalls-2#/17
 
-    [Código en una página normal](inspiration_slides/pagina_normal_codigo_sara-soueidan.png)
+    ![Código en una página normal](inspiration_slides/pagina_normal_codigo_sara-soueidan.png?raw=true)
 
 * Despedida
 
     * https://leaverou.github.io/talks/mavo-talk/#slide66
 
-    [Información, charla y cómo fueran hechas las slides](inspiration_slides/slides_howto_lea-verou.png)
+    ![Información, charla y cómo fueran hechas las slides](inspiration_slides/slides_howto_lea-verou.png?raw=true)
