@@ -42,13 +42,13 @@ Inspiración de presentaciones de [Sonia Conde](https://twitter.com/nonlessorgan
 
     * https://redfluff.github.io/speaking/refactoring-legacy-css#slide=2
 
-    ![Enlace twitter y página web] (inspiration_slides/footer_carmen-ansio.png?raw=true)
+    ![Enlace twitter y página web](inspiration_slides/footer_carmen-ansio.png?raw=true)
 
 * Índice
 
     * https://speakerdeck.com/ireade/building-the-loop-introduction-to-frontend-development
 
-    ![Indice de lo que se va a ver] (inspiration_slides/indice_ireade.png?raw=true)
+    ![Indice de lo que se va a ver](inspiration_slides/indice_ireade.png?raw=true)
 
 * Encabezados
 
