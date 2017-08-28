@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks,
+      @jlantunez.
+    -->
+
+    <!-- SEO -->
+    <title>Ilusionismo con GitHub Pages - Preparación del proyecto</title>
+    <meta name="description" content="Presentación para explicar el proyecto y cómo se va a organizar">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cristinafsanz"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@cristinafsanz"> <!-- EDIT -->
+    <meta name="twitter:title" content="Cristina Fernández Sanz"> <!-- EDIT -->
+    <meta name="twitter:description" content="Desarrolladora front-end."> <!-- EDIT -->
+    <meta name="twitter:image" content="static/images/avatar.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="index.html" title="Ilusionismo con GitHub Pages">Ilusionismo con GitHub Pages - Presentación del proyecto</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/cristinafsanz" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>cristinafsanz</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/cristinafsanz" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@cristinafsanz</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides">
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-black-blue">
+            <span class="background dark" style="background-size: cover; background-image:url('static/images/georges-melies-la-magia-del-cine.jpg')"></span>
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap size-80 aligncenter">
+                <h1 class="text-data">Ilusionismo con GitHub Pages</h1>
+                <p class="text-intro">Presentación del proyecto</p>
+            </div>
+            <!-- .end .wrap -->
+        </section>
+
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="static/images/melies-museum.jpg" alt="Me at museum about Melies">
+            </figure>
+            <div class="flex-content">
+              <h2>Cristina Fernández</h2>
+              <p>Desarrolladora front-end</a></p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label">Twitter</strong> @cristinafsanz
+                </li>
+                <li>
+                  <strong class="text-label">GitHub</strong> cristinafsanz
+                </li>
+                <li>
+                  Foto: Exposición <a href="http://agenda.obrasocial.lacaixa.es/-/exposicion-georges-melies">Georges Méliès - La magia del cine</a> en Sept. 2013.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="aligncenter">
+          <div class="wrap">
+            <h1><strong>Origen de la idea</strong></h1>
+            <p><strong>Quiero practicar desarrollo front-end, pero...</strong></p>
+            <ul class="flexblock features">
+              <li><strong>¿Dónde alojo las páginas web que voy creando?</strong></li>
+              <li><strong>¿Dónde alojo el código que voy generando?</strong></li>
+              <li><strong>¿Y si la respuesta a las 2 preguntas fuese GitHub?</strong></li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black-blue">
+            <span class="background dark" style="background-size: cover; background-image:url('static/images/setas-gigantes.jpg')"></span>
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap size-80">
+              <h1 class="text-landing">GitHub Pages</h1>
+              <p class="text-intro">Servicio que ofrece GitHub para publicar páginas web.</p>
+              <p class="text-intro">Puedes publicar la página web a partir del código de la rama <code>master</code>, <code>gh-pages</code> o la carpeta <code>/docs</code> de la rama master.</p>
+              <p class="text-intro">Puedes encontrar la información completa en: <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/">Configuring a publishing source for GitHub Pages</a></p>
+            </div>
+            <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap">
+            <h3>Ilusionismo (Técnica de transformación)</h3>
+            <ul class="flexblock steps">
+              <li>
+                <h2>Alojas tu código utilizando el sistema de control de versiones Git</h2>
+              </li>
+              <li>
+                <div class="process step-2"></div>
+                <span>
+                  <svg class="fa-magic" viewBox="0 0 512 512">
+                    <path d="m358 166l84-84-31-30-83 83z m128-84c0 5-2 10-5 13l-368 368c-3 3-7 5-12 5-6 0-10-2-13-5l-57-57c-3-3-5-8-5-13 0-5 2-9 5-13l368-367c3-4 7-5 12-5 6 0 10 1 13 5l57 56c3 4 5 8 5 13z m-386-54l28 9-28 8-9 28-8-28-28-8 28-9 8-28z m100 46l56 17-56 18-17 56-17-56-56-18 56-17 17-56z m266 137l28 8-28 9-9 28-8-28-28-9 28-8 8-28z m-183-183l28 9-28 8-9 28-8-28-28-8 28-9 8-28z"></path>
+                  </svg>
+                </span>
+              </li>
+              <li>
+                <div class="process step-3"></div>
+                <h2>Publicas tu página web</h2>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black-blue">
+            <span class="background dark" style="background-size: cover; background-image:url('static/images/setas-gigantes.jpg')"></span>
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap size-80">
+              <h1 class="text-landing">Georges Méliès</h1>
+              <p class="text-intro">Ilusionista y cineasta francés famoso por liderar muchos desarrollos técnicos y narrativos en los albores de la cinematografía.</p>
+              <p class="text-intro">El 28 de diciembre de 1895 Méliès dio un giro a su vida cuando asistió invitado por los Lumière a la primera representación del Cinematógrafo. Méliès quedó impresionado y su inagotable mente le dio inmediatamente ideas.</p>
+              <p class="text-intro">El 5 de abril de 1896 proyectó las primeras películas en su teatro Robert Houdin. Su estilo evolucionó rápidamente buscando crear películas parecidas a sus espectáculos de ilusionismo.</p>
+            </div>
+            <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black-blue">
+          <span class="background dark" style="background-size: cover; background-image:url('static/images/viaje-luna.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1 class="text-landing">GitHub Pages + Front-end + George Méliès</h1>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap size-50 aligncenter">
+            <div class="bg-white shadow">
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>GitHub Pages</h2>
+                  <p>Repositorios con distintos casos de uso.</p>
+                  <p>Página web | Blog | Presentación</p>
+                </li>
+                <li>
+                  <h2>Desarrollo Front-end</h2>
+                  <p>Practicar lo que se aprende con ejemplos concretos.</p>
+                  <p>Flexbox | ITCSS | Vue.js</p>
+                </li>
+                <li>
+                  <h2>George Méliès</h2>
+                  <p>Añadir ilusionismo y cine al proyecto.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="wrap aligncenter">
+            <h2>Fase documentación</h2>
+            <div class="grid vertical-align">
+              <div class="column">
+                <figure>
+                  <img src="static/images/documentacion-melies.jpg" alt="Libro y DVD sobre Méliès">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-black-blue">
+          <span class="background dark" style="background-size: cover; background-image:url('static/images/viaje-luna.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1 class="text-landing">Primer proyecto: <a href="https://github.com/cristinafsanz/melies-origen">esta presentación</a></h1>
+            <ul class="flexblock reasons size-40">
+              <li>Publicada con GitHub Pages.</li>
+              <li>Usando WebSlides (forma de crear presentaciones que no había probado).</li>
+              <li>Presentando a Georges Méliès.</li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black-blue">
+            <span class="background dark" style="background-size: cover; background-image:url('static/images/georges-melies-la-magia-del-cine.jpg')"></span>
+            <!--.wrap = container (width: 90%) -->
+            <div class="wrap size-80 aligncenter">
+                <h1 class="text-data">¡Gracias!</h1>
+                <p class="text-intro">
+                    <a rel="external" href="https://twitter.com/cristinafsanz" title="Twitter">
+                      <svg class="fa-twitter">
+                        <use xlink:href="#fa-twitter"></use>
+                      </svg>
+                      <em>@cristinafsanz</em>
+                    </a>
+                </p>
+            </div>
+            <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <div class="wrap aligncenter">
+            <h2>Créditos</h2>
+            <div class="grid vertical-align size-50">
+              <div class="column">
+                <ul class="description">
+                  <li>
+                      <a href="https://webslides.tv/">WebSlides</a> es una solución open source creada por <a href="https://twitter.com/jlantunez">@jlantunez</a>, <a href="https://twitter.com/Belelros">@Belelros</a> y <a href="https://twitter.com/luissacristan">@luissacristan</a>. Si quieres saber más, <a href="https://twitter.com/webslides" title="@WebSlides">¡ponte en contacto!</a>
+                  </li>
+                  <li>
+                    Imágenes:
+                    <ul>
+                      <li>
+                        <a href="http://www.tarragonaturisme.cat/experience/wp-content/uploads/2015/09/georges-melies-la-magia-del-cine-01.jpg">Turismo Tarragona</a>
+                      </li>
+                      <li>
+                        <a href="http://revistatarantula.com/georges-melies-la-magia-del-cine/">Revista Tarántula</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
