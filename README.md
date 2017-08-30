@@ -2,9 +2,17 @@
 
 ## TechShessions:
 
-* [Presentación 5 minutos](https://cristinafsanz.github.io/slides/techshessions2017/5min)
+* Presentación 5 minutos: 
 
-* [Presentación 15 minutos](https://cristinafsanz.github.io/slides/techshessions2017/15min)
+    * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/5min)
+
+    * [Guión](techshessions2017/5min/guion.md)
+
+* Presentación 15 minutos:
+
+    * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/15min)
+
+    * [Guión](techshessions2017/15min/guion.md)
 
 ## Ideas futuras slides
 
@@ -59,10 +67,6 @@ Inspiración de presentaciones de [Sonia Conde](https://twitter.com/nonlessorgan
     * https://leaverou.github.io/talks/css-variables/#slide23
 
     ![Numerado con distinto color](inspiration_slides/encabezado_lista_lea-verou.png?raw=true)
-
-    * http://slides.com/sarasoueidan/tips-for-avoiding-common-svg-pitfalls-2#/16
-
-    ![Color fondo distinto a página normal](inspiration_slides/encabezado_color_sara-soueidan.png?raw=true)
 
     * https://speakerdeck.com/ireade/web-components-the-future-of-web-applications
 
