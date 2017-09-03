@@ -104,9 +104,19 @@ Y para mostrar directamente el resultado podemos consultar muchos ejemplos que e
 
     - Resultado: http://theantievent.org/
 
- En el primer proyecto se muestra el index.html de la raíz del proyecto mientras en el segundo se muestra el index.html de la carpeta /docs dejando la el resto del repositorio para configuración de gulp. 
+- Proyecto "Cómo desplegar tus proyectos Open Source" Angel M Miguel, si no quieres tener código distribuido subido a la misma rama, pero tienes que usar Travis para automatizar el proceso y que no se haga muy pesado:
 
- Como analogía se podría ver GitHub Pages como una apertura que se hace en una caja, que es GitHub, para mostrar el interior. Puedes mostrar todo o puedes mostrar solo lo que haya en docs. Este último caso sirve para cuando generar el código web a partir de uno fuente o para cuando quieres mostrar un código distinto, como la documentación de tu proyecto.
+    - Charla: https://www.youtube.com/watch?v=-MXVtFwS6Gw
+
+    - GitHub: https://github.com/Angelmmiguel/rock-the-open-source
+
+    - Rama gh-pages: https://github.com/Angelmmiguel/rock-the-open-source/tree/gh-pages
+
+    - Resultado: https://angelmmiguel.github.io/rock-the-open-source/
+
+ En el primer proyecto se muestra el index.html de la raíz del proyecto mientras en el segundo se muestra el index.html de la carpeta /docs dejando la el resto del repositorio para configuración de gulp. En el tercer proyecto se muestra el index.html de la rama gh-pages.
+
+ Como analogía se podría ver GitHub Pages como una apertura que se hace en una caja, que es GitHub, para mostrar el interior. Puedes mostrar todo (master o gh-pages) o puedes mostrar solo lo que haya en /docs. Este último caso sirve para cuando generar el código web a partir de uno fuente o para cuando quieres mostrar un código distinto, como la documentación de tu proyecto.
 
  ## Conclusiones: No solo leas, practica, documenta y publica código y demo/resultado.
 
