@@ -28,7 +28,7 @@ Para ello voy a hablar un poco del período de aprendizaje desde que empecé con
 
 Empecé haciendo un curso bastante práctico, cogía apuntes en una libreta (para asentar mejor los conceptos) y la parte de ejercicios la hacíamos también en clase, cada uno con nuestro ordenador. 
 
-Intenté tener un conjunto de carpetas separados por temas *(imagen de las carpetas del curso)* y nombrar los ficheros de forma que se supiera de qué iba el ejercicio *(ejemplo de ficheros creados)*. Luego simplemente podía ver el resultado en un navegador a partir del fichero html o mirar el código con un editor de texto para ver de qué iba el ejercicio un tiempo después.
+Intenté tener un conjunto de carpetas separados por temas *(imagen de las carpetas del curso)* y nombrar los ficheros de forma que se supiera de qué iba el ejercicio *(ejemplo de ficheros creados)*. Luego simplemente podía ver el resultado en un navegador a partir del fichero html *(gif haciendo click en el fichero y abriéndose en el navegador)* o mirar el código con un editor de texto para ver de qué iba el ejercicio un tiempo después *(screenshot de VSCode con código)*.
 
 Al cabo de unos meses me di cuenta que utilizaba Internet para buscar las dudas, porque no recordaba bien cuándo había hecho el ejercicio que me hacía falta o no tenía el código en el ordenador que estaba usando (lo tenía guardado en un disco extraíble). Y las notas no las consulté después casi nunca, ¿dónde estaría apuntada esa explicación de CSS que necesitaba?
 
@@ -54,4 +54,75 @@ Sin embargo esta solución muchas veces no funciona.
 
 ## Habilitando GitHub Pages
 
-La solución más efectiva sería usar GitHub Pages, un servicio que proporciona GitHub para publicar contenido web a partir del código de un repositorio *(slide con el código de GitHub en forma de árbol y a la derecha el resultado)*.
+La solución más efectiva sería usar GitHub Pages, un servicio que proporciona GitHub para publicar contenido web a partir del código de un repositorio.
+
+Un ejemplo que encontré hace poco es éste: https://andreidbr.github.io/JS30/ *(slide con el resultado)*. Se trata de una página web con los resultados de los ejercicios [JavaScript30](https://javascript30.com/), de Wes Box.
+
+Se trata de un repositorio con GitHub Pages habilitado en master, donde tiene cada ejercicio en una carpeta distinta. El código lo puedes ver en GitHub y el resultado lo ves en la url habilitada. Además escribe sobre el curso en Medium y en el README vienen las lecciones aprendidas en un readme dentro de la carpeta del ejercicio.
+
+## Otros sitios para publicar
+
+Además de en GitHub Pages, existen otros sitios para publicar lo que vas aprendiendo.
+
+- Resultado en tu propio servidor: Jorge Aznar, otro antiasistente, tiene un par de repositorios para publicar los ejemplos que pone en su blog:
+
+    - GitHub: https://github.com/jorgeatgu/ejemplos-blog/tree/master/css-grid
+
+    - Resultado: http://jorgeatgu.com/ejemplos/css-grid/
+
+- Resultado en Codepen: Sarah Drasner tiene un repositorio cuyos resultados están en Codepen:
+
+    - GitHub: https://github.com/sdras/JS-stroll
+
+    - JS de un ejemplo: https://github.com/sdras/JS-stroll/blob/master/1-chapter-1-1-nature-of-code-in-js-svg/js/index.js
+
+    - Comentario en el JS: live demo at http://codepen.io/sdras/pen/d953d844fb3bed2c053fb83874844f64
+
+- Resultado en Dabblet: Lea Verou tiene una lista de ejemplos de su libro:
+
+    - Repositorio: LeaVerou.github.io/play.csssecrets.io
+
+    - Resultado con HTML, CSS y JS (parecido a Codepen): http://dabblet.com/gist/012289cc14106a1bd7a5
+
+## ¿Qué se puede hacer con GitHub Pages?
+
+Aunque los ejemplos anteriores son muy válidos para ver los ejemplos lo más cómodo es habilitar GitHub Pages y tener el ejemplo directamente ahí.
+
+Si se quiere ver el html, css y js como en Codepen o Dabblet lo que podríamos hacer es utilizar [Jotted](https://github.com/ghinda/jotted) y tendrías el resultado completo en GitHub Pages. Quiero hacer el curso de JavaScript para probarlo. Por ahora sólo tengo la página de "Hello World": https://cristinafsanz.github.io/JavaScript30/00-test/.
+
+Y para mostrar directamente el resultado tenemos muchos ejemplos en GitHub:
+
+- Proyecto Midi-redux de Elena Torró *(mostrar árbol de ficheros y resultado en 2 slides)*, habilitando la rama master:
+
+    - GitHub: https://github.com/elenatorro/midi-redux
+
+    - Resultado: https://elenatorro.github.io/midi-redux/
+
+- Página web TheAntiEvent creada por Naiara Abaroa *(mostrar árbol de ficheros resaltando /docs y resultado en 2 slides)*, habilitando la carpeta /docs de la rama master:
+
+    - GitHub: https://github.com/theantievent/theAntiEvent
+
+    - Resultado: http://theantievent.org/
+
+ En el primer proyecto se muestra el index.html de la raíz del proyecto mientras en el segundo se muestra el index.html de la carpeta /docs dejando la el resto del repositorio para configuración de gulp. 
+
+ ## Conclusiones
+
+ - Hay muchas alternativas para poder consultar lo que vas aprendiendo. Aquí he puesto solo algunos ejemplos, cada uno que use lo que mejor le venga.
+
+ - Es importante documentar lo que haces, tanto para tu yo futuro como para otros a los que le pueda servir.
+
+ - Es aún más importante practicar lo que vas aprendiendo. Yo he hecho algún curso donde iba haciendo algún test de lo aprendido y cuando he tenido que ponerme a ello no sabía cómo.
+
+ ## Muchas gracias
+
+ - Estoy documentando los proyectos que voy haciendo y cómo los hice en https://github.com/cristinafsanz/github-pages.
+
+ - Escribo sobre el proceso del proyecto en https://melies-hugo.js.org/.
+
+ - Las slides están en https://cristinafsanz.github.io/slides/techtheantievent2017/ y están hechas con Webslides. El cómo trabajo con Webslides está en https://github.com/cristinafsanz/melies-origen.
+
+ - Mi twitter es https://twitter.com/cristinafsanz.
+
+ - Mi GitHub es https://github.com/cristinafsanz.
+
