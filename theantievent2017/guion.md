@@ -24,7 +24,7 @@ Esta charla sería un spin-off de aquella, ya que voy a centrarme en el último 
 
 Para ello voy a hablar un poco del período de aprendizaje desde que empecé con el desarrollo front-end, qué me ha servido y qué no, para intentar mejorarlo en el futuro.
 
-## Curso de diseño web adaptativo
+## Curso de diseño web adaptativo: ¿Dónde dejo mis apuntes y ejercicios?
 
 Empecé haciendo un curso bastante práctico, cogía apuntes en una libreta (para asentar mejor los conceptos) y la parte de ejercicios la hacíamos también en clase, cada uno con nuestro ordenador. 
 
@@ -34,7 +34,7 @@ Al cabo de unos meses me di cuenta que utilizaba Internet para buscar las dudas,
 
 Sin embargo, sí que interiorizé la mayoría de conceptos, ya que practicábamos casi todos haciendo ejercicios sobre ello, era un aprendizaje activo, práctico.
 
-## GitHub al rescate
+## GitHub al rescate: Disponible desde cualquier sitio con Internet
 
 El problema de tener los ejercicios en un disco duro local y no poder acceder a él desde cualquier sitio se puede solucionar con GitHub. 
 
@@ -52,23 +52,17 @@ Funcionamiento: Intenta cargar el HTML utilizando YQL, procesa todos los enlaces
 
 Sin embargo esta solución muchas veces no funciona. 
 
-## Habilitando GitHub Pages
+## Dónde publicar el resultado: Opciones posibles
 
-La solución más efectiva sería usar GitHub Pages, un servicio que proporciona GitHub para publicar contenido web a partir del código de un repositorio.
-
-Un ejemplo que encontré hace poco es éste: https://andreidbr.github.io/JS30/ *(slide con el resultado)*. Se trata de una página web con los resultados de los ejercicios [JavaScript30](https://javascript30.com/), de Wes Box.
-
-Se trata de un repositorio con GitHub Pages habilitado en master, donde tiene cada ejercicio en una carpeta distinta. El código lo puedes ver en GitHub y el resultado lo ves en la url habilitada. Además escribe sobre el curso en Medium y en el README vienen las lecciones aprendidas en un readme dentro de la carpeta del ejercicio.
-
-## Otros sitios para publicar
-
-Además de en GitHub Pages, existen otros sitios para publicar lo que vas aprendiendo.
+Voy a compartir algunos ejemplos que he visto para publicar tanto el código como el resultado.
 
 - Resultado en tu propio servidor: Jorge Aznar, otro antiasistente, tiene un par de repositorios para publicar los ejemplos que pone en su blog:
 
-    - GitHub: https://github.com/jorgeatgu/ejemplos-blog/tree/master/css-grid
+    - Blog: http://jorgeatgu.com/blog/
 
     - Resultado: http://jorgeatgu.com/ejemplos/css-grid/
+
+    - GitHub: https://github.com/jorgeatgu/ejemplos-blog/tree/master/css-grid
 
 - Resultado en Codepen: Sarah Drasner tiene un repositorio cuyos resultados están en Codepen:
 
@@ -84,13 +78,19 @@ Además de en GitHub Pages, existen otros sitios para publicar lo que vas aprend
 
     - Resultado con HTML, CSS y JS (parecido a Codepen): http://dabblet.com/gist/012289cc14106a1bd7a5
 
-## ¿Qué se puede hacer con GitHub Pages?
+## Habilitando GitHub Pages: Solución por defecto al usar GitHub
 
-Aunque los ejemplos anteriores son muy válidos para ver los ejemplos lo más cómodo es habilitar GitHub Pages y tener el ejemplo directamente ahí.
+La solución más rápida sería usar GitHub Pages, un servicio que proporciona GitHub para publicar contenido web a partir del código de un repositorio.
+
+Un ejemplo que encontré hace poco es éste: https://andreidbr.github.io/JS30/ *(slide con el resultado)*. Se trata de una página web con los resultados de los ejercicios [JavaScript30](https://javascript30.com/), de Wes Box.
+
+Se trata de un repositorio con GitHub Pages habilitado en master, donde tiene cada ejercicio en una carpeta distinta. El código lo puedes ver en GitHub y el resultado lo ves en la url habilitada. Además escribe sobre el curso en Medium y en el README vienen las lecciones aprendidas en un readme dentro de la carpeta del ejercicio.
+
+## ¿Qué se puede hacer con GitHub Pages?: Otros casos de uso que te podrías servir
 
 Si se quiere ver el html, css y js como en Codepen o Dabblet lo que podríamos hacer es utilizar [Jotted](https://github.com/ghinda/jotted) y tendrías el resultado completo en GitHub Pages. Quiero hacer el curso de JavaScript para probarlo. Por ahora sólo tengo la página de "Hello World": https://cristinafsanz.github.io/JavaScript30/00-test/.
 
-Y para mostrar directamente el resultado tenemos muchos ejemplos en GitHub:
+Y para mostrar directamente el resultado podemos consultar muchos ejemplos que están en GitHub:
 
 - Proyecto Midi-redux de Elena Torró *(mostrar árbol de ficheros y resultado en 2 slides)*, habilitando la rama master:
 
@@ -106,7 +106,9 @@ Y para mostrar directamente el resultado tenemos muchos ejemplos en GitHub:
 
  En el primer proyecto se muestra el index.html de la raíz del proyecto mientras en el segundo se muestra el index.html de la carpeta /docs dejando la el resto del repositorio para configuración de gulp. 
 
- ## Conclusiones
+ Como analogía se podría ver GitHub Pages como una apertura que se hace en una caja, que es GitHub, para mostrar el interior. Puedes mostrar todo o puedes mostrar solo lo que haya en docs. Este último caso sirve para cuando generar el código web a partir de uno fuente o para cuando quieres mostrar un código distinto, como la documentación de tu proyecto.
+
+ ## Conclusiones: No solo leas, practica, documenta y publica código y demo/resultado.
 
  - Hay muchas alternativas para poder consultar lo que vas aprendiendo. Aquí he puesto solo algunos ejemplos, cada uno que use lo que mejor le venga.
 
