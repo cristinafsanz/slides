@@ -130,9 +130,9 @@ Y para mostrar directamente el resultado podemos consultar muchos ejemplos que e
 
  - Estoy documentando los proyectos que voy haciendo y cómo los hice en https://github.com/cristinafsanz/github-pages.
 
- - Escribo sobre el proceso del proyecto en https://melies-hugo.js.org/.
+ - Escribo sobre el proceso del proyecto en https://melies-hugo.js.org/. Es un blog que también he publicado con GitHub Pages.
 
- - Las slides están en https://cristinafsanz.github.io/slides/techtheantievent2017/ y están hechas con Webslides. El cómo trabajo con Webslides está en https://github.com/cristinafsanz/melies-origen.
+ - Las slides están en https://cristinafsanz.github.io/slides/theantievent2017/ y están hechas con Webslides. El cómo trabajo con Webslides está en https://github.com/cristinafsanz/melies-origen.
 
  - Mi twitter es https://twitter.com/cristinafsanz.
 
