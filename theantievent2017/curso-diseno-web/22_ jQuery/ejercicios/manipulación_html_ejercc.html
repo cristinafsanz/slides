@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$("#bia_contacts").click(function(){
+			$("#derecha div").css("display", "none");
+			$("#contactos").css("display", "block");	
+		});	
+		
+		$("#bia_ibooks").click(function(){
+			$("#derecha div").css("display", "none");
+			$("#libros").css("display", "block");	
+		});	
+		
+		$("#bia_mail").click(function(){
+			$("#derecha div").css("display", "none");
+			$("#mail").css("display", "block");	
+		});			
+	});
+</script>
+<style>
+#izquierda {
+	float: left;
+	width: 8%;
+	border-right: 1px dotted #003399;	
+	padding-left: 2%;
+}
+#izquierda img {
+	float:left;
+	clear: left;
+	margin-bottom: 5px;
+}
+#derecha {
+	float: left;
+	width: 80%;	
+	margin-left: 6%;
+}	
+#derecha img {
+	width: 200px;
+	height: 200px;
+}
+#derecha h1 {
+	margin-left: 3%;
+}
+#derecha footer {
+	margin-left: 2%;
+}
+#contactos, #libros, #mail {
+	display:none;
+}
+</style>
+</head>
+
+<body>
+<div id="contenedor">
+	<h1>Ejercicio jquery</h1>
+    <section id="izquierda">
+    	<img id="bia_contacts" src="images/bia_contacts.jpg" />
+    	<img id="bia_ibooks" src="images/bia_ibooks.jpg" />
+    	<img id="bia_mail" src="images/bia_mail.jpg" />
+    </section>
+    <section id="derecha">
+    	<div id="contactos">
+        	<h2>Contactos</h1>
+        	<img src="images/bia_contacts.jpg" />
+        	<footer>Imagen de contactos</footer>
+        </div> 
+        <div id="libros">
+        	<h2>Libros electrónicos</h1>
+        	<img src="images/bia_ibooks.jpg" />
+        	<footer>Imagen de libro</footer>
+        </div> 
+        <div id="mail">
+        	<h2>Correo electrónico</h1>
+        	<img src="images/bia_mail.jpg" />
+        	<footer>Imagen de correo</footer>
+        </div>    	
+    </section>
+</div>
+</body>
+</html>

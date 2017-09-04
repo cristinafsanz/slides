@@ -1,0 +1,15 @@
+Ponerlo después de las CSS
+
+Soporte:
+
+IE9+, 
+Opera 10+, 
+Firefox 3.5+, 
+Safari 4+ and 
+Chrome on desktop and 
+Mobile Safari, 
+Android browser, 
+Chrome and Opera Mobile on mobile
+
+
+No funciona con reglas @import

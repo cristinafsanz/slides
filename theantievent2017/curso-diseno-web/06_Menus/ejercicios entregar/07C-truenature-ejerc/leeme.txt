@@ -1,0 +1,11 @@
+fondo: #3a3a3a
+
+fuente: Arial
+
+texto verde: #a5c35c
+
+texto negro: #000000
+
+enlaces verdes, sobre: se quitar subrayado
+
+enlaces blanco, sobre: color #F63;

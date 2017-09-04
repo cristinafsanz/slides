@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+   $("#taza").mouseover(function(){
+      $("#taza").addClass("sobre");//añadir clases CSS sobre elementos 
+   });
+   $("#taza").mouseout(function(){
+      $("#taza").removeClass("sobre");//quitar clases CSS sobre elementos 
+   });
+
+   $("#toggle-class").click(function () {
+	  $('#gris').toggleClass("visibilidad");//permite conmutar clases (la pone-la quita)
+    });
+});
+</script>
+<style>
+#gris {
+ position: absolute;
+ left: 174px;
+ top: 20px;
+ width: 488px;
+ height: 488px;
+ z-index: 4;
+ background-color: #333333;
+}
+
+#taza{display:inline-block;
+width:200px;
+height:200px;
+}
+
+/*cuidado con la especificidad: pongo #taza.sobre (especf:110) para que sustituya a #taza (especf:100). Si pusiera solo .sobre (especf:10) no lo sustituiría por #taza (especf:100)*/
+#taza.sobre{display:inline-block;
+width:488px;
+height:488px;
+}
+
+#gris.visibilidad{display:none;
+  }
+</style>
+</head>
+
+<body>
+<div id="gris"><img src="images/taza-te-chica.jpg" alt="taza" name="taza" id="taza"></div>
+<button id="toggle-class">mostrar/ocultar capa</button>
+</body>
+</html>

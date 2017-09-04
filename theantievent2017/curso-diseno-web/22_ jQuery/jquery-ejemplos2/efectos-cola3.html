@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+
+$(function(){
+		$("#imagen").css({"width":"50px"});
+
+	$("#imagen").click(function(){
+		$(this).animate({"width":"640px"},500).delay(1000);
+		$(this).animate({"margin-left":"300px","margin-top":"70px"},500);
+		$(this).slideUp(500).slideDown(500);
+		$(this).fadeTo(500,0.2).fadeTo(500,1).fadeTo(500,0.2).fadeTo(500,1);
+		$(this).delay(2500);
+		$(this).hide(1500);
+	});
+});
+
+</script>
+
+<style type="text/css">
+body {
+ background-color: #000;
+}
+</style>
+</head>
+
+<body>
+    <img id="imagen" src="images/10.jpg" width="640" height="427" alt="noche">
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Auto marcado de enlaces de la p&aacute;gina actual, con jQuery</title>
+<link rel="stylesheet" href="styles.css">
+<style type="text/css">
+/* Estilo aplicado a opción de la página actual */
+#menu li a.selected {
+	border:none;
+	background:#f00;
+	cursor:default;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+/*si los links del menú llevan parámetros o fragmentos (portada.html?param=dos / estructura.html#dos); poner:
+		var loc = document.location.href;*/
+
+
+	$(document).ready( function() {
+		var loc = document.location.href;
+		$("a").each(function() {//método each() especifica una función a ejecutar para cada elemento coincidente.
+			if (this.href == loc) $(this).addClass("selected");
+		});
+	});
+</script>
+<meta charset="utf-8">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			
+			<div id="menu">
+				<h1>PORTADA</h1>
+
+				<ul>
+					<li><a href="contenido.html?id=uno mas&pepe=otro">Portada</a></li>
+					<li><a href="contenido.html?id=dos mas">Estructura</a></li>
+					<li><a href="contenido.html?id=tres mas">Contenido</a></li>
+					<li><a href="contenido.html?id=cuatro mas">PHP</a></li>
+				</ul>
+			</div>
+		</div>	
+		<div id="content">
+	<p>A modo de apunte, os dejo un m&eacute;todo breve, usando <a href="http://jquery.com/" target="_blank">jQuery</a>, para marcar los enlaces que apuntan a la p&aacute;gina en la que nos encontramos. Muy util, por ejemplo, para destacar en los men&uacute;s la opci&oacute;n seleccionada autom&aacute;ticamente sin recurrir a PHP o a hacerlo manualmente:</p>
+		
+		<div class="code">
+		<blockquote>$(document).ready( function() {
+			<blockquote>var loc = document.location.href.split(/[\?#]/).shift().replace(/\/$/, '');<br><br>
+			$("a").each(function() {
+			  <blockquote>if (this.href == loc) $(this).addClass("<strong>selected</strong>");</blockquote>
+			});</blockquote>
+		} );</blockquote>
+		</div>
+		
+	<p>El funcionamiento es muy simple. Recorre todos los elementos <strong>&lt;a&gt;</strong> de la p&aacute;gina y compara el par&aacute;metro <strong>href</strong> con la url actual. Si coincide, añade la clase '<strong>selected</strong>' a dicho elemento. La clase 'selected' deber&aacute; estar definida dentro de los estilos css de la p&aacute;gina.</p>
+
+		</div>
+	</div>
+</body>
+</html>

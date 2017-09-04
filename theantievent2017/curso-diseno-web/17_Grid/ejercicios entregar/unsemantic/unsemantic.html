@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--[if lt IE 9]>
+  <script src="css/html5.js"></script>
+<![endif]-->
+  <link rel="stylesheet" href="css/demo.css" /><!--demo.css es un reset, se puede quitar--> 
+<!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.css" />
+<!--<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css" />
+<![endif]-->
+</head>
+<style>
+	div{
+		outline:1px solid;			
+	}
+	#logo {
+		height: 80px;
+		background-color:#999;
+	}
+	#banner1, #banner2 {
+		height: 45px;
+		background-color:#0CF;
+	}
+	#menu {
+		height: 35px;
+		background-color:#C06;
+	}
+	#scroll {
+		height: 20px;
+		background-color:#CCC;
+	}
+	#imageSlide {
+		height: 80px;
+		background-color:#9F6;
+	}
+	#vacio {
+		height: 80px;
+		background-color:#C63;
+	}
+	#follow {
+		height: 20px;
+		background-color:#63C;
+	}
+	#seccion div {
+		height: 40px;
+		background-color:#C33;
+	}
+	#pie {
+		height: 20px;
+		background-color:#666;
+	}
+</style>
+<body>
+<div class="grid-container">
+	<div class="grid-100 grid-parent">
+    	<div class="grid-20" id="logo">Logo</div>
+        <div class="grid-80 grid-parent">
+        	<div id="banner1" class="grid-60">Banner 1</div>	
+            <div id="banner2" class="grid-40">Banner 2</div>	
+            <div class="clear"></div>
+            <div id="menu" class="grid-100">Menú</div>			
+        </div>	
+    </div>
+    <div class="clear"></div>
+    
+    <div class="grid-100 grid-parent">
+    	<div class="grid-80 grid-parent">
+       		<div id="scroll" class="grid-100">Scroll text</div>	 
+            <div class="clear"></div>	
+            <div id="imageSlide" class="grid-100">ImageSlide</div>	 
+        </div>	
+        <div class="grid-20 grid-parent">
+        	<div id="vacio" class="grid-100">&nbsp;</div>	 
+            <div class="clear"></div>	
+            <div id="follow" class="grid-100">Follow us</div>	 
+        </div>		
+    </div>
+    <div class="clear"></div>
+    
+    <div class="grid-100 grid-parent" id="seccion">
+    	<div class="grid-25">Sección 1</div>
+        <div class="grid-25">Sección 2</div>
+        <div class="grid-25">Sección 3</div>
+        <div class="grid-25">Banner 3</div>	 
+    </div>
+    <div class="clear"></div>
+    
+    <div id="pie" class="grid-100 grid-parent">Foot</div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>

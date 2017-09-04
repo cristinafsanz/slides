@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+#contenido {
+	width: #F93;
+	height: 100%;
+	background:#FCC;
+	color:#333;
+}
+</style>
+<script>
+function historia() {
+	document.getElementById("contenido").innerHTML = "<h1>HISTORIA</h1><p>Según la tradición oral, el pueblo rapanui habría llegado a esta isla desde una mítica isla llamada Hiva, siendo guiados por Hotu Matu'a, su primer ariki, o rey, hacia el siglo IV.<br/> De acuerdo a las investigaciones arqueológicas, el origen de esta etnia provendría de la Polinesia, posiblemente desde las islas Marquesas. Teorías recientes postulan que la isla de Rapa Iti sería la mítica Hiva,nota 1 de la cual habrían provenido los ancestros de los nativos de Isla de Pascua, según la mitología pascuense.</p>";	
+	
+	document.getElementById("contenido").style.background="yellow";
+	document.getElementById("contenido").style.color="blue";
+}
+
+function geografia() {
+	document.getElementById("contenido").innerHTML = "<h1>GEOGRAFÍA</h1><p>La isla está ubicada en las coordenadas geográficas 27°7′10″S 109°21′17″O, localizándola aproximadamente en la latitud de la ciudad chilena de Caldera, aunque el punto del continente más próximo a la isla se ubica al sur, en la Punta Lavapié, VIII Región del Biobío, a 3526 km de distancia. Además, se encuentra a 2075 km al este de las islas Pitcairn y a 4251 km de Papeete, la capital de la Polinesia Francesa. A 415 km de distancia, al noreste, se encuentra la también chilena isla Sala y Gómez.</p>";	
+}
+
+function floraFauna() {
+	document.getElementById("contenido").innerHTML = "<h1>FLORA Y FAUNA</h1><p>En cuanto a la flora se puede encontrar la palma chilena y otras especies de palmeras, ya que la isla de Pascua posee un clima subtropical apto para el crecimiento de estas plantas. Un árbol nativo de la isla, pero que fue exterminado por su sobrexplotación es el toromiro, que ahora está siendo nuevamente reintroducido en la isla. El otro árbol autóctono, a punto de desaparecer en estado silvestre, es el hau hau (Triumfetta semitriloba), la corteza del cual era aprovechada para la fabricación de cuerdas. Estudios paleobotánicos revelan que la isla tuvo diversos biomas incluyendo praderas de helechos y bosques de palmeras gigantes Paschalococos disperta, emparentada con la palma chilena Jubaea chilensis, y registros fósiles anunciaron que también poseyó garzas, búhos, taguas y loros endémicos.</p>";	
+}
+</script>
+</head>
+
+<body>
+<h1>Isla de Pascua</h1>
+<p><a href="#" onclick="historia()">Historia</a></p>
+<p><a href="#" onclick="geografia()">Geografía</a></p>
+<p><a href="#" onclick="floraFauna()">Flora y fauna </a></p>
+<section id="contenido">
+El nombre tradicional que recibe esta isla corresponde al de Rapa Nui, que significa «Rapa grande» en el idioma de los navegantes tahitianos que visitaban la isla en el siglo XIX. El nombre estaría asociado con el parecido encontrado por los tahitianos con la isla de Rapa, en la actual Polinesia Francesa, y a la cual también se le conoce como Rapa Iti («Rapa pequeña»). A pesar de ser de origen extranjero, el nombre de Rapa Nui es considerado comúnmente como la denominación dada por los nativos de la isla.4 La pronunciación en español es la convencional para la escritura, [ra.pa'nwi], mientras que en rapanuí suena [ɾa.pa'nu.i], pues siempre la r se pronuncia con sonido suave (como en máscara) y cada sílaba solamente puede tener una vocal.
+</section>
+</body>
+</html>

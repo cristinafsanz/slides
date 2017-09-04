@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>	
+	function chasquido() {
+		document.getElementById("miniaudio").play();
+	}
+	window.onload=function(){
+		document.getElementById("boton").onmouseover=chasquido;
+	}
+</script>
+</head>
+
+<body>
+<p><img id="boton" src="audio/miaudio/boton_sonido.gif" width="44" height="44" alt=""></p>
+<audio id="miniaudio" preload="auto">
+  <source src="audio/miaudio/CLIC.mp3" type="audio/mp3">
+  <source src="audio/miaudio/CLIC.ogg" type="audio/ogg">  
+</audio>
+
+<p>&nbsp;</p>
+</body>
+</html>

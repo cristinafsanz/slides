@@ -1,0 +1,15 @@
+# añadir tipos MIME
+
+#Audio
+AddType audio/ogg .ogg
+AddType audio/mpeg .mp3
+
+# video
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+AddType video/m4v .m4v
+
+
+
+

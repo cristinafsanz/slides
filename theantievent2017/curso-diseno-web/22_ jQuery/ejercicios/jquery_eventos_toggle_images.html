@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){				
+		$("#micaja").toggle(function(){ 
+			$("#micaja").css("background", "url(images/bia_mail.jpg)");
+		}, function(){ 
+			$("#micaja").css("background", "url(images/bia_ibooks.jpg)");
+		}, function(){ 
+			$("#micaja").css("background", "url(images/bia_contacts.jpg)");
+		});
+				
+	});
+</script>
+<style>
+	#micaja {
+		background:url(images/bia_contacts.jpg);
+		width: 72px;
+		height: 72px;	
+		margin: 20px auto 0 auto;
+		cursor:pointer;
+	}	
+</style>
+</head>
+
+<body>
+<section id="micaja">
+</section>
+</body>
+</html>

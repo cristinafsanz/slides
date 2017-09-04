@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		background-color: #336;
+		background-image:url(../media/fondos/patron.jpg);		
+		background-repeat: no-repeat;
+		background-position:center top;	
+		background-attachment:fixed;
+	}
+	
+	#imgFondo {
+		width:600px;
+		height:600px;
+		background-image:url(../media/normal_natu006.jpg);
+		background-color:#FFF;
+		background-repeat:no-repeat;
+		background-position:center center;		
+	}
+

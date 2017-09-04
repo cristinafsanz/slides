@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+
+body {
+ background-color: #FFC;
+}
+
+
+#cajaVerde {
+ position:absolute;
+ left:401px;
+ top:36px;
+ width:220px;
+ height:220px;
+ z-index:1;
+ text-align: center;
+ padding:25px;
+background:url(cambioestacion.jpg) no-repeat center center;
+ 
+/*bordes con imágenes*/
+border: 50px solid transparent;/* determinamos el ancho */
+  
+/* la imágen tiene 135px y cada tercio 45px.  */
+
+/*shorthand. prefijos con:prefixfree */
+border-image: url(marco.png) 45 round;
+
+}
+
+</style>
+<script src="prefixfree.min.js"></script>
+</head>
+
+<body>
+<div id="cajaVerde">
+</div>
+</body>
+</html>

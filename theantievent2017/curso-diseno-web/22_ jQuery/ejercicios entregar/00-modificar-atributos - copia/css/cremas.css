@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	/*FFE0A3,7F7D78,FFFAF0,7F7052,CCC8C0 */
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11;
+	background-color:#FFFAF0;
+	color:#7F7052;
+}
+h1 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#CCC8C0;
+	text-align:center;
+}
+h2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:#7F7D78;
+	color:#FFE0A3;
+}

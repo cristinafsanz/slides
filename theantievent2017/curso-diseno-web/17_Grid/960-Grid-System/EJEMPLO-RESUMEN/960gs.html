@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>960 Grid System &mdash; Demo</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960.css" />
+<style type="text/css">
+body{margin:0 20px;
+}
+p {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<p><br>
+  <h3>960 Grid System</h3>
+  Incluir las CSS:<strong> text, reset </strong>y <strong>960</strong> css's en el html<br>
+  <br>
+Podemos utilizar <strong>12, 16 o 24 columnas</strong> para crear nuestros layouts, cada una de las columnas tiene un margen izquierdo y derecho de 10px, para crear 20px de separación entre columnas. Sabiendo esto, decimos que si utilizo 12 columnas, cada columna será de 60px cada una y sí utilizo 16 columnas, el ancho de cada una será de 40px. <br>
+<br>
+Pero,¿Cómo 960 grid sabe sí utilizo 12 o 16 columnas? Simple, tiene una <strong>clase .container_yy</strong>, donde &quot;yy&quot; es el numero de columnas que voy a utilizar. <br>
+<br>
+Cada una de las filas lleva un número, que será el identificador; es decir, el ancho de la columna corresponde al número de columnas que abarca. Y se forma así: <strong>grid_xx</strong> donde &quot;xx&quot; es el numero de columnas.  <br>
+<br>
+Finalizar cada fila con un div clear: <strong>&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;</strong><br>
+<br>
+<strong>Class alpha y class omega</strong>: sirven cuando estamos anidando unos grid dentro de otros, para ajustar los márgenes de los distintos elementos anidados (recordar las clases grid_xx tienen un margen de 10 píxeles a la izquierda y la derecha; se sumarían los márgenes de elemento padre e hijos). <br>
+<br>
+<strong>Class prefix_xx</strong>:  sirve para anclar una grid_xx dejando un espacio vacío a la izquierda; y <strong>class suffix_xx</strong>: para colocar un espacio vacío a la derecha
+</p>
+
+<div class="container_12"><!--contenedor padre de 12 columnas - puede ser tb. class="container_16" de 16 columnas-->
+
+  <div class="grid_12"><!-- div único 12 columnas -->
+    <p>
+      940
+    </p>
+  </div>
+  <div class="clear"></div><!-- finalizar cada fila con un div clear -->
+  
+  <div class="grid_1"><!-- 2 div: primero 1 columna, segundo 11 columnas -->
+    <p>
+      60
+    </p>
+  </div>
+  <div class="grid_11">
+    <p>
+      860
+    </p>
+  </div>
+  <div class="clear"></div><!-- finalizar cada fila con un div clear -->
+  
+  <div class="grid_3"><!-- 2 div: primero 3 columnas, segundo 9 columnas -->
+    <p>
+      220
+    </p>
+  </div>
+  <div class="grid_9">
+    <p>
+    700 </p>
+  </div>
+  <div class="clear"></div>
+  
+  <div class="grid_3"><!-- 4 div de 3 columnas -->
+    <p>
+      220
+    </p>
+  </div>
+    <div class="grid_3">
+    <p>
+      220
+    </p>
+  </div>
+    <div class="grid_3">
+    <p>
+      220
+    </p>
+  </div>
+    <div class="grid_3">
+    <p>
+      220
+    </p>
+  </div>
+  <div class="clear"></div>
+  
+  
+  <div class="grid_3"><!-- 3 div: primero y tercero 3 columnas, segundo 6 columnas -->
+    <p>
+      220
+    </p>
+  </div>
+  <div class="grid_6">
+    <p>
+      460</p>
+  </div>
+  <div class="grid_3">
+    <p>
+      220
+    </p>
+  </div>
+  <div class="clear"></div>
+
+  <div class="grid_4"><!-- 2 div: primero 4 columnas; segundo 8 columnas y con div anidados dentro -->
+    <p>
+      300
+    </p>
+  </div>
+  
+  <div class="grid_8"><!-- este div tiene a su vez 3 div anidados, para que no sumen otros 10px por delante y por detras (y descuadre el conjunto) usar en el primer div anidado la clase alpha y en el último la clase omega (ambas quitan esos píxeles extras) -->
+	   <div class="grid_3 alpha">
+        <p>
+          (anidado) 220
+        </p>
+      </div>
+      <div class="grid_3">
+        <p>
+          (anidado) 220
+        </p>
+      </div>
+    <div class="grid_2 omega">
+        <p>
+          (anidado) 140
+        </p>
+    </div>
+  </div>
+  <div class="clear"></div>
+
+  <div class="prefix_3 grid_9"><!-- este div tiene un espacio vacío a su izquierda de 3 columnas (class="prefix_3") -->
+    <p>(separado izq.) 700
+    </p>
+  </div>
+  <div class="clear"></div>
+  
+  <div class="grid_9 suffix_3"><!-- este div tiene un espacio vacío a su derecha de 3 columnas (class="suffix_3") -->
+    <p>(separado dcha.) 700
+    </p>
+  </div>
+  <div class="clear"></div>
+
+  
+</div>
+</body>
+</html>

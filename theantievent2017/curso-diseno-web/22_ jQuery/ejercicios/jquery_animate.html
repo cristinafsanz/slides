@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){
+		$("#animado").click(function(){
+			//$(this).animate({ }, );
+			$(this).animate({"width":"400px", "height":"300", "margin-top": "450px"}, 1100);
+		});	
+	});
+</script>
+<style>
+	#animado {
+		width:170px;
+		height:64px;		
+	}
+	img {
+		max-width: 100%; /* imágenes fluidas quitando width y height del img y metiendo max-width */
+	}
+</style>
+</head>
+
+<body>
+	<div id="animado">
+   		<img src="images/normal_natu003.jpg" />
+    </div>
+</body>
+</html>

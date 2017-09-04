@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5 MediaElement</title>	
+	<!--http://mediaelementjs.com/-->
+	<script src="build/jquery.min.js"></script>	
+	<script src="build/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="build/mediaelementplayer.css" />
+    
+</head>
+<body>
+
+<h2>Audio player MP3</h2>
+
+<!--
+Basta con 1 sólo archivo en .mp3
+Todos los navegadores tienen el mismo player
+Mejor no usar autoplay pq no funciona en móviles y queda marcado como reproduciéndose
+-->
+<audio src="../miaudio/last-night-GeorgieFame.mp3" type="audio/mp3" controls></audio>	
+
+<script>
+$('audio').mediaelementplayer();
+</script>
+
+</body>
+</html>
+

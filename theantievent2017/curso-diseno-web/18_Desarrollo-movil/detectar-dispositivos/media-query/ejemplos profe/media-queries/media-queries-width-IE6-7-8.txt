@@ -1,0 +1,14 @@
+INTERNET EXPLORER 6, 7 Y 8: soporte Media Queries propiedad "width" por Javascript
+
+
+
+Internet Explorer 8 o versiones anteriores no es compatible con CSS3 media queries width. Puedes activarlo añadiendo el archivo de Javascript css3-mediaqueries.js (no vale para orientation:portrait/landscape)
+
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+
+
+
+o también con el archivo respond.min.js, pero en este caso las css tienen que estar en un archivo externo: estilos.css

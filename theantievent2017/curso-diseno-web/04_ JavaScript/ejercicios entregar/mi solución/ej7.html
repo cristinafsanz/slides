@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+	function pintar(){
+		var nombre = document.getElementById('nombre').value;
+		var color = document.getElementById('color').value;	
+		document.write("<h1>Hola " + nombre +"</h1>");
+		switch(color){
+			case "rojo":
+				document.getElementsByTagName('h1')[0].style.color="red";
+				break;
+			case "verde":
+				document.getElementsByTagName('h1')[0].style.color="green";
+				break;
+				
+			default:
+				document.getElementsByTagName('h1')[0].style.color="blue";				
+		}
+		
+	}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">  
+    Nombre: <input type="text" name="nombre" id="nombre"><br /> 
+    Color: <input type="text" name="color" id="color"><br />    
+    <input type="button" name="button" id="button" value="Mostrar resultado" onclick="pintar()">
+</form>
+</body>
+</html>

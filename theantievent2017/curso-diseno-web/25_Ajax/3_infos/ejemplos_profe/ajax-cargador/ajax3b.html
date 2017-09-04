@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ajax Simple</title>
+    <meta charset="utf-8">
+<style>
+body {
+ background-color: #FFC;
+}
+body,td,th {
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2 {
+ font-size: 24px;
+ color: #600;
+}
+a:link {
+ color: #033;
+}
+h3 {
+ font-size: 18px;
+ color: #900;
+}
+a:visited {
+ color: #063;
+}
+a:hover {
+ color: #063;
+}
+a:active {
+ color: #063;
+}
+img{max-width:100%;
+}
+#destino{width:960px;
+}
+</style>
+
+<!--framework jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+/*páginas con ajax siempre tienen que estar alojadas en el servidor (con el que realizan acciones)*/
+$(function(){
+
+	$("#enlaceajax").click(function(evento){
+		evento.preventDefault();// evento.preventDefault() bloquea el comportamiento normal de un enlace, simplemente se ejecutará el código jQuery contenido para el evento click
+		$("#destino").load("contenido4.html");//método load() de ajax
+	});
+
+
+
+/*Tb. cuando un contenido es pesado podemos mostrar un texto o indicador de carga que avise al usuario de que una petición está en marcha*/
+
+	$("#cargando").css("display", "none");
+
+
+	$("#cargando").ajaxStart(function() {
+		$(this).css("display", "block");
+	});
+	 
+	$("#cargando").ajaxComplete(function() {
+		$(this).css("display", "none");
+	});
+
+})
+
+</script>
+
+</head>
+
+<body>
+<h2>Ajax con preload</h2>
+<p><strong>Las páginas con ajax siempre tienen que estar alojadas en el servidor para verlas funcionando</strong></p>
+<p> nisi ut aliquid ex ea commodi consequatur? Eaque ipsa quae ab illo inventore veritatis totam rem aperiam, sed quia non numquam eius modi. Iste natus error sit voluptatem consectetur, adipisci velit, vel illum qui dolorem eum fugiat. Sed ut perspiciatis unde omnis totam rem aperiam, id quod maxime placeat facere possimus.</p>
+<p>&nbsp;</p>
+<p><a href="#" id="enlaceajax">Cargar contenido4 por ajax con preload (gif animado)</a></p>
+
+
+<div id="cargando"><img src="img/preloader.gif"></div>
+<div id="destino"></div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+/*poner los estilos como clases (no como id, pq sino 'className' no los puede modificar por la especificidad).
+Además con className, no modificamos algunos valores, sino que sustituimos una clase por otra*/
+body.defecto{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ color: #003E3E;
+background-color: #FFC;
+}
+
+body.contraste{
+ font-family: Helvetica, sans-serif;
+ font-size: 30px;
+ color: #9F0;
+background-color: #000;
+}
+
+
+
+#contenedor{width:960px;
+margin:0 auto;
+}
+a {
+ font-family: Tahoma, Geneva, sans-serif;
+ color: #F60;
+}
+a:link {
+ text-decoration: underline;
+}
+a:visited {
+ text-decoration: underline;
+ color: #F60;
+}
+a:hover {
+ text-decoration: none;
+ color: #F60;
+}
+
+h1 {
+ color: #F30;
+}
+h1,h2,h3,h4,h5,h6 {
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+img{float:left;
+margin:0 10px 10px 0;
+}
+</style>
+<script>
+var decontrol=true;
+
+function cambiar(){
+	if(decontrol==true){
+		document.getElementById("cuerpo").className="contraste";
+		decontrol=false;
+	}
+	else{
+		document.getElementById("cuerpo").className="defecto";
+		decontrol=true;	
+	}
+}
+
+window.onload=function(){
+	document.getElementById("boton").onclick=cambiar;
+}
+
+</script>
+</head>
+
+<body id="cuerpo" class="defecto">
+<div id="contenedor">
+<h1 lang="es">Usain Bolt</h1>
+<a href="#" id="boton">cambiar</a>
+<div>
+  <div lang="es" dir="ltr">
+    <p>Usain St. Leo Bolt (Sherwood Content, <a href="http://es.wikipedia.org/wiki/Parroquia_de_Trelawny" title="Parroquia de Trelawny">parroquia de Trelawny</a>, <a href="http://es.wikipedia.org/wiki/Jamaica" title="Jamaica">Jamaica</a>, <a href="http://es.wikipedia.org/wiki/21_de_agosto" title="21 de agosto">21 de agosto</a> de <a href="http://es.wikipedia.org/wiki/1986" title="1986">1986</a>), es un atleta jamaicano especialista en pruebas de velocidad. Ostenta ocho títulos mundiales y seis olímpicos, y posee además los récords mundiales de los <a href="http://es.wikipedia.org/wiki/100_metros_(atletismo)" title="100 metros (atletismo)">100</a> y <a href="http://es.wikipedia.org/wiki/200_metros_(atletismo)" title="200 metros (atletismo)">200 m</a> lisos, y la <a href="http://es.wikipedia.org/wiki/Relevo_4_%C3%97_100_metros" title="Relevo 4 × 100 metros">carrera de relevos 4×100</a> con el equipo jamaicano. Es uno de los siete atletas que en la historia han ganado títulos en las categorías <a href="http://es.wikipedia.org/wiki/Campeonato_Mundial_Juvenil_de_Atletismo" title="Campeonato Mundial Juvenil de Atletismo">juvenil</a>, <a href="http://es.wikipedia.org/wiki/Campeonato_Mundial_Junior_de_Atletismo" title="Campeonato Mundial Junior de Atletismo">junior</a> y <a href="http://es.wikipedia.org/wiki/Campeonato_Mundial_de_Atletismo" title="Campeonato Mundial de Atletismo">absoluta</a>. Se le conoce como "Lightning Bolt"(rayo bolt)</p>
+    <p>En el <a href="http://es.wikipedia.org/w/index.php?title=Campeonato_Mundial_Junior_de_Atletismo_de_2002&action=edit&redlink=1" title="Campeonato Mundial Junior de Atletismo de 2002 (aún no redactado)">campeonato mundial junior del 2002</a>, obtuvo una medalla de oro en los 200 m lisos que le convirtió en el ganador más joven de la historia del evento para ese tiempo. El 2004, en los <a href="http://es.wikipedia.org/w/index.php?title=Juegos_CARIFTA&action=edit&redlink=1" title="Juegos CARIFTA (aún no redactado)">Juegos CARIFTA</a>, fue el primer velocista en la categoría junior en correr por debajo de los 20 segundos en los 200 m, con marca de 19,93 s, sobrepasando el anterior récord de la categoría ostentado por Roy Martin por dos décimas de segundo. Su carrera profesional inició el 2004, y aunque compitió en los <a href="http://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Atenas_2004" title="Juegos Olímpicos de Atenas 2004">Juegos Olímpicos</a> de ese año, perdería las siguientes dos temporadas por lesiones. En 2007 superó el récord jamaicano de los 200 m, hasta entonces en poder de <a href="http://es.wikipedia.org/wiki/Don_Quarrie" title="Don Quarrie">Don Quarrie</a>, con un tiempo de 19,75 s.</p>
+    <p><img src="usain.jpg" width="290" height="174" alt="usain">El año 2008, implantó su primer <a href="http://es.wikipedia.org/wiki/Anexo:Progresi%C3%B3n_de_la_plusmarca_mundial_de_los_100_m_lisos_masculino" title="Anexo:Progresión de la plusmarca mundial de los 100 m lisos masculino">récord mundial en los 100 m lisos</a> con 9,72 s, y culminó el año con otras marcas absolutas en esa misma prueba, en los 200 m y en la carrera de relevos 4×100 con el equipo de Jamaica, con registros de 9,69 s; 19,30 s; y 37,10 s respectivamente, durante los <a href="http://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Pek%C3%ADn" title="Juegos Olímpicos de Pekín">Juegos Olímpicos de Pekín</a>. Tales hazañas le consagraron como el primer atleta en ganar tres pruebas olímpicas desde <a href="http://es.wikipedia.org/wiki/Carl_Lewis" title="Carl Lewis">Carl Lewis</a> en <a href="http://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Los_%C3%81ngeles_1984" title="Juegos Olímpicos de Los Ángeles 1984">1984</a>. En 2009 superó sus propios récords absolutos de 100 y 200 m lisos con registros de 9,58 y 19,19, respectivamente, durante el <a href="http://es.wikipedia.org/wiki/Campeonato_Mundial_de_Atletismo_de_2009" title="Campeonato Mundial de Atletismo de 2009">campeonato mundial de Berlín</a>, siendo el primer atleta en ostentar los títulos mundiales de los 100 y 200 m lisos tanto en el campeonato mundial como en Juegos Olímpicos.</p>
+    <p>El tiempo con el que rebajó la marca mundial de los 100 m en el 2009 es el de mayor margen desde que fue implantada la medición digital. Sus proezas en las pruebas de velocidad le han valido ser conocido como Lightning Bolt, y los reconocimientos de «<a href="http://es.wikipedia.org/wiki/Atleta_del_a%C3%B1o_de_la_IAAF" title="Atleta del año de la IAAF">Atleta del Año</a>» por parte de la IAAF, y la revista Track and Field, así como el premio <a href="http://es.wikipedia.org/wiki/Premios_Laureus" title="Premios Laureus">Laureus</a>.</p>
+    <p>En los <a href="http://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Londres_2012" title="Juegos Olímpicos de Londres 2012">Juegos Olímpicos de Londres 2012</a>, el 11 de agosto, estableció un nuevo récord mundial en el relevo 4x100 metros con registro de 36,84 s. Además superó el récord olímpico en los 100 metros lisos tras ganar la final con un tiempo de 9,63, estableciendo la segunda mejor marca de la historia, y también triunfó en los 200 metros, siendo el primer atleta en ganar la medalla de oro olímpica en dos juegos consecutivos en ambas pruebas.</p>
+  </div>
+</div>
+</div>
+</body>
+</html>

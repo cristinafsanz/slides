@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+html{font-size: 62.5%;}
+body {font-size:1.6em;
+	background-color: #E4E4E4;
+	color: #000;
+	font-family: "Trebuchet MS", sans-serif;	
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+#cabecera img, #gatos4 img, #gato1 img {	
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border:6px solid #fff; 	
+	margin-left: -6px;
+}
+
+h2 {
+	color: #FF6666;
+}	
+
+p {
+	text-align: justify;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	clear: none;
+	float: none;
+}
+#cabecera {
+	background-color:#000;	
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+width: 70%;
+margin: 0 auto;
+background-color:#FF6666;
+float:none;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+#logo h1 {
+	font-weight: normal;
+	padding-top: 10px;
+}
+#logo h1, #logo p {
+	text-align: center;
+	color: #FFF;
+}	
+#logo p {
+	margin-top: -20px;
+	padding-bottom: 8px;
+}	
+#menu {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#menu ul {
+	width: 50%;
+	margin:0 auto 10px auto;		
+}
+#menu li {
+	background-color:#A80000;
+	border-bottom:2px solid #000;	
+	text-align:center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px 0;
+	font-weight: bold;
+}	
+#menu li a {
+	color: #fff;
+	text-decoration:none;
+}	
+#gatoMovil {
+	float:none;
+	width: 87%;
+	margin:0 auto;	   
+}	
+#gatoTablet {
+display: none;
+}
+#gatoEscritorio {
+display: none;
+}
+#entradilla {
+	color:#fff;
+	width: 92%;
+	float: none;
+	margin: 0 auto;
+	padding-bottom: 15px;	
+	font-weight: bold;
+}
+#gatos4 {
+padding-bottom: 40px;
+background:url("../images/bottom.png") left bottom repeat-x;
+}
+#gatos4 article, #gato1 {
+	float: none;
+	margin: 0 auto;
+	width: 90%;
+	margin-left: 0;
+}
+#gatos4 article .read {
+	background-color: #D4E4E6;
+	box-shadow: 3px 3px 0px #888888;
+	padding: 5px;
+	color: #FF9966;
+	font-weight: bold;
+}
+#artGato1 {
+width: 90%;
+}
+#artGato2 {
+width: 90%;
+clear: both;
+}
+#artGato3 {
+width: 90%;
+clear: both;
+}
+#artGato4 {
+width: 90%;
+}
+#gato1 p {
+padding-bottom: 25px;
+}
+#gato1 img {
+float:left;
+margin: 0 15px 0 0;
+}
+#pre1, #pre3 {
+width: 90%;
+background-color:#FF6666;
+color:#fff;
+padding-bottom: 30px;
+}
+#pre1 h3, #pre1 span, #pre3 h3, #pre3 span {
+margin-left: 10px;
+}
+#pre1 a, #pre3 a {
+color:#fff;
+text-decoration: none;
+}
+#pre1 a:hover, #pre3 a:hover{
+color:#FF9966;
+}
+#pre2 {
+display: none;
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#pre3 {
+clear: both;
+margin-left: 0;
+}
+#pie {
+width: 90%;
+background-color:#000;
+color: #fff;
+}
+#pie div{
+padding-top: 40px;
+margin-left: 10px;
+}
+#pie #date {
+float:right;
+margin-right: 10px;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 93.6%;
+	padding-left: 1.2%;
+	padding-right: 1.2%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+float:left;
+margin: 2% 0 0 2%;
+width: 30.8974%;
+}
+#logo h1 {	
+	padding-top: 0;
+}
+	
+#logo p {	
+	padding-bottom: 0;
+}
+#menu {
+width: 61.5384%;
+clear: none;
+float: right;
+margin-rigth: 2.5641%;
+}
+#menu ul {
+width: 90%;
+margin:5px 0 0 0;
+}
+nav ul {
+padding: 25px 10% 0 10%;
+}
+#menu li {
+float:left;
+background-color:transparent;
+margin-left: 15px;
+border-bottom: 1px solid #fff;
+}
+#gatoMovil {
+display: none;
+}
+#gatoTablet {
+padding-top: 10px;
+width: 95%;
+float:none;
+margin: 0 auto;
+display: block;
+}
+#gatoEscritorio {
+display: none;
+}
+#entradilla {
+}
+#gatos4 article {
+width: 48.7179%;
+float:left;
+}
+#gatos4 article p { 
+width: 90%;
+}
+#artGato2 {
+margin-left: 2.5641%;
+clear: none;
+}
+#artGato3 {
+clear: both;
+margin-left: 0;
+}
+#artGato4 {
+margin-left: 2.5641%;
+clear: none;
+}
+#pre1 {
+width: 35.8974%;
+}
+#pre2 {
+display: block;
+width: 23.0769%;
+margin-left: 2.5641%;
+clear: none;
+background: #FF6666 no-repeat url("../images/cat_paw_prints.png") 0px -30px;
+height: 173px;
+overflow:visible;
+}
+#pre3 {
+width: 35.8974%;
+margin-left: 2.5641%;
+clear: none;
+}
+#pie{
+width: 100%;
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 92.4333%;
+	max-width: 1232px;
+	padding-left: 0.7833%;
+	padding-right: 0.7833%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+width: 23.7288%;
+}
+#menu {
+clear: none;
+float:right;
+}
+nav ul {
+padding: 60px 0 0 10%;
+}
+#menu li {
+border:none;
+font-size: 1.1em;
+}
+#gatoMovil {
+display: none;
+}
+#gatoTablet {
+display: none;
+}
+#gatoEscritorio {
+display: block;
+float:none;
+width: 96%;
+margin:0 auto;	
+padding-top: 10px;
+}
+#entradilla {
+}
+#gatos4 article {
+    float: left;
+    width: 20.7288%;
+    margin-right: 3%;
+}
+#artGato2 {
+clear: none;
+margin-left: 1.6949%;
+}
+#artGato3 {
+margin-left: 1.6949%;
+clear: none;
+}
+#artGato4 {
+clear: none;
+margin-left: 1.6949%;
+}
+#gato1 {
+width: 100%;
+}
+#pre1 {
+width: 32.2033%;
+}
+#pre2 {
+display: block;
+width: 32.2033%;
+clear: none;
+margin-left: 1.6949%;
+color:#FF9966;
+}
+#pre3 {
+width: 32.2033%;
+clear: none;
+margin-left: 1.6949%;
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;j
+}
+}
+
+@media only screen and (min-width: 870px) {
+nav ul {
+padding: 60px 0 0 15%;
+}
+}
+
+@media only screen and (min-width: 970px) {
+nav ul {
+padding: 60px 0 0 20%;
+}
+
+@media only screen and (min-width: 1070px) {
+nav ul {
+padding: 60px 0 0 25%;
+}
+}

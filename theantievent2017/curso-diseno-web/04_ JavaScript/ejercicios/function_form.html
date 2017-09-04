@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+	function contrasenia(pass) {
+		document.write("Su contraseña es: " + pass);
+	}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+  <label for="password">Contraseña:</label>
+      <input type="text" name="password" id="password">
+      <input type="button" name="button" id="button" value="Enviar" onclick="contrasenia(document.form1.password.value)">
+  </form>
+</body>
+</html>

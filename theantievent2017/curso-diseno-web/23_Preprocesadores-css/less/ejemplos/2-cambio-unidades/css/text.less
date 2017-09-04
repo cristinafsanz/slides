@@ -1,0 +1,31 @@
+html{font-size:62.5%;}
+
+body{background:#cccccc;
+
+}
+
+/* 
+pr: es la unidad (pixel o rem)
+x: es nº  por el que se multiplican
+
+para poner las unidades en rem: 
+*/
+/*@pr:rem;
+@x:1;*/
+
+/* para poner las unidades en px: */
+@pr:px;
+@x:10;
+
+
+h1 {
+   font-size: unit(4 * @x, @pr);
+}
+
+p,li{font-size: unit(1.6 * @x, @pr);
+}
+
+.par{font-size: unit(1.2 * @x, @pr);
+
+}
+

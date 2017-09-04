@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	#contenedor {
+		margin:100px;
+		padding: 5px;		
+		outline: 1px solid #000;
+		position: relative;
+		width:100px;
+		height: 100px;	
+		background: url(img/chat.png) no-repeat center center;
+		z-index:1;
+		overflow:hidden;
+	}	
+	#a1 {
+		width:100px;
+		height: 100px;
+		padding: 5px;				
+		outline: 1px solid #000;
+		position:absolute;
+		top: 0;
+		left: 0;	
+		z-index:2;
+		background-color:#33F;
+		color:#fff;		
+	}
+</style>
+
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-ui-1.10.4.efectos.min.js"></script>
+<script>
+$(function(){
+	$('#contenedor').hover(function(){
+		$("#a1").stop(true).animate({"margin-left":"-250px"}, 900, "easeInOutBack");	
+	}, function(){
+		$("#a1").stop(true).animate({"margin-left":"0px"}, 900, "easeOutBounce");
+	});	
+});
+</script>
+</head>
+
+<body>
+<div id="contenedor">
+    <div id="a1">     
+    	Este término deriva del inglés independent, "independiente" en español.. 
+   </div>
+</div>
+</body>
+</html>

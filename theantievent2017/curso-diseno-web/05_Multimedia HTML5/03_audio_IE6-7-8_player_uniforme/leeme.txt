@@ -1,0 +1,7 @@
+Para verlo funcionando en IE 7 y 8 subirlo a un servidor
+
+funciona en tabletas y móviles.
+
+
+
+

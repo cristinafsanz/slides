@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>mouseover demo</title>
+  <style>
+.azul{ width:40%; height:120px; margin:0 15px;
+          background-color:#D6EDFC; float:left; }
+.naranja{  width:60%; height:60%;
+          background-color:#FFCC00; margin:10px auto; }
+  </style>
+
+<script src="scripts/jquery-1.7.2.min.js"></script>
+<script>
+$(function(){
+  $("div.over").mouseover(function() {
+	$("div.over span").after(" mouseover ");
+  });
+ 
+  $("div.enter").mouseenter(function() {
+	$("div.enter span").after(" mouseenter ");
+  });
+});
+</script>
+
+</head>
+<body>
+<p>Cuando hay hijos (naranja) dentro del elemento padre (azul), con mouseover se ejecuta cada vez que pasa sobre el hijo y sale; pero con mouseenter, no; para que se vuelva a ejecutar tiene que salir por completo del padre (azul) y volver a entrar.</p>
+<p>&nbsp;</p>
+
+<div class="azul over">
+  <span></span>
+  <div class="naranja">
+  </div>
+</div>
+ 
+<div class="azul enter">
+  <span></span>
+  <div class="naranja">
+  </div>
+</div>
+ 
+
+</body>
+</html>

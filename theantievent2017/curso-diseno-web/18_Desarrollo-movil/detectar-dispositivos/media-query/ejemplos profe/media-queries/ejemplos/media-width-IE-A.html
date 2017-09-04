@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<!--obligatorio poner viewport (sino falla ipad)-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8">
+<title>media queries</title>
+<style type="text/css">
+/* Los Media Query no están soportados por todos los móviles: BlackBerry anteriores a 6.0, Windows Phone 7 y NetFront; y algunos Android no lo soportan. Lo recomendable es poner para móviles sin @media: */
+
+/*################# MOVIL ###################*/
+    body {
+     background-color:#6CF;
+    }  
+    #caja {
+     display:none;
+    }
+
+
+
+/*################# TABLETA ###################*/
+@media only screen and (min-width: 481px){
+    body {
+     background-color:#B7D8A7;
+    }  
+    #caja {
+	display:block;
+     width: 135px;
+     height: 137px;
+     background-color: #990000;
+    }
+}
+
+
+
+/*################# ESCRITORIO ###################*/
+@media only screen and (min-width: 769px)  {
+     body {
+     background-color:#D5ADDA;
+    }   
+    #caja {
+	display:block;
+     width: 135px;
+     height: 137px;
+     background-color: #990000;
+    }
+}
+
+
+</style>
+
+<!-- 
+@media all and...  no funciona en IE 7 y 8
+css3-mediaqueries.js hace que funcione en IE 7 y 8
+IMPORTANTE: PARA VERLO FUNCIONANDO SUBIRLO A UN SERVIDOR
+PONER EL CÓDIGO DESPUÉS DE LAS CSS
+ -->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="caja"></div>
+ <h2>detectar ancho navegador por CSS, y cambio color de fondo... </h2>
+</body>
+</html>

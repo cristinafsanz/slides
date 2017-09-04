@@ -1,0 +1,53 @@
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4, 4s, 5.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
+
+#############################################
+
+Pixel Density 1: Most laptops, Most Desktops & Most older mobile devices (i.e iPhone 3/3GS)
+
+Pixel Density 1.5: High-Res Android Devices & Tablets (Galaxy Nexus, Galaxy S2/S3, HTC One, HTC Desire etc)
+
+Pixel Density 2.0: New Apple ‘Retina’ Devices (iPhone 4/4S/5, Macbook Pro Retina & iPad 3rd Gen)
+
+
+################################################
+
+Detectar densidad por javascript:
+
+<script type="text/javascript">
+    if( window.devicePixelRatio >= 2 ){
+        alert( "Hi Res @ Pixel Ratio : " + window.devicePixelRatio + " & Size : " + screen.width * window.devicePixelRatio);
+    }else{
+        alert( "Normal @ Pixel Ratio 1 & Size : " + screen.width);
+    }
+</script>
+
+
+##################################################
+también mediante ratios:
+
+iPhone < 5: @media screen and (device-aspect-ratio: 2/3) {}
+
+iPhone 5: @media screen and (device-aspect-ratio: 40/71) {}
+
+iPad: @media screen and (device-aspect-ratio: 3/4) {}
+
+###########################################
+
+iphone 4 y 4s para entorno gráfico (video, imagen) tiene una resolución de 960 x 640; pero a efectos prácticos en CSS los detecta como 480 x 320.
+
+iphone 5 para entorno gráfico (video, imagen) tiene una resolución de 1136 x 640; pero a efectos prácticos en CSS lo detecta como 568 x 320.
+
+

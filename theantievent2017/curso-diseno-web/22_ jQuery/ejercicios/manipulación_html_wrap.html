@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$("#boton").one("click",function(){
+			$("#misimagenes img").wrapAll("<div class='miborde'></div>");			
+		});	
+	});
+</script>
+<style>
+	#caja1 {
+		background-color:#FC9;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+	#caja2 {
+		background-color:#9CF;
+		padding: 10px;		
+	}
+	.rojo {
+		color:red;
+	}
+	.miborde {
+		border:7px dashed orange;
+	}
+</style>
+</head>
+
+<body>
+<p><a href="#" id="boton">Botón acciones</a></p>
+<p id="misimagenes">
+    <img src="images/bia_contacts.jpg" />
+    <img src="images/bia_ibooks.jpg" />
+    <img src="images/bia_mail.jpg" />
+    <img src="images/bia_maps.jpg" />
+</p>
+</body>
+</html>

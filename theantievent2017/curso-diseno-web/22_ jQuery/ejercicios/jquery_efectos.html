@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){
+		$("#foto").hide();
+		$("#bot1").click(function(){			
+			//$("#foto").show("slow");
+			$("#foto").show(1000);
+		});		
+	});
+</script>
+<style>
+	#bot1, #bot2 {
+		cursor:pointer;
+	}
+</style>
+</head>
+<body>
+	<span id="bot1">Mostrar foto</span>
+    <span id="bot1">Ocultar foto</span>
+    <img src="images/bia_contacts.jpg" alt="contacts" id="foto" width="72" height="72"/>
+    <h2 id="receptor"></h2>  
+</body>
+</html>

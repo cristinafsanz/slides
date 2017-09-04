@@ -1,0 +1,499 @@
+@charset "utf-8";
+/*###############  ELEMENTOS Y CLASES GENERALES  ###################*/
+ body{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	background-color:#E4E4E4;
+	color:#3F3E3C;
+	margin:0; height:100%; 
+	line-height: 25px;
+
+}
+p{font-size:1.6em;
+}
+
+#titulo h1{display:none}
+a.menu:link {
+ color: #FFF;
+ text-decoration: none;
+padding-bottom:3px;
+font:"Trebuchet MS", Arial, Helvetica, sans-serif bold;
+}
+a.menu:visited {
+ color: #F0F0F0;
+ text-decoration: none;
+}
+a.menu:hover {
+ color:#FF6666;
+ text-decoration: none;
+}
+a.menu:active {
+ color: #F9F;
+ text-decoration: none;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+.ie6 img {
+	width:100%;
+}
+.imagenesBorde{border:8px solid #FFF;
+border-radius:8px;
+-webkit-border-radius:8px;
+-moz-border-radius:8px;
+
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+.clear{clear:both}
+.blanco{color:#FFF;
+}
+
+
+/*###############  SUBCONTENEDORES  ###################*/
+#subcontentSup{
+background-image:url(../images/fondo.jpg);
+height:100%;
+padding:15px;
+border-bottom:5px solid #747069;
+}
+#subcontentComent{background-image:url(../images/bottom.png);
+background-repeat:no-repeat;
+background-position:center bottom;
+height:100%;
+padding:15px;
+}
+#subcontentFernand{height:100%;
+padding:15px;
+}
+#subcontentPrepie{background-color:#FF6666;
+height:100%;
+padding:0 15px 0 15px;
+margin-top:25px;
+}
+    #subcontentPrepie #huellas{position:relative;
+    top:-20px;
+    }
+#subcontentPie{background-image:url(../images/fondo.jpg);
+height:100%;
+padding:54px 15px 14px 15px;
+}
+    #subcontentPie span{float:right;
+    }
+
+
+/*#######################################*/
+/* Diseño móvil: 480 px e inferior. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#titulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+ text-align:center;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    #menu ul{list-style-type:none;
+    margin:0 auto;
+    width:190px;
+    }
+    #menu ul li{background-color: #BD1522;
+    margin:0 0 2px 0px;
+    padding:5px;
+    text-align:center;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    }
+    a.menu:link{font-size:2em;
+    border-bottom:0px;
+    display:inline-block;
+    width:150px;
+    }
+#imgGato {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+ margin-top:15px;
+}
+#entrada {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    .welcome{font-size:1.8em;
+    text-align:justify;
+    }
+#coment1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#coment2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#coment3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#coment4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    #coment1 h2,#coment2 h2,#coment3 h2,#coment4 h2{ 	
+        color:#FF6666;
+        font-size:2.2em;
+        font-weight:normal;
+    }
+    #coment1 p+p,#coment2 p+p,#coment3 p+p,#coment4 p+p{ 	
+	padding-right:0px;
+ 	text-align:justify;
+    }
+    #coment1 a,#coment2 a,#coment3 a,#coment4 a{ 	
+	padding:9px;
+	background:#E9EAEB;
+	color:#FF9966;
+ 	text-decoration:none;
+  	box-shadow: 2px 2px #D7D7D7;
+  	-moz-box-shadow: 2px 2px #D7D7D7;
+	-webkit-box-shadow: 2px 2px #D7D7D7;
+    }
+#articulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+ 	text-align:justify;
+}
+    #articulo h2{ 	
+        color:#FF6666;
+        font-size:2.2em;
+        font-weight:normal;
+    }
+    #articulo .fernandmery{float:left;
+    margin-right:15px;
+    }
+#abajo1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#abajo2 {
+display:none;
+}
+#abajo3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#abajo1 h3,#abajo3 h3{font-size:2em;
+
+}
+
+#pie {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    #pie a{color:#999999;
+    }
+
+
+/*#######################################*/
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#titulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+ text-align:left;
+}
+#menu {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+    #menu ul{list-style-type:none;
+    margin-top:55px;
+    float:right;
+    width:auto;
+    padding:0;
+    }
+    #menu ul li{float:left;
+    margin-left:10px;
+    background-color:transparent;
+    margin:0 0 2px 15px;
+    padding:0;
+    text-align:left;
+    }
+    a.menu:link,a.menu:visited{font-size:1.8em;
+    border-bottom:2px solid #333;
+    display:inline-block;
+	width:auto;
+    }
+
+#imgGato {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+ margin-top:15px;
+}
+
+#entrada {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    .welcome{font-size:2em;
+    }
+#coment1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#coment2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#coment3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#coment4 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+    #coment1 p+p,#coment2 p+p,#coment3 p+p,#coment4 p+p{ 	
+	padding-right:15px;
+    }
+#articulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#abajo1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+#abajo2 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#abajo3 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 35.8974%;
+	display: block;
+}
+#pie {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+
+/*#######################################*/
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+#titulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.2033%;
+	display: block;
+  text-align:left;
+
+}
+#menu {
+ clear: none;
+ float: left;
+ margin-left: 1.6949%;
+ width: 66.1016%;
+ display: block;
+}
+    #menu ul{list-style-type:none;
+    margin-top:70px;
+    float:right;
+    width:auto;
+    padding:0;
+    }
+    #menu ul li{float:left;
+    margin-left:10px;
+    background-color:transparent;
+    margin:0 0 2px 20px;
+    padding:0;
+    text-align:left;
+    }
+    a.menu:link{font-size:2.2em;
+    border-bottom:2px solid #333;
+    display:inline-block;
+	width:auto;
+    }
+#imgGato {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+ margin-top:20px;
+}
+
+#entrada {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+    .welcome{font-size:2.2em;
+    }
+#coment1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23.7288%;
+	display: block;
+}
+#coment2 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 23.7288%;
+	display: block;
+}
+#coment3 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 23.7288%;
+	display: block;
+}
+#coment4 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 23.7288%;
+	display: block;
+}
+    #coment1 p+p,#coment2 p+p,#coment3 p+p,#coment4 p+p{ 	
+	padding-right:20px;
+    }
+#articulo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#abajo1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.2033%;
+	display: block;
+}
+#abajo2 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 32.2033%;
+	display: block;
+}
+#abajo3 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 32.2033%;
+	display: block;
+}
+#pie {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}

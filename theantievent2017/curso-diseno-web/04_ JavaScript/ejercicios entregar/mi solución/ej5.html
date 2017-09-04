@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+	document.write("<div id='contenedor'>");
+	document.write("<h1>GALERÍA DE FOTOGRAFÍAS</h1>");
+	for(var i=1;i<=10;i++) {		
+		var srcImage = "imagenes/foto" + i +".jpg";
+		document.write("<img id='foto" + i + "' src='" + srcImage + "' alt='foto" + i + "' />");		
+	}	
+	document.write("</div>");
+</script>
+
+<style>
+	body {
+	  background-color:black;
+	}
+	div#contenedor {
+		width: 820px;
+		margin: 0 auto;
+		background-color: #666;
+		border: 4px solid #CCC;
+		border-radius: 5px;
+	}
+	#contenedor h1 {
+		font-family:Verdana;
+		color:#9C0;
+		text-align:center;
+	}
+	#contenedor img {
+		margin: 5px;
+		vertical-align: top;
+	}
+	#foto1 {
+		float: left;
+	}
+	#foto2 {
+		float: left;
+	}
+	#foto3 {
+		float: left;
+		clear: left;
+	}
+	#foto4 {
+		float: left;
+	}
+	#foto5 {
+		float: left;
+		clear: left;
+	}
+	#foto6 {
+		float: left;
+	}
+	#foto7 {
+		float: left;
+		clear: left;
+	}
+	#foto8 {
+		float: left;
+	}
+	#foto9 {
+		float: left;
+		clear: left;
+	}
+	#foto10 {
+		float: left;
+	}	
+</style>
+</head>
+
+<body>
+</body>
+</html>

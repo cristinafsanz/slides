@@ -1,0 +1,47 @@
+/* LESS Document */
+
+@colorTexto:blue;
+@fondo:grey;
+@tamanio:480px;
+
+body {
+	background-color:pink;
+}
+
+.parrafo {
+	background-color:@fondo;
+	.radius;
+}
+
+.radius(@radio:6px) {
+	border-radius:@radio;
+	-moz-border-radius:@radio;
+	-webkit-border-radius:@radio;
+}
+
+#caja 
+{
+width:@tamanio * 2;
+margin:0 auto;
+	a
+	{
+		background:red;
+		&:hover
+		{
+			background:yellow;
+		}
+	}
+color:@colorTexto;
+
+	blockquote 
+	{
+		background-color:#CF3;
+		.radius;
+		a 
+		{
+			color:green;
+		}
+	}
+
+}
+

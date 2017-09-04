@@ -1,0 +1,83 @@
+﻿/* Variables (mas correctamente constantes): */
+
+@naranja: orange;
+@azul: #003;
+@tamanio:960px;
+@logo:url(../imagenes/logo.jpg) no-repeat right center;
+
+h1 {
+  color: @naranja;
+  background-color: #333;
+}
+h2 {
+  color: @azul;
+}
+
+p{
+  color: @azul;
+}
+
+#contenedor{width: @tamanio;
+margin:0 auto;
+}
+
+/* se pueden pasar parámetros al igual que se hace con las funciones */
+
+.esquinas (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+
+/* Mixins: conjuntos de reglas que se pueden anidar dentro de otras reglas */
+
+#cabecera {
+ width: @tamanio;
+ height: 80px;
+ padding:20px;
+ background:@logo;
+ background-color: #FF9900;
+ 
+ .esquinas;
+}
+#pie {
+ width:  @tamanio;
+ background:@logo;
+ height: 80px;
+ background-color: #FF9900;
+ padding:20px;
+ 
+ .esquinas(15px);
+}
+
+
+/* Reglas anidadas: en lugar de construir los nombres largos de selector para especificar la herencia, en menos puedes anidar selectores simples dentro de otros selectores. */
+
+#contenido 
+{
+ height: 100%;
+ background-color: #FFFFCC;
+ padding:20px;
+ .esquinas;
+ 
+	p { font-size: 15px;
+			a{ text-decoration: none;
+				background-color: #FF0;
+				&:hover { background-color: #FFF;}//símbolo & indica que concatenamos y no anidamos (resultado -> a:hover)
+			 }
+	  }
+}
+
+
+
+
+/* Operaciones: ¿algunos elementos de la hoja de estilos son proporcionales a otros elementos?; less permite sumar, restar, dividir y multiplicar los valores de propiedad y colores */
+
+@borde: 3px;
+
+#contenido {
+  border-left: @borde solid grey;
+  border-right: @borde * 4 solid grey;
+  width:  @tamanio - 15px;
+}

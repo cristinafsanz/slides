@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>video html 5</title>
+
+<!--ARCHIVOS NECESARIOS PARA PLAYER DE VIDEO-->
+  <link href="videojs/video-js.min.css" rel="stylesheet" type="text/css">
+  <script src="videojs/video.min.js"></script>
+  
+  <!--opción flash para IE 7 y 8-->	
+  <script>
+    _V_.options.flash.swf = "videojs/video-js.swf";
+  </script>
+
+<!--Si queremos sobreescribir estilos de los controles (de video-js.css)-->
+<style type="text/css">
+/*### TIPO 1 ###*/
+/*barra de progreso*/
+/*.vjs-default-skin .vjs-play-progress { background: #F90; }*/
+
+/*fondo controles botones*/
+/*.vjs-default-skin .vjs-controls {background: #999; }*/
+
+/*fondo controles tiempo*/
+/*.vjs-default-skin .vjs-time-controls {background: #666; }*/
+
+/*### TIPO 2 ###*/
+/*boton grande comienzo*/
+/*.vjs-default-skin .vjs-big-play-button { background: rgba(51,51,51,0.8) }
+*/
+/*barra de progreso*/
+/*.vjs-default-skin .vjs-play-progress { background: rgba(255,102,0,0.8) }
+*/
+/*fondo controles botones*/
+/*.vjs-default-skin .vjs-controls {background: rgba(51,51,51,0.8) }
+*/
+/*fondo controles tiempo*/
+/*.vjs-default-skin .vjs-time-controls {background: rgba(51,51,51,0.8) }
+*/</style>
+</head>
+<body>
+
+<!--AÑADIR A LA ETIQUETA VIDEO: class="video-js vjs-default-skin"  TB. data-setup="{}" Y SER CUIDADOSO Y PONER EL RESTO DE VALORES COMO ESTÁN-->
+    <video class="video-js vjs-default-skin" controls preload="none" width="640" height="360" poster="../misvideos/poster3.jpg" data-setup="{}">
+        <!--poner los videos en el orden: mp4 - webm - ogv (por Opera)-->
+        <source src="../misvideos/big_buck_bunny.mp4" type="video/mp4">
+        <source src="../misvideos/big_buck_bunny.webm" type="video/webm">
+        <source src="../misvideos/big_buck_bunny.ogv" type="video/ogg">
+        <track src="videojs/subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default="default">
+    </video> 
+
+
+<p>  
+    <!--Para navegadores móviles que no reproducen el video con la etiqueta video (como Opera mini)-->
+    <span>Si tiene problema para ver el video, pruebe <strong>Descargar/ver Video:</strong></span>
+    
+    <a href="../misvideos/big_buck_bunny.mp4" target="_blank">"MP4"</a> /
+    <a href="../misvideos/big_buck_bunny.ogv" target="_blank">"OGG"</a> /
+    <a href="../misvideos/big_buck_bunny.webm" target="_blank">"WEBM"</a>
+</p>
+
+</body>
+</html>
+

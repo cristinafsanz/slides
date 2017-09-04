@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+ background-color: #FFF;
+}
+
+</style>
+<script type="text/javascript">
+var nombre="javier";
+var nombre2="ana";
+var nombre3="maría";
+var servidor="terra.com";
+var conector="@";
+
+function correo(){
+return nombre+conector+servidor;
+}
+function correo2(){
+return nombre2+conector+servidor;
+}
+function correo3(){
+return nombre3+conector+servidor;
+}
+
+function escribe(){
+document.write("<a href='mailto:"+correo()+"?subject=Registro patentes&amp;bcc="+correo2()+"&amp;cc="+correo3()+"&amp;body=A/A Departamento de registros de patentes'>javier</a>");
+}
+</script>
+</head>
+
+<body>
+
+Escribe un email a <script>escribe();</script>
+</body>
+</html>

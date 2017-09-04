@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+	function contrasenia(pass) {
+	  	var result = (pass*2 + 8)/2 - pass; 		
+		document.write("El resultado es: " + result);
+	}
+</script>
+</head>
+
+<body>
+<p>Piensa en un nº (mejor del 1 al 10); multiplícalo por 2; súmale 8; y dividelo entre 2. Réstale el nº que pensaste.</p>
+<form id="form1" name="form1" method="post">
+  <label for="password">Dime número:</label>
+      <input type="text" name="password" id="password">
+      <input type="button" name="button" id="button" value="Enviar" onclick="contrasenia(document.form1.password.value)">
+  </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+LA OPCIÓN MÁS FÁCIL ES SUBIR EL VIDEO (.mp4) A YOUTUBE (http://www.youtube.com/html5); SE VE EN TODOS LOS NAVEGADORES DE PC Y EN LA MAYORÍA DE LOS NAVEGADORES DE MÓVILES.
+
+-------
+
+Pag. test de video: http://camendesign.com/code/video_for_everybody/test.html
+
+-------
+
+Convertir videos mp4 compatibles en PC y móviles: usar el conversor GPL HandBrake (ver manual Encoding H264 Handbreaker.doc)
+
+Para convertir a ogv y webm: Miro video converter
+
+------
+
+Para que el servidor reproduzca correctamente video debe tener configurados los tipos MIME:
+
+extensión:.mp4   Tipo MIME: video/mp4
+extensión:.ogv   Tipo MIME: video/ogg
+extensión:.webm   Tipo MIME: video/webm
+
+(en lenguaje PHP ver archivo .htaccess)
+
+
+--------
+
+
+
+
+

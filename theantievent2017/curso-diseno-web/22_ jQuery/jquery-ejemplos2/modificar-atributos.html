@@ -1,0 +1,58 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+$(function(){
+	$('#boton').toggle(function() {
+		$("#boton").attr("value", "mostrar capa");
+		$("#apDiv4").addClass("nuevaNegra");
+		}, function() {
+		$("#boton").attr("value", "ocultar capa");
+		$("#apDiv4").removeClass("nuevaNegra");
+	});
+});
+
+//de manera automática todos los enlaces http o https se abren en ventana/pestaña nueva
+$(function(){
+   $("a[href^='http://'],a[href^='https://']").click(function () {
+	  $("a[href^='http://']").attr("target", "_blank");
+	  $("a[href^='https://']").attr("target", "_blank");
+   });
+});
+
+</script>
+<style>
+#apDiv4 {
+ position: absolute;
+ left: 174px;
+ top: 20px;
+ width: 600px;
+ height: 400px;
+ z-index: 4;
+ background-color: #333333;
+}
+#apDiv4.nuevaNegra{ display:none;
+}
+
+body {
+ background-color: #CEEEFD;
+}
+</style>
+</head>
+
+<body>
+<div id="apDiv4"><img src="images/10.jpg" width="600" height="400" alt="atardecer"></div>
+
+<input type="button" id="boton" value="ocultar capa">
+
+<p><a href="http://es.wikipedia.org/">http://es.wikipedia.org/</a></p>
+<p><a href="https://www.google.es/">https://www.google.es/</a></p>
+<p><a href="selector-basicos.html">enlace interno</a></p>
+</body>
+</html>

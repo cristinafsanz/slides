@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="gmaps-js/gmaps.js"></script>
+<script>
+/*No funciona en IE7 (a veces puede fallar en otras versiones de IE)*/
+
+/*para obtener coordenadas: en el punto google maps que queremos -> boton derecho -> ¿qué hay aquí? -> te da las coordenadas*/
+$(document).ready(function(){
+ var map = new GMaps({
+    el: '#map',
+    lat: 40.417874,
+    lng: -3.684382,
+    zoom: 15,
+    zoomControl : true,
+    zoomControlOpt: {
+        style : 'SMALL',
+        position: 'TOP_LEFT'
+    },
+    panControl : true,
+  });
+
+/*para marcar sitios en el mapa*/
+map.addMarker({
+		lat: 40.417874,
+		lng: -3.684382,
+        title: 'Lago retiro',
+        infoWindow: {
+          content: '<strong>Lago del retiro</strong><br><span class=naranja> Quedada en retiro</span>'
+        }
+      });
+
+
+/*para poner carteles*/
+map.drawOverlay({
+		lat: 40.417874,
+		lng: -3.684382,
+  content: '<div class="cartel">RETIRO</div>'
+/*tb. se pueden poner imágenes:
+  content: '<img src="bia_phone.png" width="60" height="60">'*/
+});
+
+
+
+});
+
+</script>
+<style>
+#map
+{
+ width: 600px;
+ height: 400px;
+}
+body{
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size: 18px;
+color:#900;
+}
+.naranja{color:#C44F00;
+}
+.cartel{
+  text-align:center;
+  color:#fff;
+  font-size:60px;
+  line-height:80px;
+  opacity:0.6;
+  background:#F93;
+  border:solid 3px #FF6600;
+  border-radius:4px;
+  box-shadow:2px 2px 10px #333;
+  text-shadow:1px 1px 1px #666;
+  padding:0 4px;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+</body>
+</html>

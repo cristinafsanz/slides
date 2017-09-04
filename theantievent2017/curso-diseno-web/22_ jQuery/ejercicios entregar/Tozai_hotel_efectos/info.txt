@@ -1,0 +1,66 @@
+fuente genérica:  "Lucida Sans Unicode" 16px negra
+
+encabezamientos: "Palatino Linotype" (h1-46px / h2-30px / h3-20px) #003
+
+color fondo: #EEF2EF
+
+enalaces fondo: off-#003 / on-#26267F / texto negrita 16px
+
+fondo pie: #003 / fuente pie: 15px
+
+###############################################
+
+TEXTOS:
+
+Tozai Hotel
+
+Home	Guest Rooms	Dining	Garden	Reservations
+
+
+
+
+
+
+Japanese Cuisine at Its Finest
+
+sashimiJapanese cuisine is not only a feast for the taste buds, but for the eyes. Presentation is an important part of a chef's skills.
+
+If you enjoy fish, you'll love the restaurant at Tozai Hotel, where our master chefs will select the choicest cuts of the day's fresh catch to serve you mouth-watering sashimi and sushi.
+
+Ut labore et dolore magna aliqua. Qui officia deserunt ut enim ad minim veniam, duis aute irure dolor. Sed do eiusmod tempor incididunt duis aute irure dolor eu fugiat nulla pariatur. Ut labore et dolore magna aliqua.
+
+Velit esse cillum dolore lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor mollit anim id est laborum. Sunt in culpa ut aliquip ex ea commodo consequat.
+
+Atque corrupti quos dolores et quas molestias tempora incidunt ut labore et dolore eaque ipsa quae ab illo inventore veritatis. Dignissimos ducimus qui blanditiis sed ut perspiciatis unde omnis et molestiae non recusandae. Sed quia non numquam eius modi ut enim ad minima veniam, sed quia consequuntur magni dolores eos. Id quod maxime placeat facere possimus, id est laborum et dolorum fuga.
+
+sushiAccusantium doloremque laudantium, quo voluptas nulla pariatur? Quia voluptas sit aspernatur praesentium voluptatum deleniti et molestiae non recusandae. Consectetur, adipisci velit, dicta sunt explicabo. Nisi ut aliquid ex ea commodi consequatur? Atque corrupti quos dolores et quas molestias dignissimos ducimus qui blanditiis qui in ea voluptate. Et harum quidem rerum facilis est praesentium voluptatum deleniti aut odit aut fugit. Temporibus autem quibusdam ut aut reiciendis voluptatibus maiores alias ut enim ad minima veniam.
+
+Qui officia deserunt ut labore et dolore magna aliqua. Duis aute irure dolor ullamco laboris nisi sunt in culpa. Lorem ipsum dolor sit amet. Ut aliquip ex ea commodo consequat.
+
+Ut enim ad minim veniam, in reprehenderit in voluptate sed do eiusmod tempor incididunt. Duis aute irure dolor ullamco laboris nisi ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, in reprehenderit in voluptate sed do eiusmod tempor incididunt.
+
+Ut aliquip ex ea commodo consequat. Mollit anim id est laborum. Quis nostrud exercitation qui officia deserunt lorem ipsum dolor sit amet.
+
+
+
+
+
+Saké—the Perfect Accompaniment
+
+Japanese rice wine, saké, makes the perfect accompaniment to your meal. Although saké can be drunk hot, connoisseurs prefer to drink it cold or on the rocks. Drinking saké cold allows you to appreciate the subtle differences in taste that come from the rice variety and water used in the fermentation process.
+
+Excepteur sint occaecat consectetur adipisicing elit, lorem ipsum dolor sit amet. Velit esse cillum dolore ullamco laboris nisi quis nostrud exercitation. Excepteur sint occaecat mollit anim id est laborum.
+
+In reprehenderit in voluptate ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, eu fugiat nulla pariatur.
+
+Ut labore et dolore magna aliqua. Duis aute irure dolor ut aliquip ex ea commodo consequat. Mollit anim id est laborum.
+
+Qui officia deserunt mollit anim id est laborum.
+
+
+
+
+
+
+Tozai Hotel, Dokoka 1-chome, Nijinomuko, Japan
+Phone: 012-345 678

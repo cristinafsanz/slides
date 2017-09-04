@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("alfa.css");
+@import url("beta.css");
+
+div {
+	font-family:Tahoma;
+	font-size: 20px;
+	border:2px dotted blue;	
+}
+

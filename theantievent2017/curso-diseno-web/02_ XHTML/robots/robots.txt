@@ -1,0 +1,18 @@
+# aplicable a todos los robots 
+User-agent: *
+
+#prohibe la entrada a todo el sitio
+#Disallow: / 
+#impide acceso a carpeta administrador
+Disallow: /administrador/
+#impide acceso archivo pedidos.html
+Disallow: /pedidos.html
+Disallow: /fichaCompleta.html
+Disallow: /clientes/fichaCompletaRelacional.html
+Disallow: /clientes/pedidosRegistroCompleto.html
+
+#rastrear las paginas solo de 12:30 am a 7:30 am 
+Visit-time: 0030-0730
+
+#sitemap
+Sitemap: http://www.mysite.com/sitemap.xml

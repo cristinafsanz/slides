@@ -1,0 +1,251 @@
+@charset "utf-8";
+html {
+	font-size:62.5%;
+}
+body {
+	font-size:1.6rem;
+	font-family: "Lucida Sans Unicode";
+}
+h1 {
+	font-size: 4.6rem;
+	color: #003;
+}
+h2 {
+	font-size: 3rem;
+	color: #003;
+}
+h3 {
+	font-size: 2rem;
+	color: #003;
+}
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: none;
+	float: none;
+	background:url(../images/basin_bg_phone.jpg);
+}
+#cabecera {	
+}
+#cabecera h1{
+    text-align: center;
+}
+#menu {
+}
+#menu ul {
+	margin: 0 auto;
+	width: 60%;
+}
+#menu li {
+	background-color:#000;
+	text-align:center;	
+	border-radius: 10px;
+	margin-bottom: .1em;
+}
+#menu li a {
+	color:#FFF;
+	text-decoration:none;	
+}
+#menu li a:hover {
+	color:#DEDEBE;
+}
+#seccion1 {
+	margin-top:2rem;
+	-webkit-border-radius:15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+	border: none;
+	background:url(../images/chef.jpg) no-repeat center top;
+}
+#seccion1 div{
+    background-color:#FFF;
+    padding: 0 4rem 2rem 4rem;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+}
+#seccion1 h2{
+	margin-top: 12.7rem;	
+}
+#seccion2 {
+    width: 100%;
+    clear: both;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+#seccion2 div{
+	background-color:#FFF;
+    padding: 0 4rem 2rem 4rem;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#seccion2 #sake_tab, #seccion2 #sake {
+    display:none;
+}
+#pie {
+	background-color:#003;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+}
+#pie p {
+	color:#FFF;
+	font-size: 1.5rem;
+	text-align:center;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 92.625%;
+	padding-left: 1.1875%;
+	padding-right: 1.1875%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {
+}
+#menu {
+}
+#menu ul {
+    width: 90%;
+    margin: 0 auto;
+}
+#menu li {
+    float: left;
+    padding: 0 1rem;
+    margin: 0 .1rem;
+}
+#seccion1 {
+width: 100%;
+}
+#seccion1 #sashimi {
+    float: right;
+    margin-left: 1rem;
+}
+#seccion1 #sushi {
+    float: left;
+    margin-right: 1rem;
+}
+#seccion2 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#seccion2 #sake_tab {
+    display:block;
+    float: right;
+    margin-left: 1rem;
+}
+#pie {
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 94.4%;
+	max-width: 1232px;
+	padding-left: 0.8%;
+	padding-right: 0.8%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {	
+}
+#menu {
+}
+#menu ul {
+    margin: 0 30rem;
+}
+#seccion1 {
+width: 74.5762%;
+}
+#seccion2 {
+width: 23.7288%;
+margin-left: 1.6949%;
+clear: none;
+}
+#seccion2 #sake_tab {
+    display: none;
+}
+#seccion2 #sake {
+    display:block;
+}
+#pie {
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

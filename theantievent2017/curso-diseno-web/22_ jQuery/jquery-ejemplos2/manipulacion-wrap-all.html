@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>$(function(){
+
+
+
+$("#boton").click(function(){
+	$("#foto img").wrapAll("<div class='borde'></div>");
+});
+
+/*$("#boton").click(function(){
+	$("#foto img").wrap("<div class='borde'></div>");
+});*/
+
+
+
+
+});</script>
+<style type="text/css">
+.borde{border:5px solid orange;
+height:100%;}
+
+p#foto{float:left}
+</style>
+</head>
+
+<body>
+
+<p><a href="#" id="boton">acción
+</a></p>
+<p>&nbsp;</p>
+<p id="foto"><img src="images/ipod.png"><img src="images/ipod.png"><img src="images/ipod.png"><img src="images/ipod.png"><img src="images/ipod.png"><img src="images/ipod.png"></p>
+</body>
+</html>

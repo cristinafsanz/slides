@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+
+
+$(function(){
+
+
+/*caso de ida y vuelta hecho con live*/
+
+		$("#apDiv4 img").live("click",function(){
+
+			$(this).fadeOut("slow", function() { // callback
+				$(this).appendTo('#apDiv1').fadeIn('slow');
+			})
+
+		});
+
+		$("#apDiv1 img").live("click",function(){
+
+			$(this).fadeOut("slow", function() { // callback
+				$(this).appendTo('#apDiv4').fadeIn('slow');
+			})
+
+		});
+
+});
+
+
+
+
+</script>
+
+
+
+<style type="text/css">
+#apDiv4 {
+ width: 110px;
+ height: 520px;
+ z-index: 4;
+ background-color: #CC99CC;
+float:left;
+}
+
+
+#apDiv1 {
+ width: 371px;
+ height: 513px;
+ z-index: 5;
+ background-color: #FFCC99;
+float:left;
+margin-left:200px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="apDiv4"><img src="images/ipod.png"><img src="images/notes.png"><img src="images/settings.png"></div>
+</div>
+
+<div id="apDiv1"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+<script>
+$(function(){
+	$('#textbox').keyup(function(event){
+		$('#msg-keyup').html('keyup() es accionado!, código = ' + event.which)
+	});
+	 
+	$('#textbox').keydown(function(event){
+		$('#msg-keydown').html('keydown() es accionado!, código = ' + event.which)
+	});
+	 
+	$('#textbox').keypress(function(event){
+		$('#msg-keypress').html('keypress() es accionado!, código = ' + event.which)
+	});
+});
+
+/* keyup y keydown detecta la tecla siempre como mayúscula; keypress diferencia entre mayúscula y minúscula, y tb. detecta caracteres raros (@,#,$,..) */
+</script>  
+<style>
+	span{
+		padding:8px;
+		margin:8px;
+		color:blue;
+	}
+	div{
+		padding:8px;
+		margin:8px;
+	}
+</style>
+ 
+</head>
+<body>
+  <h1>ejemplo jQuery keyup(), keydown() y keypress()</h1>
+ 
+<label>TextBox : </label>
+<input id="textbox" type="text" size="50">
+ 
+<div>
+<label>1. keyup() mensaje :</label> <span id="msg-keyup"></span>
+</div>
+ 
+<div>
+<label>2. keydown() mensaje :</label><span id="msg-keydown"></span>
+</div>
+ 
+<div>
+<label>3. keypress() mensaje :</label><span id="msg-keypress"></span>
+</div>
+ 
+
+</body>
+</html>

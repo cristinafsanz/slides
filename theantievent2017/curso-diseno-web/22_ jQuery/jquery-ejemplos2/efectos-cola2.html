@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cola de efectos por defecto en jQuery</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+<style>
+#micapa{
+	left: 200px;
+	top: 20px;
+	position: absolute;
+	font-size: 0.75em;
+	font-family: tahoma, verdana, sans-serif;
+	width: 220px;
+	background-color: #ddf;
+	padding: 10px;
+	border: 1px solid #bbb;
+}
+</style>
+<script>
+function colaEfectos(){
+	capa = $("#micapa");
+	capa.animate({"font-size": "1.5em"}, 2000);
+	capa.hide(1000);
+	capa.show(1000);
+	capa.animate({"left": "350px","top": "50px"},1500);
+	capa.animate({"font-size": "0.75em"}, 2000);
+	capa.animate({"left": "100px","top": "20px"}, 1500, colaEfectos);//llamamos al final 'colaEfectos' para que se repita indefinidamente (si no quitarlo)
+}
+$(function(){
+	colaEfectos();
+});
+</script>
+
+</head>
+<body>
+
+<div id="micapa">Esta capa que se va a animar, en un bucle infinito, por medio de unos efectos que se encolan directamente al llamarlos uno detrás de otro.</div>
+    
+</body>
+</html>
+

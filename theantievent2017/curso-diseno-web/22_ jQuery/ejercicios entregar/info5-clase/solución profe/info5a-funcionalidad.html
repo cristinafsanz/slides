@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body
+{
+ font-family: "Lucida Console", Monaco, monospace;
+ color: #006;
+ background-color: #400541;
+}
+
+h2
+{
+ color: #606;
+ background: #F99;
+padding:4px;
+cursor:pointer;
+
+/*pongo  margin cero para que no de tirones, y el border-bottom para separarlos*/
+margin:0; 
+border-bottom:10px solid #FFCCCC;
+}
+
+
+#contenedor
+{
+ width: 819px;
+ margin: 0 auto;
+ background-color: #FFCCCC;
+ height: 100%;
+ padding: 10px;
+}
+
+</style>
+
+<script>
+<!--
+document.write(unescape("%3Cscript%3E%0A%3C%21--%0Adocument.write%28unescape%28%22%253Cscript%253E%250A%253C%2521--%250Adocument.write%2528unescape%2528%2522%25253C%252521--jQuery--%25253E%25250A%25253Cscript%252520src%25253D%252522http%25253A//code.jquery.com/jquery-1.10.1.min.js%252522%25253E%25253C/script%25253E%25250A%25253Cscript%252520src%25253D%252522http%25253A//code.jquery.com/jquery-migrate-1.2.1.min.js%252522%25253E%25253C/script%25253E%25250A%25253Cscript%25253E%25250A%252524%252528function%252528%252529%25257B%25250A%25250A%252524%252528%252522%252523contenedor%252520section%252522%252529.hide%252528%252529%25253B%25250A%25250A%252509%252524%252528%252522%252523contenedor%252520h2%252522%252529.click%252528function%252528%252529%25257B%25250A%252509%252509%252509var%252520cual%25253D%252524%252528this%252529.attr%252528%252522data-quien%252522%252529%25253B%25250A%252509%252509%252524%252528%252522%252523contenedor%252520section%252522%252529.slideUp%252528500%252529%25253B//si%252520quieres%252520que%252520queden%252520abiertos%252520comentar%252520esta%252520l%2525EDnea%25250A%252509%252509%252524%252528cual%252529.stop%252528%252529.slideToggle%252528500%252529%25253B//el%252520stop%252520es%252520por%252520la%252520l%2525EDnea%252520anterior%25252C%252520para%252520que%252520no%252520cierre%252520y%252520abra%252520a%252520continuaci%2525F3n%25250A%252509%25257D%252529%25253B%25250A%25250A%25250A%25257D%252529%25253B%25250A%25253C/script%25253E%2522%2529%2529%253B%250A//--%253E%250A%253C/script%253E%22%29%29%3B%0A//--%3E%0A%3C/script%3E"));
+//-->
+</script>
+
+</head>
+
+<body>
+<div id="contenedor">
+  <h2 data-quien="#uno">Alaska</h2>
+  <section id="uno">
+    <p>Alaska forma parte de los Estados Unidos, como un estado (desde el 3 de enero de 1959 pasa a ser el estado número 49), situado en el extremo noroeste de América del Norte, con capital en Juneau. Fue el penúltimo en incorporarse a los Estados Unidos, sustituyendo a Texas como el estado más grande de la nación. Se halla rodeado por los océanos Ártico y Pacífico, comparte frontera con Canadá, y está separado de Rusia por el estrecho de Bering.</p>
+    <p><img src="img/artico.png" width="240" height="240" alt="artico"></p>
+  </section>
+  <h2 data-quien="#dos">Hawái</h2>
+  <section id="dos">
+    <p>Hawái (en inglés: Hawaii; en hawaiano: Hawaii) es el más reciente de los cincuenta estados de los Estados Unidos (desde el 21 de agosto de 1959). El estado ocupa la mayor parte del archipiélago de Hawái, el grupo de islas más norteño de la Polinesia, en el océano Pacífico central, al suroeste de los Estados Unidos continentales, al sureste de Japón y el noreste de Australia. </p>
+    <p><img src="img/hawai.jpg" width="200" height="156" alt="hawai"></p>
+  </section>
+  <h2 data-quien="#tres">Isla de Pascua</h2>
+  <section id="tres">
+    <p>Isla de Pascua (en idioma rapanui Rapa Nui, «Rapa grande»4 ) es una isla de Chile ubicada en la Polinesia, en medio del océano Pacífico. Tiene una superficie de 163,6 km², lo que la convierte en la mayor de las islas del Chile insular, y una población de 5034 habitantes, concentrados principalmente en Hanga Roa, capital y único poblado existente en la isla.</p>
+    <p><img src="img/pascua.jpg" width="250" height="166" alt="pascua"></p>
+  </section>
+</div>
+</body>
+</html>

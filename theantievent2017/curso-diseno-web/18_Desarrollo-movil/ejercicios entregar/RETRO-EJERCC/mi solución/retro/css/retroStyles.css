@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+html {
+	font-size:62.5%;
+}
+body {
+	font-size:1.6rem;
+	font-family: Verdana,sans-serif;
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;	
+	box-sizing:border-box;
+	-moz-box-sizing: border-box; /* en caniuse.com */
+	-webkit-box-sizing: border-box;      
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0; 	 
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	clear: none;
+	float: none;
+	border-left:1.3rem dashed orange;	
+	border-right:1.3rem dashed orange;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;  	
+}
+#cabecera {
+	background: url(../images/retro-sunlight-texture.jpg) center center;
+	padding-left:2.5rem;
+}
+#cabecera h1 {
+	font-size:2.5rem;
+}
+#menu {	
+	padding: 1.5rem 0 1.5rem 0;
+}
+#menu li {	
+	width: 10rem;
+	background-color:orange;
+	border-radius: 0 6px 0 6px;
+	-moz-border-radius: 0 6px 0 6px;
+	-webkit-border-radius: 0 6px 0 6px;
+	margin-bottom: 2px;	
+	padding-left: 1.2rem;
+}
+#menu li a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration: none;
+}
+#entradilla {
+}
+#imagen1 {
+width: 100%;
+}
+#imagen2 {
+width: 100%;
+clear: both;
+margin-left: 0;
+display: none;
+}
+#articulo1 {
+display: none;
+}
+#articulo2 {
+}
+#pie {
+	background-color: orange;
+	color:white;
+	font-weight:bold;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 92.625%;
+	padding-left: 1.1875%;
+	padding-right: 1.1875%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {
+}
+#cabecera h1 {
+	font-size:3.6rem;
+}
+#menu {
+}
+#entradilla {
+}
+#imagen1 {
+width: 48.7179%;
+}
+#imagen2 {
+width: 48.7179%;
+margin-left: 2.5641%;
+clear: none;
+display: block;
+}
+#articulo1 {
+display: none;
+}
+#articulo2 {
+}
+#pie {
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+body {
+	background-color:#D0CEB9;
+}
+
+.gridContainer {
+	width: 94.4%;
+	max-width: 1232px;
+	padding-left: 0.8%;
+	padding-right: 0.8%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	background-color:#fff;
+}
+#cabecera {
+}
+#cabecera h1 {
+	font-size:3.6rem;
+}
+#menu {
+}
+#menu li {	
+	float:left;
+	margin-right: 2px;
+}
+#entradilla {
+}
+#imagen1 {
+width: 40.6779%;
+}
+#imagen2 {
+width: 57.6271%;
+clear: none;
+margin-left: 1.6949%;
+display: block;
+}
+#articulo1 {
+display: block;
+background-color:#C6CA71;
+}
+#articulo2 {
+}
+#pie {
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

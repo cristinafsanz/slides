@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){				
+		$("#micampo").keypress(function(event){
+			$("#mensajes").append("Has pulsado la tecla: " + event.which + " ó " + String.fromCharCode(event.which)+ "<br>");
+		});	
+				
+	});
+</script>
+</head>
+
+<body>
+<div id="formulario">
+	<form id="form1" name="form1" method="post">
+    	<input type="text" name="micampo" id="micampo">
+        <input type="submit" name="submit" id="submit" value="Enviar">        
+    </form>	
+</div>
+<span id="mensajes"></span>
+</body>
+</html>

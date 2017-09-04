@@ -1,0 +1,28 @@
+http://videojs.com/
+
+Es código libre; funciona con javascript y CSS.
+
+Permite poner video HTML 5 a pantalla completa en firefox, chrome y safari;
+
+y a navegador completo en I. Explorer y opera
+
+Smartphones soporte: iOS (iPhone, iPad), Android, Windows Phone 7, Blackberry.
+
+Muestra el video por Flash player para IE 6, 7 y 8.
+
+Conseguimos tener el mismo tipo de controles en todos los navegadores, 
+ademas pone botón-grande play en el centro del video, 
+y se reproduce/detiene haciendo clic sobre el propio video.
+
+Podemos poner subtítulos (tb. aparecen en flash):
+1- <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default="default">
+
+2- por cada subtítulo que queramos:
+bosque (es indicativo, no sale en la película)
+00:00:03.000 --> 00:00:09.000 (tiempo en horas:minutos:segundos:milésimas)
+Se observar un claro de bosque y una pradera (texto subtítulo que aparecerá; cuidado con ñ y tildes, poner su entidad de caracter: &ntilde; &aacute;)
+
+3- para que funcione en todos los navegadores subir a servidor
+
+
+Nota: versiones antiguas Chrome no muestra el poster. Opera no muestra subtítulos.

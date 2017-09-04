@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+li{ background-color:#CCC;
+width:150px;
+list-style-type:none;
+}
+#envoltura{border:solid 1px black;
+width:150px;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+$(function(){
+	$("#uno").click(function(){
+		   $("li").wrap("<div id='envoltura'></div>");//envuelve cada li
+	});
+
+	$("#dos").click(function(){
+		   $("li").wrapAll("<div id='envoltura'></div>");//envuelve todos los li
+	});
+
+	$("#tres").click(function(){
+		  $('li:eq(4)').remove();//elimina el 5 li
+	});
+
+	$("#cuatro").click(function(){
+			$("li:first,li:last").empty();//vacia el contenido pero quedan los tags
+	});
+
+	$("#cinco").click(function(){
+		   $('li:eq(0)').clone().insertAfter('li:eq(0)');//copia las listas y las pegas tras el primer elemento
+	});
+
+	$("#seis").click(function(){
+	   $("li:eq(5),li:eq(6)").replaceWith("<li>fin de semana no trabajo!!</li>");//reemplaza el 6 y 7 li
+	});
+});
+
+</script>
+</head>
+
+<body>
+
+
+<p><a id="uno" href="#">método wrap()</a></p>
+<p><a id="dos" href="#">método wrapAll()</a></p>
+<p><a id="tres" href="#">método remove()</a></p>
+<p><a id="cuatro" href="#">método empty()</a></p>
+<p><a id="cinco" href="#">método clone()</a></p>
+<p><a id="seis" href="#">método replaceWith()</a></p>
+
+<hr>
+
+<ul>
+  <li>lunes</li>
+  <li>martes</li>
+  <li>miércoles</li>
+  <li>jueves</li>
+  <li>viernes</li>
+  <li>sábado</li>
+  <li>domingo</li>  
+</ul>
+</body>
+</html>

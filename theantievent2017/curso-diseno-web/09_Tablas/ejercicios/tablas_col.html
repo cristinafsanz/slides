@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	table#latabla {
+		width: 900px;
+		border: 1px solid #03C;
+		border-spacing: 0px;
+		border-collapse: collapse;
+	}
+	table#latabla th, table#latabla td {
+		border: 1px solid #03C;
+		padding:5px;		
+	}
+	table#tabla2 {
+		width: 1000px;
+		border: 1px solid #03C;
+		border-spacing: 0px;
+		border-collapse: collapse;
+		
+	  	empty-cells: hide;
+	  	border-collapse: separate;
+	  	border-spacing: 1px;
+	}
+	
+	table#tabla2 th, table#tabla2 td {
+		background-color:#292929;
+		color:#CCC;
+	}
+	table#tabla2 col#tipo1 {
+		width: 100px;
+	}
+	table#tabla2 col#tipo2 {
+		width: 300px;
+	}
+	table#tabla2 col#tipo3 {
+		width: 150px;
+	}
+</style>
+</head>
+
+<body>
+<table id="latabla" summary="Summary">
+  <caption>
+    Título de mi tabla
+  </caption>
+  <tr>
+    <th scope="row">Equipos</th>
+    <td>Ganados</td>
+    <td>Perdidos</td>
+  </tr>
+  <tr>
+    <th scope="row">fsdf</th>
+    <td>3</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <th scope="row">gfgdfasd</th>
+    <td>8</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th scope="row">asdfsadf</th>
+    <td>5</td>
+    <td>7</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table id="tabla2">
+  <col span="1" id="tipo1"></col>
+  <col span="2" id="tipo2"></col>
+  <col span="2" id="tipo3"></col>
+  
+  <tr>
+    <th scope="col"></th>
+    <th scope="col">info 1</th>
+    <th scope="col">info2</th>
+    <th scope="col">info 3</th>
+    <th scope="col">info 4</th>
+  </tr>
+  <tr>
+    <th scope="row">info A</th>
+    <td>sdfsadfsdfsadfsdfsadfsdfsadfsdfsadfsdfsadfs dfsadfsdfsadfsdfs adfsdfsadfsdfsadfs dfsadfsdfsa dfsd fsadfsdfsadfsdfsad fsdfsadfsdfsadfsdfsadfsdfsadf sdfsadfsdfsadfsdfsadfsdfsadfsdfsadfsdfsadfdfsd sdfsadfvxdfsd</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>sdfsdf</td>
+  </tr>
+  <tr>
+    <th scope="row">info B</th>
+    <td>sdfsdf</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>sdfsdf</td>
+  </tr>
+  <tr>
+    <th scope="row">info C</th>
+    <td>sadfasdf</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>asdfsadf</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

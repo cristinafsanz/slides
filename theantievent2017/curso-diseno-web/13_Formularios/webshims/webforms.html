@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+<!--css externa y modificable-->
+	<link href="css/styles.css" rel="stylesheet" />
+	
+	<style>
+		
+		fieldset div.form-element {
+			position: relative;
+			zoom: 1;
+			padding: 5px;
+			border: 1px solid #000;
+			margin: 5px 0;
+		}
+		fieldset div.form-element:after {
+			content: " ";
+			display: block;
+			clear: both;
+		}
+
+		span.input-datetime-local.user-error {
+			box-shadow: 1px 1px 1px #800;
+		}
+		span.input-datetime-local.user-success {
+			box-shadow: 1px 1px 1px #080;
+		}
+
+/*1º -  marcar validación por color:*/
+/*colores para errores*/
+		input.user-error,
+		select.user-error,
+		textarea.user-error {
+			border-color:  red;
+		}
+/*colores para correcto*/
+		input.user-success,
+		select.user-success,
+		textarea.user-success {
+			border-color: green;
+		}
+		
+	</style>
+<!--2º - librerías JS necesarias para validación-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js-webshim/minified/extras/modernizr-custom.js"></script>
+	<script src="js-webshim/minified/polyfiller.js"></script>
+	<script>
+		$.webshims.setOptions('forms', { 
+			customMessages: true,
+			iVal: {fieldWrapper: '.form-element'}
+		});
+		
+		$.webshims.setOptions('forms-ext', { 
+			types: 'range date time number month color'
+		});
+		
+		//load all defined
+		//or load only a specific feature with $.webshims.polyfill('feature-name');
+		$.webshims.polyfill();
+		
+		
+		$(function(){
+			var showHideFormsExt = function(){
+				$('span.forms-ext-feature')[this.checked ? 'show' : 'hide']();
+			};
+			$('#show-forms-ext')
+				.each(showHideFormsExt)
+				.click(showHideFormsExt)
+			;
+			
+		});
+	</script>
+	
+
+	
+	<title>HTML5 forms/Web Forms 2.0 widgets and constraint validation API : webshims lib - the polyfilling capability based loading JS library</title>
+	
+</head>
+
+<body>
+			<section class="forms-demo">
+				<h3>Simple Demo</h3>
+				
+				<form action="#" id="form">
+					<p class="required"><span>*</span> Required fields</p>
+					<fieldset>
+					<div class="form-element">
+						<label for="email">
+							E-Mail + datalist: <dfn title="required">*</dfn>
+						</label>
+						<input list="datalist" name="email" required type="email" id="email" form="form" />
+						<datalist id="datalist">
+							<select>
+								<option value="yourmail@gmail.com"></option>
+								<option value="yourmail@yahoo.com"></option>
+								<option value="mail@some-example-domain.com"></option>
+								<option value="foo@bar.baz"></option>
+							</select>
+						</datalist>
+					</div>
+					<div class="form-element">
+						<label for="date">
+							date: *
+						</label>
+						<input name="date" data-placeholder="year-month-day" type="date" id="date" required form="form" />
+					</div>
+					
+					<div class="form-element form-item">
+						<input type="checkbox" required id="checkbox" name="checkbox" form="form" />
+						<label for="checkbox">
+							required checkbox*
+						</label>
+					</div>
+
+						<div class="form-element">
+							<label for="number">
+								number: <dfn title="required">*</dfn>
+							</label>
+							<input name="number" required placeholder="number" type="number" id="number" form="form" />
+						</div>
+						<div class="form-element">
+							<label for="range">
+								range:
+							</label>
+							<input name="range" type="range" id="range" />
+						</div>
+						
+						<div class="form-element">
+							<label for="month">
+								month:
+							</label>
+							<input name="month" type="month" id="month" data-month='{"splitInput": true}' />
+						</div>
+						
+						<div class="form-element">
+							<label for="time">
+								Time: 
+							</label>
+							<input name="time" type="time" id="time" />
+						</div>
+						
+						<div class="form-element">
+							<label for="color">
+								color: 
+							</label>
+							<input name="color" type="color" value="#cccccc" id="color" />
+						</div>
+						
+						<div class="form-element">
+							<label for="datetime-local">
+								datetime-local: 
+							</label>
+							<input name="datetime-local" type="datetime-local" id="datetime-local" />
+						</div>
+						
+						<div class="form-element">
+							<label for="password">
+								password: 
+							</label>
+							<input placeholder="password" name="password" type="password" id="password" />
+						</div>
+						
+						<div class="form-element">
+							<label for="textarea">
+								textarea: * ([maxlength="6"])
+							</label>
+							<textarea placeholder="hello this is a textbox" maxlength="6" required name="textarea" id="textarea"></textarea>
+						</div>
+						
+						<div class="form-element">
+							<label for="select">
+								select: *
+							</label>
+							<select required="required" name="select" id="select">
+								<option value="">Please choose</option>
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+							</select>
+						</div>
+						
+						
+						<div class="form-element">
+							<h4>Radio-Group Headline Short Labels  <dfn title="required">*</dfn></h4>
+							<fieldset class="mod">
+								<legend>Legend Short Labels  <dfn title="required">*</dfn></legend>
+								<div class="form-item">
+									<input type="radio" id="field6-1" name="radio-grp1-1" required />
+									<label for="field6-1">
+										Radiooption 2
+									</label>
+								</div>
+								<div class="form-item">
+									<input type="radio" id="field7-1" name="radio-grp1-1" />
+									<label for="field7-1"> 
+										Radiooption 2
+									</label>
+								</div>
+								<div class="form-item">
+									<input type="radio" id="field8-1" name="radio-grp1-1" />
+									<label for="field8-1">
+										Radiooption 3
+									</label>
+								</div>
+							</fieldset>
+						</div>
+						
+						<div class="button-wrapper">
+							<input type="submit" value="Send" />
+						</div>
+					</fieldset>
+				</form>
+			</section>
+			
+<!--[if lte IE 7]>
+	<div class="browser-support"> 			
+		<div class="browser-support-box"> 				
+			Webshims Lib really cares about cross browser support and supports all A-Graded Browsers including IE6 and newest Opera. But I don't care about Styling/Layout issues in IE7- on this demo page.
+		</div> 		
+	</div>
+<![endif]-->
+</body>
+</html>   

@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!-- http://jamesallardice.github.io/Placeholders.js/-->
+<style type="text/css">
+	/*1º -  marcar validación por color:*/
+/*colores para errores*/
+		input.user-error,
+		select.user-error,
+		textarea.user-error {
+			border-color:  red;
+		}
+/*colores para correcto*/
+		input.user-success,
+		select.user-success,
+		textarea.user-success {
+			border-color: green;
+		}
+	
+</style>
+<script src="js/placeholder.min.js"></script>
+<!--2º - librerías JS necesarias para validación-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js-webshim/minified/extras/modernizr-custom.js"></script>
+<script src="js-webshim/minified/polyfiller.js"></script>
+<script>
+	$.webshims.setOptions('forms', { 
+		customMessages: true,
+		iVal: {fieldWrapper: '.form-element'}
+	});
+	
+	$.webshims.setOptions('forms-ext', { 
+		types: 'range date time number month color'
+	});
+	
+	//load all defined
+	//or load only a specific feature with $.webshims.polyfill('feature-name');
+	$.webshims.polyfill();
+	
+	
+	$(function(){
+		var showHideFormsExt = function(){
+			$('span.forms-ext-feature')[this.checked ? 'show' : 'hide']();
+		};
+		$('#show-forms-ext')
+			.each(showHideFormsExt)
+			.click(showHideFormsExt)
+		;
+		
+	});
+</script>
+
+</head>
+
+<body>
+<form action="recibir.php" method="post" enctype="multipart/form-data"> 
+<fieldset>
+	<legend>Datos personales</legend>
+	<p>
+    <label for="textfield">Nombre:</label>
+    <input name="textfield" type="text" id="textfield" pattern="[A-z]{1-20}" title="mayúsculas y minúsculas" placeholder="Dame tu nombre">
+  </p>
+  <p>
+  	<label for="email">Email:</label>
+    <input name="email" type="email" id="email" autocomplete="on">
+   </p>   
+    <p>
+      <label for="password">Password:</label>
+      <input name="password" type="password" required id="password">
+    </p>
+    </fieldset>  
+    
+    <fieldset>
+    <legend>Otros datos</legend>
+    <p>
+      <label for="url">Url:</label>
+      <input name="url" type="url" id="url" value="http://">
+    </p>
+    <p>
+      <label for="search">Search:</label>
+      <input type="search" name="search" id="search">
+    </p>
+    </fieldset>  
+    
+    <p>
+      <label for="number">Number:</label>
+      <input name="number" type="number" id="number" max="100" min="10" step="10" value="10">
+    </p>
+    <p>
+      <label for="range">Range:</label>
+      <input name="range" type="range" id="range" max="100" min="10" step="10" value="10">
+    </p>
+    <p>
+      <label for="color">Color:</label>
+      <input type="color" name="color" id="color">
+    </p>
+    <p>
+      <label for="month">Month:</label>
+      <input type="month" name="month" id="month">
+    </p>
+    <p>
+      <label for="week">Week:</label>
+      <input type="week" name="week" id="week">
+    </p>
+    <p>
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date">
+    </p>
+    <p>
+      <label for="time">Time:</label>
+      <input type="time" name="time" id="time">
+    </p>
+    <p>
+      <label for="datetime">DateTime:</label>
+      <input type="datetime" name="datetime" id="datetime">
+    </p>
+    <p>
+      <label for="datetime-local">DateTime-Local:</label>
+      <input type="datetime-local" name="datetime-local" id="datetime-local">      
+    </p>
+    <p>
+      <label for="textarea">Text Area:</label>
+      <textarea name="textarea" cols="60" rows="3" maxlength="20" id="textarea"></textarea>
+    </p>
+    <p>
+      <input type="button" name="button" id="button" value="Prueba" onclick="alert('Funciona')">
+    </p>  
+    <p>
+    <input name="submit" type="submit" formnovalidate id="submit" formenctype="multipart/form-data" value="Enviar">
+  </p>
+    <p>
+      <input type="reset" name="reset" id="reset" value="Restablecer">
+    </p>
+   <p>
+      <input type="image">
+      
+</p>
+   <p>
+     <label for="fileField">File:</label>
+     <input type="file" name="fileField" id="fileField">
+   </p>
+   <p>
+     <input type="hidden">
+     
+</p>
+   <p>
+     <label for="select">Provincia:</label>
+     <select name="select" id="select">
+       <option value="1">Madrid</option>
+       <option value="2">Ciudad Real</option>
+       <option value="3">Sevilla</option>
+       <option value="4">Barcelona</option>
+       <option selected>Elija opción</option>
+     </select>
+   </p>
+   
+   <p>
+     <label for="select">Provincia:</label>
+     
+     <select name="select" size="3" multiple id="select">
+     	<optgroup label="prov. peninsulares">
+           <option value="1">Madrid</option>
+           <option value="2">Ciudad Real</option>
+           <option value="3">Sevilla</option>
+           <option value="4">Barcelona</option>
+           <option selected>Elija opción</option>
+        </optgroup>
+        <optgroup label="prov. peninsulares">
+        	<option value="5">Tenerife</option>
+        </optgroup>
+     </select>
+   </p>
+   <p>
+     <input type="radio" name="radio" id="radio" value="radio">
+     <label for="radio">Radio Button </label>
+   </p>
+   <p>
+     <label>
+       <input type="radio" name="Sexo" value="m" id="Sexo_0">
+       Masculino</label>
+     <br>
+     <label>
+       <input type="radio" name="Sexo" value="f" id="Sexo_1">
+       Femenino</label>
+   </p>
+   <p>
+   <input type="checkbox">Publi
+   </p>   
+   <p>&nbsp;</p>
+
+  
+</form>
+</body>
+</html>

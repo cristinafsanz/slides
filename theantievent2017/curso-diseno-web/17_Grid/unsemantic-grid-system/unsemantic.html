@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Unsemantic CSS Framework</title>
+
+
+<!--[if lt IE 9]>
+  <script src="assets/html5.js"></script>
+<![endif]-->
+  <link rel="stylesheet" href="assets/demo.css" /><!--demo.css es un reset, se puede quitar--> 
+<!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="assets/unsemantic-grid-responsive.css" />
+<!--<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="assets/ie.css" />
+<![endif]-->
+
+
+<style>
+div{outline:1px solid;
+margin-bottom:30px;
+}
+</style>
+</head>
+
+<body>
+<h2>Unsemantic Grid System</h2>
+<p>
+  1- mirar el head y copiar todos los <strong>css y js </strong>(da soporte a IE 7 y 8)<br>
+  2- contenedor principal: <strong>class="grid-container"</strong>
+  (ancho max 1222px aprox y min 320px). A los 767 px todas las columnas se ponen unas debajo de otras (para móviles)<br>
+    3- cada columna: 
+    <strong>class=&quot;grid-XX&quot;</strong> donde XX es el % de ancho, y son múltiplos de 5 (5,10,15,20,.....80,90,95,100). ej: class=&quot;grid-80&quot;<br>
+4- se pueden poner espacios vacíos (márgenes) a izquierda: <strong>class=&quot;grid-70 prefix-30&quot;</strong> o a derecha: class=&quot;grid-60 suffix-40&quot;
+<br>
+5- se pueden anidar columnas: al div padre poner la <strong>clase &quot;grid-parent&quot;</strong> </p>
+
+
+<!--contenedor principal-->
+<div class="grid-container">
+
+  <!--1 columna 100%-->
+  <div class="grid-100">
+		  100%
+  </div>
+
+  <!--2 columnas: 80% y 20%-->
+  <div class="grid-80">
+          80%
+  </div>
+  <div class="grid-20">
+          20%
+  </div>
+
+  <!--3 columnas: 20%, 60% y 20%-->
+  <div class="grid-20">
+          20%
+  </div>
+
+  <div class="grid-60">
+          60%
+  </div>
+  <div class="grid-20">
+          20%
+  </div>
+
+  <!--1 columna de 70% y un margen izquierdo del 30%-->
+  <div class="grid-70 prefix-30">
+          70% y prefix de 30%
+  </div>
+
+  <!--1 columna de 60% y un margen derecho del 40%-->
+  <div class="grid-60 suffix-40">
+          60% y suffix de 40%
+  </div>
+
+  <!--Anidamiento en primera columna-->
+  <div class="grid-80 grid-parent">
+
+      <div class="grid-30">
+              anidado 30%
+      </div>
+      <div class="grid-40">
+              anidado 40%
+      </div>
+      <div class="grid-30">
+              anidado 30%
+      </div>
+
+  </div>
+  <div class="grid-20">
+          20%
+  </div>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+function eventos(cual) {
+	alert("Este evento es: " + cual);
+}
+</script>
+</head>
+
+<body onload="eventos('página cargada')">
+<form id="form1" name="form1" method="post">
+  	<label for="textfield">
+  		Text Field:
+    </label>
+  <input type="text" name="textfield" id="textfield" onfocus="eventos('doy foco')" onblur="eventos('pierde foco')">
+</form>
+<p>Ut aliquip ex ea <a href="ejercicio_1.html" onclick="eventos('clic')">commodo consequat. Ut enim ad minim</a> veniam, quis nostrud exercitation lorem ipsum dolor sit amet. Excepteur sint occaecat velit esse cillum dolore sunt in culpa. Duis aute irure dolor sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>In reprehenderit in <a href="ejercicio_2.html" onmouseover="eventos('ratón sobre')">voluptate velit esse cillum dolore sunt in</a> culpa. Eu fugiat nulla pariatur. Mollit anim id est laborum.</p>
+<p>Ut aliquip ex ea <a href="ejercicio_3.html" onmouseout="eventos('ratón fuera')">commodo consequat. Sed </a>do eiusmod tempor incididunt. Sed do eiusmod tempor incididunt duis aute irure dolor in reprehenderit in voluptate. Ut aliquip ex ea commodo consequat. Sunt in culpa cupidatat non proident, sed do eiusmod tempor incididunt.</p>
+<p>Qui officia deserunt ut <a href="ejercicio_4.html">labore et dolore magna aliqua</a>. Ut aliquip ex ea commodo consequat. Sunt in culpa ullamco laboris nisi quis nostrud exercitation. Ut enim ad minim veniam, velit esse cillum dolore ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt.</p>
+<p>Duis aute irure dolor <a href="ejercicio_4b.html">eu fugiat nulla pariatur</a>. Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ullamco laboris nisi. Quis nostrud exercitation cupidatat non proident, ut aliquip ex ea commodo consequat. Mollit anim id est laborum.</p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "utf-8";
+body,td,th {
+	color: #FF6;
+}
+body {
+	background-color: #999;
+}
+h1 {
+	color: #F96;
+}
+h2 {
+	color: #CF6;
+}

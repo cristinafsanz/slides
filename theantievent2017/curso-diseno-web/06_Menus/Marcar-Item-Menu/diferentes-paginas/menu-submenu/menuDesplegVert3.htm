@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+ background-color: #FFF;
+}
+#menu li{background-color:#09C;
+width:120px;
+height:30px;
+list-style-type:none;
+border-bottom:1px solid #FFF;
+margin-left:-40px;
+}
+
+#menu li ol{ display:none;
+}
+
+#menu li:hover ol{ display:block;
+position:relative;
+left:120px;
+top:-30px;
+border-left:1px solid #FFF;
+}
+
+a{display:block;
+width:110px;
+height:25px;
+padding-left:10px;
+text-decoration:none;
+color:#FF0;
+padding-top:5px;
+}
+
+</style>
+<style type="text/css">
+/* Estilo aplicado a opción de la página actual */
+#menu .selected {
+	background:#f00;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+/*si los links del menú llevan parámetros o fragmentos (portada.html?param=dos / estructura.html#dos); poner:
+		var loc = document.location.href;*/
+
+	$(function() {
+		var loc = document.location.href.split(/[\?#]/).shift().replace(/\/$/, '');
+		$("#menu a").each(function() {//método each() especifica una función a ejecutar para cada elemento coincidente.
+			if (this.href == loc) $(this).addClass("selected");/*para marcar link cuando haces clic en menú o submenu*/
+		});
+		$("#menu ol a").each(function() {
+			if (this.href == loc) $(this).parents().addClass("selected");/*Este es para cuando haces clic en submenu: marcar el link de menú al cual pertenezca el submenú.
+parents(): selecciona todos los "a" padres*/
+		});
+
+	});
+</script>
+</head>
+
+<body>
+<ul id="menu">
+  <li><a href="menuDesplegVert.htm">epígrafe 1</a> 
+    <ol>
+      <li><a href="menuDesplegVert1B.htm">epígrafe 1.1</a></li>
+      <li><a href="menuDesplegVert1C.htm">epígrafe 1.2</a></li>
+    </ol>
+  </li>
+  <li><a href="menuDesplegVert2.htm">epígrafe 2</a>  </li>
+  <li><a href="menuDesplegVert3.htm">epígrafe 3</a>
+    <ol>
+      <li><a href="menuDesplegVert3B.htm">epígrafe 4.1</a></li>
+      <li><a href="menuDesplegVert3C.htm">epígrafe 4.2</a></li>
+    </ol>
+  </li>
+</ul>
+</body>
+</html>

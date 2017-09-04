@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+function cambiaFoto(origen) {
+	document.images.fotoGrande.src=origen;
+}
+</script>
+<style>
+	body {
+		background-color: black;
+	}
+</style>
+</head>
+
+<body>
+<p>
+<img width="10%" src="imagenes/foto1.jpg" onmouseover="cambiaFoto('imagenes/foto1.jpg')"  />
+<img width="10%" src="imagenes/foto2.jpg" onmouseover="cambiaFoto('imagenes/foto2.jpg')" />
+<img width="10%" src="imagenes/foto3.jpg" onmouseover="cambiaFoto('imagenes/foto3.jpg')" />
+</p>
+
+<img id="fotoGrande" width="50%" src="imagenes/foto1.jpg"  />
+</body>
+</html>

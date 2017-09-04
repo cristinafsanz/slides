@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+#divRojo {
+ width:100px;
+ height:100px;
+ background-color: #FF0000;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+//cola de efectos:
+$(function(){
+
+  $("#boton1").click(function(){
+    $("#divRojo").animate({height:300},"slow");
+    $("#divRojo").animate({width:300},"slow");
+    $("#divRojo").animate({height:100},"slow");
+    $("#divRojo").animate({width:100},"slow");
+  });
+
+
+
+  $("#boton2").click(function(){
+	var capa = $("#divRojo");
+	capa.fadeOut();
+	capa.fadeIn();
+	capa.slideUp();
+	capa.slideDown();
+  });
+
+});
+
+</script>
+</head>
+
+<body>
+
+  
+<input type="button" id="boton1" value="animate(), cola de efectos"> <input type="button" id="boton2" value="mas... cola de efectos">
+
+<div id="divRojo"></div>
+
+</body>
+</html>

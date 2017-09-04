@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+#caja {
+ width:80%;
+ height:500px;
+ background-color: green;
+}

@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+		.example {
+			width: 100px;
+			height: 100px;
+			border: 1px solid black;
+		}
+
+		.ie .example {/*hasta versión 9*/
+			background-color: teal;
+		}
+		.ie7 .example {
+			background-color: orange;
+		}
+        .ie8 .example {
+			background-color: yellow;
+		}
+        .ie9 .example {
+			background-color: aqua;
+		}
+        .ie10 .example {
+			background-color:#9F0;/*verde fosforito*/
+		}
+        .ie11 .example {
+			background-color: #663399;;/*morado*/
+		}
+		.win.gecko .example {
+			background-color: red;
+		}
+		.mac.gecko .example {
+			background-color: cyan;
+		}
+		.opera .example {
+			background-color: green;
+		}
+		.konqueror .example {
+			background-color: blue;
+		}
+		.safari .example {
+			background-color: gray;
+		}
+		.chrome .example {
+			background-color: pink;
+		}
+        .iphone .example, .ipod .example {
+			background-color: gold;
+		}
+        .ipad .example {
+			background-color: brown;
+		}
+		.blackberry .example {
+			background-color: fuchsia;
+		}
+		.android .example {
+			background-color: black;
+		}

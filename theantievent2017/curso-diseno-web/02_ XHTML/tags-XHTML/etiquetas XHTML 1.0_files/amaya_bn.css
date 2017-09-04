@@ -1,0 +1,54 @@
+/* Effective stylesheet produced by snapshot save */
+html { font-family: sans-serif; background-color: white; text-align: justify; }
+h1 { font-size: 200%; text-align: center; margin-left: 40px; }
+h2 { font-size: 120%; }
+h3 { font-size: 105%; }
+h4 { font-size: 100%; font-weight: normal; text-decoration: underline; }
+p { margin: 5px 0px; }
+address#ultmod { border-top: 1px solid black; padding-top: 5px; clear: both; }
+p.aviso { margin: 10px; padding: 10px; border-left: 2px solid black; color: black; }
+p.centrado { text-align: center; }
+pre.fuente { background-color: white; color: black; padding: 3px 5px; border: 2px solid black; margin: 0px 10px; }
+.fuente-num { color: black; }
+hr { width: 100%; clear: both; }
+hr.corta { width: 50%; text-align: center; clear: both; }
+img { border: medium none; }
+a:link, a:visited { text-decoration: none; color: black; }
+table.indice td { vertical-align: top; }
+col.centrado { padding: 0px 10px; text-align: center; }
+ul { margin-top: 0px; }
+li { clear: both; }
+img#vpp { position: absolute; top: 5px; left: 5px; border: medium none; }
+img.d { float: right; margin-left: 10px; margin-bottom: 5px; }
+img.i { float: left; margin-right: 10px; margin-bottom: 5px; }
+.regla { border: 2px solid black; padding: 8px 3px; }
+.selector { border: 2px solid black; padding: 5px 3px; }
+.declara { border: 2px solid black; padding: 5px 3px; }
+.propied { border: 2px solid black; padding: 2px; }
+.valor { border: 2px solid black; padding: 2px; }
+.barresta { background-color: white; font-family: serif; }
+.amaya-menu { background-color: white; font-family: serif; }
+.amaya-bug { border-left: 4px double black; border-right: 4px double red; margin: 0px 10px; padding: 0px 10px; }
+.ff-menu { background-color: white; font-family: serif; }
+.ie-menu { background-color: white; font-family: serif; }
+.incompleto { color: black; background-color: white; }
+div.codcss { border: 2px solid rgb(127, 127, 128); background-color: white; margin: 5px 20px; padding: 10px; white-space: pre; }
+.css-prop { font-weight: 600; background-color: white; }
+.css-prop:hover { color: black; background-color: white; }
+.css-valor { font-style: oblique; }
+.css-valor:hover { color: black; background-color: white; }
+.css-pseudo { font-weight: 600; background-color: white; }
+.css-pseudo:hover { color: black; background-color: white; }
+.html-eti { font-weight: 600; background-color: white; }
+.html-eti:hover { color: black; background-color: white; }
+.html-atri { font-weight: 600; background-color: white; }
+.html-atri:hover { color: black; background-color: white; }
+.html-atri-valor { font-weight: 600; background-color: white; }
+.html-atri-valor:hover { color: black; background-color: white; }
+table.ejemplo { width: 100%; border-spacing: 20px 5px; text-align: left; }
+td.codcss { width: 50%; vertical-align: top; background-color: white; border: 2px solid black; padding: 0px 5px; }
+td.resul { width: 50%; vertical-align: top; background-color: white; border: 2px solid black; }
+table.listado { border: medium none; text-align: left; }
+table.listado tr.titulo td { border-right: medium none; border-width: 20px medium medium; border-style: solid none none; border-color: white -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; background-color: white; font-weight: bolder; }
+table.listado tr.cabecera td { border-width: medium medium 2px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; }
+math { font-family: sans-serif; font-size: 105%; }

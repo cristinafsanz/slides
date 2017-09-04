@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#caja {
+ position:absolute;
+ left:198px;
+ top:108px;
+ width:586px;
+ height:217px;
+ z-index:1;
+ background-color: blue;
+}

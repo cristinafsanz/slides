@@ -1,0 +1,7 @@
+Posicionamiento Float:
+
+1- usar -en principio- float en todos los div's utilizados para maquetación
+
+2- con float:left usar para limpiar (colocar debajo) clear:left; con float:right usar para limpiar clear:right (pero no al revés)
+
+3- utilizar un contenedor general con el que limitas el ancho y englobas todos los div's utilizados para maquetación

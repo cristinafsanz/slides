@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+html{font-size: 62.5%;}
+body {font-size:1.6em;
+	background-color: #EEF2EF;
+	color: #000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+p{
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img { 	
+	width:100%;
+}
+h1, h2, h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+color: #003; 
+}
+h3{font-size:2rem;
+margin-top:0;
+}
+h2{font-size:3rem;
+margin-top:0;
+}
+
+/*
+	Propiedades de cuadrícula fluida de Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiración obtenida de "Responsive Web Design" de Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	y Golden Grid System de Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Diseño móvil: 480 px e inferior. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	padding-left: 1%;
+	padding-right: 1%;
+background:url(../images/basin_bg_phone.jpg) no-repeat left top #b4c4ba;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#cabecera h1{text-align:center;
+font-size:4.6rem;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+margin-bottom:30px;
+}
+/* menu */
+#menu ul {
+	list-style-type: none;
+	padding: 0;
+	font-weight: bold;
+	margin: 0 auto;
+width:13.6rem;
+
+}
+#menu ul li {
+	float: none;
+}
+#menu ul li a {font-size:1.6rem;
+	display: block;
+	width:13.6rem;
+height:17px;
+	padding: 8px 0px 10px 0px;
+	margin: 0 1px 2px 0px;
+	text-align:center;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #003;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#menu ul a:hover {
+	background-color:#26267F;
+}
+
+#contenido {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	padding:140px 20px 20px 20px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+background:url(../images/chef.jpg) no-repeat left top #fff;
+}
+	#contenido #sashimi{float:left;}
+	#contenido #sushi{float:left;}
+#lateral {
+	clear: both;
+	float: left;
+	margin:13px 0 0 0;
+	width: 100%;
+	display: block;
+	background-color:#fff;
+	padding:20px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+#lateral #sake{display:none;
+}
+#pie {
+	clear: both;
+	float: left;
+	margin:15px 0 0 0;
+	width: 100%;
+	display: block;
+	color: #FFF;
+	background-color: #003;
+	padding: 5px 30px;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+	-webkit-border-radius: 18px 18px 0 0;
+	-moz-border-radius: 18px 18px 0 0;
+	border-radius: 18px 18px 0 0;
+}
+
+#pie p {text-align:center;
+font-size:1.5rem;
+	margin: 0 0 5px 0;
+}
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 93.6%;
+	padding-left: 1.2%;
+	padding-right: 1.2%;
+background:url(../images/basin_bg.jpg) no-repeat left top #b4c4ba;
+		border-left: #594431 solid 1px;
+        border-right: #594431 solid 1px;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+/* menu */
+#menu ul {
+	margin-left: 6%;
+width:94%;
+}
+#menu ul li {
+	float: left;
+}
+
+#menu ul li a{
+width:12rem;
+font-size:1.5rem;
+}
+
+#contenido {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+	#contenido #sashimi{float:right;
+	margin-left:10px;
+}
+	#contenido #sushi{float:left;
+	margin-right:10px;
+}
+#lateral {
+	clear: both;
+	float: left;
+	margin:13px 0 0 0;
+	width: 100%;
+	display: block;
+background-color:#fff;
+}
+#lateral #sake{display:inline;
+float:right;
+margin-left:10px;
+}
+#pie {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 92.4333%;
+	max-width: 1232px;
+	padding-left: 0.7833%;
+	padding-right: 0.7833%;
+	margin: auto;
+}
+#cabecera {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#menu {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+/* menu */
+#menu ul {	margin: 0 auto;
+width:685px;
+}
+
+@media (min-resolution: .001dpcm) {/*opera*/
+#menu ul {	margin: 0 auto;
+width:735px;
+}
+}
+#menu ul li {
+	float: left;
+}
+#menu ul li a{
+width:13.6rem;
+font-size:1.6rem;
+}
+
+#contenido {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.5762%;
+	display: block;
+}
+#lateral {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 23.40%;
+	display: block;
+padding-bottom:155px;
+background:url(../images/sake.jpg) no-repeat left bottom #fff;
+margin-top:0;
+}
+#lateral #sake{display:none;
+}
+#pie {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}

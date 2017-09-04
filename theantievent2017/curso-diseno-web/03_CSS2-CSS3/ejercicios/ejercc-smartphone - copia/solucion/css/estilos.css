@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*etiquetas*/
+body {
+ font-family: Helvetica, Arial;
+ font-size: 16px;
+ color: #000028;
+ line-height: 23px;
+ text-align: justify;
+ 
+}
+h1 {
+ font-size: 28px;
+ color: #002851;
+ font-family: "Lucida Sans Unicode";
+ text-decoration: underline;
+}
+h2 {
+ font-size: 24px;
+ color: #003366;
+ font-family: "Lucida Sans Unicode";
+}
+p{text-indent: 10px; 
+}
+
+/*id's*/
+#principal {
+ background-color:#B0B0B0;
+width:940px;
+margin:0 auto;
+padding:10px;
+}
+
+/*clases*/
+.cursiva{font-style:italic;
+}
+.negrita{font-weight:bold;
+}
+.mayuscula{text-transform:uppercase;
+}
+.pieFoto{text-align:center;
+letter-spacing:5px;
+color:#FFF;
+font-style:italic;
+}

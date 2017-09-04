@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+		$("ul#listaUno li:first").prepend("<strong>PRIMER LI </strong>")//el método prepend() "antepone" contenido en el interior del elemento
+
+
+		$("ul#listaUno li:last").prepend("<strong>ÚLTIMO LI </strong>")
+
+
+
+		$("ul#listaDos li:even").append("<strong>LI IMPAR </strong>")//el método append() "finaliza" contenido en el interior del elemento
+
+
+
+		$("ul#listaDos li:eq(1)").prepend("<strong>SEGUNDO LI </strong>")
+
+
+
+		$("ul#listaDos li:nth-child(4)").prepend("<strong>CUARTO LI </strong>")
+});
+
+
+</script>
+</head>
+
+<body>
+<ul id="listaUno">
+  <li>Duis aute irure dolor consectetur adipisicing elit, ut aliquip ex ea commodo consequat. </li>
+  <li>consectetur adipisicing elit, sunt in culpa.</li>
+  <li>Ullamco laboris nisi eu fugiat nulla pariatur. </li>
+  <li>Ut aliquip ex ea commodo consequat. Excepteur sint occaecat eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, ullamco laboris nisi ut labore et dolore magna aliqua.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<ul id="listaDos">
+  <li>Ut enim ad minim veniam, cupidatat non proident, velit esse cillum dolore. Excepteur sint occaecat ullamco laboris nisi sunt in culpa. Ut aliquip ex ea commodo consequat.</li>
+  <li>Qui officia deserunt. Consectetur adipisicing elit, eu fugiat nulla pariatur. </li>
+  <li>Consectetur adipisicing elit, ullamco laboris nisi qui officia deserunt. Cupidatat non proident, sunt in culpa in reprehenderit in voluptate. Ut aliquip ex ea commodo consequat.</li>
+  <li>Ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt eu fugiat nulla pariatur. Ullamco laboris nisi in reprehenderit in voluptate ut labore et dolore magna aliqua.</li>
+  <li>Cupidatat non proident, consectetur adipisicing elit, ut enim ad minim veniam. </li>
+  <li>In reprehenderit in voluptate. Ut enim ad minim veniam, in reprehenderit in voluptate lorem ipsum dolor sit amet. Eu fugiat nulla pariatur.</li>
+  <li>Qui officia deserunt ut aliquip ex ea commodo consequat. </li>
+</ul>
+</body>
+</html>

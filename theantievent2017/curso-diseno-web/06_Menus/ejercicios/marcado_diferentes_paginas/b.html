@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	ul#menu {
+		padding:0;
+	}
+	#menu li {
+		list-style-type: none;	
+		width: 120px;
+		background-color:#FF6;
+		border-bottom: 1px solid #FFF;		
+		border-radius: 5px;
+	}
+	#menu li:hover {
+		background-color:#6FC;
+	}
+	a:link, a:visited {
+		color:#603;
+		text-decoration: none;
+		//background-color:#9F0;
+		display:block;
+		width: 95px;
+		padding-left:25px;
+	}
+	
+	#menu a.mimarca{
+		background-color:#F00;
+	}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+/*si los links del menú llevan parámetros o fragmentos (portada.html?param=dos / estructura.html#dos); poner:
+		var loc = document.location.href;*/
+
+	$(document).ready( function() {
+		var loc = document.location.href.split(/[\?#]/).shift().replace(/\/$/, '');
+		$("a").each(function() {//método each() especifica una función a ejecutar para cada elemento coincidente.
+			if (this.href == loc) $(this).addClass("mimarca");
+		});
+	});
+</script>
+</head>
+
+<body>
+bbbbbbbbbbbbbbbbbbbbbb
+<ul id="menu">
+  <li><a href="a.html">Inicio</a></li>
+  <li><a href="b.html">Perfil</a></li>
+  <li><a href="c.html">Servicios</a></li>  
+</ul>
+</body>
+</html>

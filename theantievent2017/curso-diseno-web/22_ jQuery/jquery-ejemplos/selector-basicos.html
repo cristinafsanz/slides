@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+#apDiv1 {
+ position:absolute;
+ left:129px;
+ top:234px;
+ width:1053px;
+ height:72px;
+ z-index:1;
+ background-color: #CAEEFF;
+}
+#apDiv2 {
+ position:absolute;
+ left:130px;
+ top:331px;
+ width:1049px;
+ height:70px;
+ z-index:2;
+ background-color: #EDCBDC;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){//asegurarse ha cargado DOM
+//$(function(){   es la forma resumida de:   $(document).ready(function(){
+		$("div").html('<p>esto es un DIV</p>')//el método html() cambia el contenido de la etiqueta
+
+		$("p.primero").html('<p>este es el primer párrafo</p>')
+
+		$("p#ultimo").html('<p>este es el último párrafo</p>')
+
+		$("h4,blockquote").html('<p>esta orden es para los h4 y los blockquote</p>')
+});
+
+
+</script>
+</head>
+
+<body>
+
+<h4>uno</h4>
+
+<p class="primero">dos</p>
+
+<blockquote>tres</blockquote>
+
+<p>cuatro</p>
+
+<p id="ultimo">cinco</p>
+
+<div id="apDiv1">seis</div>
+
+<div id="apDiv2">siete</div>
+
+
+</body>
+</html>

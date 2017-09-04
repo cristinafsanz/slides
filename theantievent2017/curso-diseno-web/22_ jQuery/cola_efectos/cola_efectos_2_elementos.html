@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){
+		$("#imagen").click(function(){
+			$("#imagen").animate({"margin-left": "800px"}, 3000);
+			$("#imagen").animate({"margin-top": "550px"}, 3000);
+			$("#otraImagen").animate({"margin-top": "300px"}, 3000);
+		});
+	});
+</script>
+</head>
+
+<body>
+<p id="imagen">
+	<img src="file:///F|/Cristina Fernández/ejercicios/t10-html4/media/carnaval.jpg" >    
+</p>
+<p id="otraImagen">
+	<img src="file:///F|/Cristina Fernández/ejercicios/t10-html4/media/avatar.jpg">
+</p>
+</body>
+</html>

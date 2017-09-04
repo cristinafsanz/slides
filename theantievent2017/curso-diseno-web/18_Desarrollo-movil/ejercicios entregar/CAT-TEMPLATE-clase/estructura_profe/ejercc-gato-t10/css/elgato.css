@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+div,section,article,nav,footer{outline:2px solid;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	clear: none;
+	float: none;
+}
+#cabecera {
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+width: 100%;
+}
+#menu {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#gatoMovil {
+display: block;
+}
+#gatoTablet {
+display: none;
+}
+#gatoEscritorio {
+display: none;
+}
+#entradilla {
+}
+#artGato1 {
+width: 100%;
+}
+#artGato2 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#artGato3 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#artGato4 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#pre1 {
+width: 100%;
+}
+#pre2 {
+display: none;
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#pre3 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 93.6%;
+	padding-left: 1.2%;
+	padding-right: 1.2%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+width: 35.8974%;
+}
+#menu {
+width: 61.5384%;
+margin-left: 2.5641%;
+clear: none;
+}
+#gatoMovil {
+display: none;
+}
+#gatoTablet {
+display: block;
+}
+#gatoEscritorio {
+display: none;
+}
+#entradilla {
+}
+#artGato1 {
+width: 48.7179%;
+}
+#artGato2 {
+width: 48.7179%;
+margin-left: 2.5641%;
+clear: none;
+}
+#artGato3 {
+width: 48.7179%;
+clear: both;
+margin-left: 0;
+}
+#artGato4 {
+width: 48.7179%;
+margin-left: 2.5641%;
+clear: none;
+}
+#pre1 {
+width: 35.8974%;
+}
+#pre2 {
+display: block;
+width: 23.0769%;
+margin-left: 2.5641%;
+clear: none;
+}
+#pre3 {
+width: 35.8974%;
+margin-left: 2.5641%;
+clear: none;
+}
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 92.4333%;
+	max-width: 1232px;
+	padding-left: 0.7833%;
+	padding-right: 0.7833%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#cabecera {
+}
+#gatos4 {
+}
+#gato1 {
+}
+#prepie {
+}
+#pie {
+}
+#logo {
+width: 23.7288%;
+}
+#menu {
+width: 74.5762%;
+clear: none;
+margin-left: 1.6949%;
+}
+#gatoMovil {
+display: none;
+}
+#gatoTablet {
+display: none;
+}
+#gatoEscritorio {
+display: block;
+}
+#entradilla {
+}
+#artGato1 {
+width: 23.7288%;
+}
+#artGato2 {
+width: 23.7288%;
+clear: none;
+margin-left: 1.6949%;
+}
+#artGato3 {
+width: 23.7288%;
+margin-left: 1.6949%;
+clear: none;
+}
+#artGato4 {
+width: 23.7288%;
+clear: none;
+margin-left: 1.6949%;
+}
+#pre1 {
+width: 32.2033%;
+}
+#pre2 {
+display: block;
+width: 32.2033%;
+clear: none;
+margin-left: 1.6949%;
+}
+#pre3 {
+width: 32.2033%;
+clear: none;
+margin-left: 1.6949%;
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

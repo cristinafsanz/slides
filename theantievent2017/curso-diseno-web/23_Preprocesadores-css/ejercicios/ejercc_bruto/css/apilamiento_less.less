@@ -1,0 +1,107 @@
+/* LESS Document */
+@colorA1:#679B37;
+@colorA2:#06C;
+@colorA3:#EA5413;
+@alto:535px;
+
+.radius {
+	border-radius:6px 0 0 6px;
+	-moz-border-radius:6px 0 0 6px;
+	-webkit-border-radius:6px 0 0 6px;
+}
+
+.radius_inverso {
+	border-radius:0 6px 6px 0;
+	-moz-border-radius:0 6px 6px 0;
+	-webkit-border-radius:0 6px 6px 0;
+}
+
+.boxSizing {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.parrafo {
+	position:absolute;
+	top:0;	
+	width: 1102px;
+	left:-1190px;
+}
+
+body, td, th
+{
+	 font-family: "Lucida Console", Monaco, monospace;
+	 color: #006;
+}
+
+body
+{
+ 	background-color: #333333;
+	
+	#contenedor
+	{	
+		overflow:hidden;
+		 width: 1102px;
+		 height: @alto;
+		 margin: 0 auto;
+		background-color: #FFf;
+		border-radius:6px;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		
+		#imagenes {
+			position: relative;
+			z-index: 4;
+			width: 68px;
+			height: @alto;
+			background-color: #CCCCCC;
+			float: left;
+			.radius;
+		}
+		
+		#contenido
+		{
+			 width: 1034px;
+			 height: @alto;
+			 background:url(img/soulfingers2.jpg) no-repeat center #e8e8e8;
+			 float: left;	
+			position:relative;
+			.radius;
+			
+			div
+			{				 
+				 .boxSizing;
+				 .radius_inverso;
+				 .parrafo;
+				 padding: 5px;
+				 color:#FFF;				 
+				 height:100%;				 
+				 h2
+				{
+					color: #FF0;
+				}
+			}
+			
+			#a1{
+				background:@colorA1;		
+				z-index: 1;				
+			}
+			#a2{
+				background:@colorA2;			
+				z-index: 2;				
+			}
+			#a3{
+				background:@colorA3;				
+				z-index: 3;				
+			}
+		}	
+	}
+}
+
+
+
+
+
+
+

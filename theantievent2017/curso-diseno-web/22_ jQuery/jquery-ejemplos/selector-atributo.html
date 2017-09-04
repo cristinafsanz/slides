@@ -1,0 +1,40 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+a{background-color:#FC0;
+display:block;
+width:200px;/*ANCHO POR DEFECTO: 200PX*/
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+		$("a[rel='nofollow']").width("400px");
+
+		$("a[href^='http']").width("600px");
+
+		$("a[href$='.pdf']").width("800px");
+
+		$("a[href*='colores']").width("1000px");
+});
+</script>
+</head>
+
+<body>
+
+<p>(Nota: no hay que hacer clic en los enlaces, sólo ver la diferente longitud de su caja) </p>
+
+<p><a href="#">ENLACE DE MUESTRA, SIN ACCIÓN JQUERY</a></p>
+<p><a href="#" rel="nofollow">lorem ipsum dolor sit amet.</a></p>
+<p><a href="http://www.cice.es/">eiusmod tempor incididunt ut labore</a></p>
+<p><a href="miarchivo.pdf">enim ad minim veniam</a></p>
+<p><a href="colores-claros.html">Consectetur adipisicing elit</a></p>
+<p><a href="colores-oscuros.html">Ut labore et dolore magna aliqua.</a></p>
+
+</body>
+</html>

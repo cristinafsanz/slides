@@ -1,0 +1,112 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+ 
+$(function(){
+   $("#e1").mouseup(function(){
+     $("#apDiv1").html("mouseup sobre enlace");
+     });
+
+
+   $("#e2").mouseenter(function(){
+     $("#apDiv1").html("mouseenter sobre enlace");
+     });
+
+
+ $("#e3").hover(
+	  function() {
+		$("#apDiv1").html("hover entra ratón en enlace (1a función)");
+	  },//¡ojo! coma que separa ambas funciones
+	  function() {
+		$("#apDiv1").html("hover ahora sale del enlace (2a función)");
+	  });/*permite pasar una o dos funciones que se ejecutarán mouseenter y mouseleave. Si se pasa solo una, está será ejecutada en ambos eventos; en cambio si se pasan dos, la primera será ejecutada mouseenter, y la segunda mouseleave*/
+
+
+   $(window).resize(function(){
+     $("#apDiv1").html("resize sobre ventana");
+     });
+
+
+   $("#foco").focus(function(){
+     $("#apDiv1").html("foco al campo de texto");
+     });
+
+
+   $("#foco").blur(function(){
+     $("#apDiv1").html("pierde el foco el campo de texto");
+     });
+
+
+   $("#e4").toggle(function() {
+		  $("#apDiv1").html('Primer click');
+		}, function() {
+		  $("#apDiv1").html('Segundo click');
+		}, function() {
+		  $("#apDiv1").html('Tercer click');
+		});
+
+
+   $("#terra").click(function(evento){
+      alert("Has pulsado el enlace, pero vamos a cancelar la acción...y no vamos a llevarte a terra");
+      evento.preventDefault();// evento.preventDefault() bloquea el comportamiento normal de un enlace, simplemente se ejecutará el código Javascript contenido para el evento click
+   });
+
+
+   $("#apDiv2").scroll(function(){
+     $("#apDiv1").html("scroll sobre caja");
+     });
+ });
+</script>
+<style>
+#apDiv1 {
+ position:absolute;
+ left:301px;
+ top:13px;
+ width:877px;
+ height:183px;
+ z-index:1;
+ font-size:50px;
+}
+#apDiv2 {
+ position:absolute;
+ left:25px;
+ top:321px;
+ width:211px;
+ height:239px;
+ z-index:2;
+ background-color: #CCCCCC;
+ overflow:auto;
+}
+</style>
+</head>
+
+<body>
+
+<p><a id="e1" href="#">mouseup() </a></p>
+<p><a id="e2" href="#">mouseenter() </a></p>
+<p><a id="e3" href="#">hover()</a></p>
+
+<p>redimensionar la ventana del navegador</p>
+
+<div id="apDiv1"></div>
+<p>
+  dale foco: 
+  <input type="text" name="foco" id="foco">
+</p>
+<p><a id="e4" href="#">producir efectos alternativos (toggle)</a></p>
+<p><a href="http://www.terra.es" id="terra">bloquear acción de un enlace</a></p>
+<p>haz scroll:</p>
+<div id="apDiv2">
+  <p>Sed do eiusmod tempor incididunt eu fugiat nulla pariatur. In reprehenderit in voluptate sunt in culpa qui officia deserunt. Mollit anim id est laborum. Lorem ipsum dolor sit amet, excepteur sint occaecat eu fugiat nulla pariatur. Duis aute irure dolor quis nostrud exercitation cupidatat non proident.</p>
+  <p>Sunt in culpa consectetur adipisicing elit, in reprehenderit in voluptate. Excepteur sint occaecat ut labore et dolore magna aliqua. Ut enim ad minim veniam, eu fugiat nulla pariatur. Consectetur adipisicing elit, ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor mollit anim id est laborum. Ut enim ad minim veniam, sed do eiusmod tempor incididunt ullamco laboris nisi. Quis nostrud exercitation ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, ut enim ad minim veniam, excepteur sint occaecat.</p>
+  <p>Qui officia deserunt ut aliquip ex ea commodo consequat. Consectetur adipisicing elit. Lorem ipsum dolor sit amet, duis aute irure dolor sed do eiusmod tempor incididunt. Consectetur adipisicing elit, sunt in culpa ut labore et dolore magna aliqua. In reprehenderit in voluptate cupidatat non proident, quis nostrud exercitation.</p>
+</div>
+</body>
+</html>

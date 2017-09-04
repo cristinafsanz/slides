@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+#apDiv1 {
+ width:500px;
+ height:72px;
+ background-color: #CAEEFF;
+}
+#apDiv2 {
+ width:500px;
+ height:170px;
+ background-color: #EDCBDC;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+$(function(){
+		$('div#apDiv1 + img').after('<p>este párrafo viene de jquery</p>');//el método after() inserta el contenido HTML después de todos los elementos
+
+		$('div#apDiv2 > img').before("<p>twitter</p>");//el método before() inserta el contenido HTML antes de todos los elementos
+});
+
+</script>
+</head>
+
+<body>
+
+
+<div id="apDiv1">
+  <p>Esto es un div....</p>
+</div>
+
+<img src="images/phot-ojo-fantasia.jpg" width="300" height="225" alt="ojo">
+
+<div id="apDiv2">
+<img src="images/pajaro.png" width="200" height="112" alt="pájaro">
+</div>
+
+
+</body>
+</html>

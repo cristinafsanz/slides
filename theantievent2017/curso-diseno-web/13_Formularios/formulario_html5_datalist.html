@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/placeholder.min.js"></script>
+<!-- http://jamesallardice.github.io/Placeholders.js/-->
+</head>
+
+<body>
+<form action="recibir.php" method="post" enctype="multipart/form-data"> 
+<fieldset>
+	<legend>Datos personales</legend>
+	<p>
+        <label for="textfield">Lengua vernácula:</label>
+        <input name="textfield" type="text" id="textfield" placeholder="Dame tu nombre" list="leng">
+        <datalist id="leng">
+            <option value="castellano"></option>
+            <option value="catalán"></option>
+            <option value="gallego"></option>
+            <option value="eukera"></option>
+        </datalist>
+  	</p>  
+</fieldset>  
+</form>
+</body>
+</html>

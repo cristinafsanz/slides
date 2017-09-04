@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+/*el método para establecer un valor posee el mismo nombre que el método para conseguir un valor. 
+Cuando un método es utilizado para establecer un valor es llamado método establecedor (en inglés setter). 
+En cambio cuando un método es utilizado para conseguir (o leer) un valor es llamado obtenedor (en inglés getter). */
+
+$(function(){
+
+		$("#boton").on("click",function(){
+			
+			alert($("#boton").attr("class")); // getter
+
+			$("#boton").attr("class","borde"); //setter
+
+		});
+
+
+});
+
+
+
+
+</script>
+<style type="text/css">
+.rojo {
+ background-color: #F00;
+}
+.borde{border:10px solid pink;
+}
+</style>
+</head>
+
+<body>
+<a href="#" id="boton" class="rojo">rterterter
+</a>
+</body>
+</html>

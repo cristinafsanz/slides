@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+		color: #FF6;
+		font-family:Times, serif;
+	}
+	body {
+		background-color: #fff;
+		color: #000;
+		font-size:12pt;
+	}
+	h1 {
+		color: #F96;
+	}
+	h2 {
+		color: #CF6;
+	}
+	blockquote {
+		display: none;
+	}
+

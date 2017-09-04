@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script>
+	function llamada(){
+		alert("hola mundo");
+	}
+	
+	window.onload=function(){
+		document.getElementById("mienlace").onclick=llamada;
+	}
+</script>
+</head>
+
+<body>
+<a href="#" id="mienlace">Enlace</a>
+</body>
+</html>

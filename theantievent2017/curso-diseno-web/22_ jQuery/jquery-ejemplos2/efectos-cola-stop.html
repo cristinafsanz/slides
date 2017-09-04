@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+#divRojo {
+ width:100px;
+ height:100px;
+ background-color: #FF0000;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+//cola de efectos:
+$(function(){
+
+  $("#boton1").click(function(){
+    $("#divRojo").animate({height:300},"slow");
+    $("#divRojo").animate({width:800},2000);
+    $("#divRojo").animate({height:100},"slow");
+    $("#divRojo").animate({width:100},"slow");
+  });
+
+
+
+  $("#boton2").click(function(){
+	$("#divRojo").stop();//parar el efecto actual
+  });
+
+
+
+  $("#boton3").click(function(){
+	$("#divRojo").stop(true);//parar todos los efectos
+  });
+
+
+
+  $("#boton4").click(function(){
+	$("#divRojo").stop(false,true);//parar el efecto actual y te lleva a su final
+  });
+
+});
+
+</script>
+</head>
+
+<body>
+
+  
+<input type="button" id="boton1" value="animate(), cola de efectos"> 
+<input type="button" id="boton2" value="stop()"> 
+<input type="button" id="boton3" value="stop(true)"> 
+<input type="button" id="boton4" value="stop(false,true)">
+
+<div id="divRojo"></div>
+
+</body>
+</html>

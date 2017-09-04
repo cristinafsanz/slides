@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+.recuadro{
+ width: 900px;
+ height: 500px;
+ z-index: 1;
+ background-color: #FFFFFF;
+padding:10px;
+border:4px dashed #FF9933;
+}
+body {
+ background-color: #000;
+ font-family: Tahoma, Geneva, sans-serif;
+ color: #003;
+}
+img{ float:left;
+margin-right:10px;
+}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+/*$(function(){
+	$("#boton1").click(function(){
+	   $("#descripcion").hide();//sin parámetro hide() oculta de golpe
+	});
+});
+
+$(function(){
+	$("#boton2").click(function(){
+	   $("#descripcion").show();//sin parámetro show() muestra de golpe
+	});
+});*/
+
+$(function(){
+	$("#boton1").click(function(){
+	   $("#descripcion").hide(2000);//hide() con velocidad 2 segundos
+	});
+});
+
+$(function(){
+	$("#boton2").click(function(){
+	   $("#descripcion").show("fast");//show() con velocidad fast
+	});
+});
+</script>
+</head>
+
+<body>
+<input type="button" id="boton1" value="hide()">
+<input type="button" id="boton2" value="show()">
+<div id="descripcion" class="recuadro">
+<h2>HTML</h2>
+<p>HTML es el lenguaje que se emplea para el desarrollo de páginas 
+  de internet.</p> 
+<p>Este lenguaje está constituido de elementos que el navegador interpreta 
+y las despliega
+en la pantalla de acuerdo a su objetivo. Veremos que hay elementos para disponer 
+imágenes 
+sobre una página, hipervínculos que nos permiten dirigirnos a otra 
+página, listas, tablas 
+para tabular datos, etc.</b>
+<p><img src="images/ipod.png" width="64" height="64" alt="ipod">Para poder crear una página HTML se requiere un simple editor 
+de texto (en nuestro caso
+emplearemos este sitio) y un navegador de internet (IExplorer, FireFox etc.), 
+emplearemos 
+el navegador que en este preciso momento está utilizando (recuerde que 
+usted está viendo 
+en este preciso momento una página HTML con su navegador).</p>
+<p>Lo más importante es que en cada concepto desarrolle los ejercicios 
+propuestos y modifique
+los que se presentan ya resueltos.<p>Este curso lo que busca es acercar el lenguaje HTML a una persona que 
+nunca antes trabajó 
+con el mismo. No pretende mostrar todas los elementos HTML en forma alfabética.
+<p>Como veremos, de cada concepto se presenta una parte teórica, 
+  en la que se da una 
+  explicación completa, luego se pasa a la sección del ejercicio resuelto 
+  donde podemos
+  ver el contenido de la página HTML y cómo la visualiza el navegador. 
+  Por último y 
+  tal vez la sección más importante de este tutorial es donde se propone 
+  que usted 
+  haga páginas en forma autónoma (donde realmente podrá darse 
+  cuenta si el concepto quedó firme).</p>
+</div>
+</body>
+</html>

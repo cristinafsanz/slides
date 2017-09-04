@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+var conector="@";
+var nombre="cristinafsanz";
+var servidor="terra.com";
+
+function montar() {
+	return nombre+conector+servidor;
+}
+
+function escribeMiCorreo() {
+	document.write('<a href="mailto:' +montar() + '">cristina</a>');
+}
+
+</script>
+</head>
+
+<body>
+<p>Ut labore et dolore magna aliqua. In reprehenderit in voluptate consectetur adipisicing elit, ut enim ad minim veniam. Cupidatat non proident, excepteur sint occaecat quis nostrud exercitation. Eu fugiat nulla pariatur. Qui officia deserunt ullamco laboris nisi ut enim ad minim veniam.</p>
+<p>Para más información escribe a: <script>escribeMiCorreo();</script></p>
+</body>
+</html>

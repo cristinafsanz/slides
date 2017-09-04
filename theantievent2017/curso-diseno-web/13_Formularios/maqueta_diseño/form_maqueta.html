@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+	fieldset {
+		width: 300px;
+		border: none;
+	}
+	label {
+		display:block;
+		margin-top: 16px;
+	}
+</style>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post">
+	<fieldset>
+      <label for="textfield">Apellido:</label>
+      <input type="text" name="textfield" id="textfield">
+      <label for="url">Url:</label>
+      <input type="url" name="url" id="url">
+      <label for="color">Color:</label>
+      <input type="color" name="color" id="color">
+      <label for="range">Range:</label>
+      <input type="range" name="range" id="range">
+      <label for="datetime">DateTime:</label>
+      <input type="datetime" name="datetime" id="datetime">
+      <label for="select">Select:</label>
+      <select name="select" id="select">
+        <option value="1">rosa</option>
+        <option value="2">verde</option>
+        <option value="3">azul</option>
+        <option value="4">naranja</option>
+      </select>
+      <label>
+      	<input type="submit" name="submit" id="submit" value="Enviar">
+      </label>
+  </fieldset>
+</form>
+</body>
+</html>

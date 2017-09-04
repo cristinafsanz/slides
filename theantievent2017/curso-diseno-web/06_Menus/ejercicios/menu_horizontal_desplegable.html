@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	ul#menu, ul#menu li ol {
+		padding:0;
+	}
+	/* info menú */
+	#menu li {
+		list-style-type: none;	
+		width: 120px;
+		height: 20px;
+		background-color:#FF6;
+		border-right: 1px solid #FFF;			
+		border-radius: 5px;
+		float: left;
+	}
+	#menu li:hover {
+		background-color:#6FC;
+	}
+	/* Info submenú */
+	#menu li ol{
+		display: none;
+		border-top: 1px solid #FFF;		
+	}
+	#menu li ol li {
+		border-top: 1px solid #FFF;
+	}
+	#menu li:hover ol{
+		display: block;
+	}
+	
+	a:link, a:visited {
+		color:#603;
+		text-decoration: none;
+		//background-color:#9F0;
+		display:block;
+		width: 95px;
+		padding-left:25px;
+	}
+</style>
+</head>
+
+<body>
+<ul id="menu">
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/bloque-y-linea.html">Inicio</a></li>
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/t10-html4/border-properties.html">Perfil</a></li>
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/t10-html4/css-externo2.html">Servicios</a>
+    <ol>
+      <li><a href="file:///F|/Cristina Fernández/ejercicios/margin_padding_dw.html">Servicio 1</a></li>
+      <li><a href="file:///F|/Cristina Fernández/ejercicios/frames.html">Servicio 2</a></li>
+    </ol>
+  </li>
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/t10-html4/css-linea.html">Trabajos</a>
+    <ol>
+      <li><a href="file:///F|/Cristina Fernández/ejercicios/codificacion-ejercc.html">Trabajo 1</a></li>
+      <li><a href="file:///F|/Cristina Fernández/ejercicios/bloque-y-linea.html">Trabajo 2</a></li>
+      <li><a href="file:///F|/Cristina Fernández/ejercicios/camuflar-emails2.html">Trabajo 3</a></li>
+    </ol>
+  </li>
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/t10-html4/ej1.html">Localiza</a></li>
+  <li><a href="file:///F|/Cristina Fernández/ejercicios/t10-html4/float_maqueta.html">Contacta</a></li>
+</ul>
+</body>
+</html>

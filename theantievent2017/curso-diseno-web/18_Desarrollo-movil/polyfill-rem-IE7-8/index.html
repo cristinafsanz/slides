@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+<link href="css/estilos.css" rel="stylesheet">
+
+<!--a esta css no se aplica adaptador (data-norem):-->
+<link href="css/no-adapta-rem.css" rel="stylesheet" data-norem>
+</head>
+
+<body>
+<p>En local no funciona, subirlo a un servidor.</p>
+<p>Poner el JS (rem.min.js ) después de leer las CSS (mejor cuando cierra body)</p>
+<p>No funciona con CSS en cabecera, los estilos tienen que estar en CSS externo.</p>
+<p>Si no quieres que lo aplique el adaptador a una determinada CSS externa, añadir el atributo data-norem: &lt;link rel=&quot;stylesheet&quot; href=&quot;css/ignore.css&quot; data-norem&gt;</p>
+<p>No usar la forma abreviada (font: 3rem Arial;) da problemas en IE</p>
+<hr>
+<p>Sed do eiusmod tempor incididunt consectetur adipisicing elit, ut enim ad minim veniam. Cupidatat non proident, ut labore et dolore magna aliqua. Qui officia deserunt ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, sunt in culpa ut enim ad minim veniam. Ut labore et dolore magna aliqua.</p>
+<p>Mollit anim id est laborum. Cupidatat non proident, eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit in voluptate duis aute irure dolor ut aliquip ex ea commodo consequat.</p>
+<p>Lorem ipsum dolor sit amet, quis nostrud exercitation qui officia deserunt. In reprehenderit in voluptate velit esse cillum dolore sed do eiusmod tempor incididunt. Ut enim ad minim veniam, duis aute irure dolor qui officia deserunt. Ut labore et dolore magna aliqua.</p>
+<blockquote>
+  ESTE BLOCKQUOTE EN IE 7 Y 8 NO SE LE APLICA EL ADAPTADOR A UNIDADES REM ( data-norem ): Quis nostrud exercitation eu fugiat nulla pariatur. Mollit anim id est laborum. Duis aute irure dolor. Duis aute irure dolor ut enim ad minim veniam, consectetur adipisicing elit. Ut labore et dolore magna aliqua.Ullamco laboris nisi sunt in culpa in reprehenderit in voluptate. Qui officia deserunt eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, mollit anim id est laborum.
+</blockquote>
+<script src="js/rem.min.js"></script>
+</body>
+</html>

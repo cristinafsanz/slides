@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 1em;
+	font-family: "Arial, Helvetica, sans-serif";
+}	 
+p {
+	color:#555;
+}
+
+#primero p {
+	color:#336699;	
+}
+
+a {
+	color:#CC3300;
+}
+
+#primero em {
+	color:#FFFFCC;
+	padding:0.1em;
+}	
+
+em.especial {
+	color: #FFCC99;
+	border: 1px solid #FF9900;
+	padding: 0.1 em;
+}
+
+.normal span {	
+	font-weight:bold;
+}

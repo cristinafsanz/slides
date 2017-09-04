@@ -1,0 +1,91 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+
+<script>
+
+$(function(){
+//forma clásica abreviada
+   $("#e1").mouseover(function(){
+     $("#apDiv1").html('ratón sobre con forma abreviada');
+     });
+
+ 
+//uso del método on()
+    $("#e2").on("mouseover", function(){
+     $("#apDiv1").html('ratón sobre con método "on"');
+     });
+
+
+//método on() con varios eventos simultáneamente y mismo resultado
+	$("#e3").on('click dblclick mouseleave', function() {
+	  $("#apDiv1").html('enlace: o clic, o doble clic o saliendo... ');
+	});
+
+
+//método on() con varios eventos simultáneamente y varios resultados
+	$("#e4").on({
+	  click: function() {
+		$("#apDiv1").html('clic');
+	  },
+	  dblclick: function() {
+		$("#apDiv1").html('doble-clic');
+	  },
+	  mouseleave: function() {
+		$("#apDiv1").html('sale del elemento');
+	  }
+	});
+
+
+
+   $("#e5").one('click', function() {
+     $("#apDiv1").html("este mensaje sólo lo verás esta vez");
+     });
+ });
+</script>
+<style>
+#apDiv1 {
+ position:absolute;
+ left:338px;
+ top:12px;
+ width:877px;
+ height:346px;
+ z-index:1;
+ font-size:50px;
+}
+a:link {
+ color: #F00;
+}
+a:visited {
+ color: #F00;
+}
+a:hover {
+ color: #F00;
+}
+a:active {
+ color: #F00;
+}
+</style>
+</head>
+
+<body>
+
+<div id="apDiv1"></div>
+<h3>Método on()</h3>
+<p><a id="e1" href="#">pon ratón sobre</a>&nbsp;&nbsp; <a id="e2" href="#">aquí también</a></p>
+<p><br>
+</p>
+<p></p>
+<p><a href="#" id="e3">enlace que responde a clic y al salir de él</a></p>
+<p>&nbsp;</p>
+<p><a href="#" id="e4">enlace igual que antes pero respuestas separadas</a></p>
+<p>&nbsp;</p>
+<p><a href="#" id="e5">se ejecuta sólo 1 vez</a></p>
+
+</body>
+</html>

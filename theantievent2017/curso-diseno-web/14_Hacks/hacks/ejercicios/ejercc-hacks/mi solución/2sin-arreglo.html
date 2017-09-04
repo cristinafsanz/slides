@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="js/CSS-Browser-Selector.js"></script>
+<style type="text/css">
+li{width:200px;
+background-color:#DAF1FC;
+}
+
+li:first-child{
+border-top:2px dotted #0033CC;
+}
+
+/*falla en IE 7 y 8*/
+li:last-child{
+	border-bottom:2px dotted #0033CC;
+}
+
+.ie7 .final, .ie8 .final{
+	border-bottom:2px dotted #0033CC;
+}
+</style>
+</head>
+
+<body>
+<p>el borde inferior falla en IE 7 y 8 </p>
+<ul>
+  <li>White hat y black hat</li>
+  <li> Samurái</li>
+  <li> Phreaker    </li>
+  <li> Wannabe</li>
+  <li> Lammer o script-kiddie    </li>
+  <li class="final"> Newbie</li>
+</ul>
+</body>
+</html>

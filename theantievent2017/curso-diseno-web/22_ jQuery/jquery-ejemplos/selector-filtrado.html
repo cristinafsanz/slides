@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+		$("p:contains('I LOVE HTML 5')").prepend("<strong>AQUI CONTIENE LA FRASE: I LOVE HTML 5 /// </strong>");//el método prepend() "antepone" contenido en el interior del elemento
+
+		$("p:not(.amarillo)").prepend("<strong>ESTOS NO TIENEN LA CLASE AMARILLO/// </strong>");
+
+		$("p:has(em)").prepend("<strong>ESTOS TIENEN ETIQUETA EM/// </strong>");
+
+		$(":header").css("color","orange");
+});
+
+</script>
+<style type="text/css">
+p.amarillo{
+ background-color: #FF6;
+}
+</style>
+</head>
+
+<body>
+<h1 class="amarillo">FILTRADO</h1>
+<h2>CABECERA 2</h2>
+<h3>CABECERA3</h3>
+<p class="amarillo">Quis nostrud exercitation lorem ipsum dolor sit amet, cupidatat non proident. <strong>I LOVE HTML 5</strong> sint occaecat ut labore et dolore magna aliqua. In reprehenderit in voluptate ullamco laboris nisi sunt in culpa.</p>
+<p class="amarillo">Eu fugiat nulla pariatur. Velit esse cillum dolore excepteur sint occaecat lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mollit anim id est laborum.</p>
+<p>Cupidatat non proident. Ut enim ad minim veniam,<strong> ut labore et dolore magna aliqua</strong>. Sed do eiusmod tempor incididunt eu fugiat nulla pariatur. Ullamco laboris nisi cupidatat non proident, quis nostrud exercitation.</p>
+<p>Sunt in culpa ut enim ad minim veniam, velit esse cillum dolore. I LOVE HTML 5. Mollit anim id est laborum. Cupidatat non proident, quis nostrud exercitation lorem ipsum dolor sit amet.</p>
+<p>Duis aute irure dolor excepteur sint occaecat ut enim ad minim veniam. Ut aliquip ex ea commodo consequat. Duis aute irure dolor eu fugiat nulla pariatur. In reprehenderit in voluptate consectetur adipisicing elit, sunt in culpa. Excepteur sint occaecat ut enim ad minim veniam, sed do eiusmod tempor incididunt.</p>
+<p>Lorem ipsum dolor sit amet, cupidatat non proident, duis aute irure dolor. Consectetur adipisicing elit, ut aliquip ex ea commodo consequat. In reprehenderit in voluptate mollit anim id est laborum. Quis nostrud exercitation.</p>
+<p class="amarillo">Ut aliquip ex ea commodo consequat. Eu fugiat nulla pariatur. Velit esse cillum dolore lorem ipsum dolor sit amet, quis nostrud exercitation. Excepteur sint occaecat consectetur adipisicing elit, eu fugiat nulla pariatur.</p>
+<p>In reprehenderit in voluptate duis aute irure dolor qui officia deserunt. <strong>Cupidatat non proident</strong>, consectetur adipisicing elit, mollit anim id est laborum. Ut aliquip ex ea commodo consequat.</p>
+<p class="amarillo">Sunt in culpa in reprehenderit in voluptate. <em>Ut enim ad minim veniam</em>, lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt. Consectetur adipisicing elit, cupidatat non proident, quis nostrud exercitation. Mollit anim id est laborum.</p>
+<p>Qui officia deserunt sed do eiusmod tempor incididunt ut enim ad minim veniam. Duis aute irure dolor quis nostrud exercitation consectetur adipisicing elit. Ullamco laboris nisi eu fugiat nulla pariatur. Ut enim ad minim veniam, lorem ipsum dolor sit amet. Ut labore et dolore magna aliqua.</p>
+<p class="amarillo">Duis aute irure dolor sed do eiusmod tempor incididunt in reprehenderit in voluptate. Ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, eu fugiat nulla pariatur. Velit esse cillum dolore lorem ipsum dolor sit amet, mollit anim id est laborum. Ut labore et dolore magna aliqua.</p>
+<p>Ut aliquip ex ea commodo consequat. Qui officia deserunt ut enim ad minim <strong>veniam, velit esse cillum dolore</strong>. Ullamco laboris nisi cupidatat non proident. Ullamco laboris nisi quis nostrud exercitation ut labore et dolore magna aliqua.</p>
+</body>
+</html>

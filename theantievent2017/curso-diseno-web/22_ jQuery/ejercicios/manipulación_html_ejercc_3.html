@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$("#bia_contacts").click(function(){	
+			$("#derecha").empty();		
+			$("#derecha").append("<h1>Contactos</h1>");	
+			$("#derecha").append('<img src="images/bia_contacts.jpg" />');	
+			$("#derecha").append("<footer>Imagen de contactos</footer>");				
+		});	
+		
+		$("#bia_ibooks").click(function(){		
+			$("#derecha").empty();
+			$("#derecha").append("<h1>Libros</h1>");	
+			$("#derecha").append('<img src="images/bia_ibooks.jpg" />');	
+			$("#derecha").append("<footer>Imagen de libros</footer>");							
+		});	
+		
+		$("#bia_mail").click(function(){	
+			$("#derecha").empty();
+			$("#derecha").append("<h1>Email</h1>");	
+			$("#derecha").append('<img src="images/bia_mail.jpg" />');	
+			$("#derecha").append("<footer>Imagen de correo</footer>");
+		});			
+	});
+</script>
+<style>
+#izquierda {
+	float: left;
+	width: 8%;
+	border-right: 1px dotted #003399;	
+	padding-left: 2%;
+}
+#izquierda img {
+	float:left;
+	clear: left;
+	margin-bottom: 5px;
+}
+#derecha {
+	float: left;
+	width: 80%;	
+	margin-left: 6%;
+}	
+#derecha img {
+	width: 200px;
+	height: 200px;
+}
+#derecha h1 {
+	margin-left: 3%;
+}
+#derecha footer {
+	margin-left: 2%;
+}
+</style>
+</head>
+
+<body>
+<div id="contenedor">
+    <section id="izquierda">
+    	<img id="bia_contacts" src="images/bia_contacts.jpg" />
+    	<img id="bia_ibooks" src="images/bia_ibooks.jpg" />
+    	<img id="bia_mail" src="images/bia_mail.jpg" />
+    </section>
+    <section id="derecha">    	            	
+    </section>
+</div>
+</body>
+</html>

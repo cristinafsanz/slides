@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><!--obligatorio-->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><!--obligatorio-->
+
+   <url><!--obligatorio-->
+
+      <loc>http://www.misitio.com/</loc><!--obligatorio-->
+
+      <lastmod>2011-01-01</lastmod><!--opcional - AAAA-MM-DD-->
+
+      <changefreq>monthly</changefreq><!--opcional - always, hourly, daily, weekly, monthly, yearly, never-->
+
+      <priority>0.8</priority><!--opcional - entre 0 y 1-->
+
+   </url>
+
+   <url>
+
+      <loc>http://www.misitio.com/productos.html</loc>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.misitio.com/catalogo.html</loc>
+
+      <lastmod>2011-12-23</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.misitio.com/contacto.html</loc>
+
+      <lastmod>2011-12-23</lastmod>
+
+      <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.misitio.com/localizacion.html</loc>
+
+      <lastmod>2011-11-23</lastmod>
+
+   </url>
+
+</urlset>

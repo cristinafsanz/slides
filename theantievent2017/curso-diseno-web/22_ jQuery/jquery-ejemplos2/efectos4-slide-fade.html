@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+
+<style type="text/css">
+body {
+	background-color: #F60;
+}
+
+#texto1,#texto2,#texto3{background:#F96;
+padding:10px;
+margin-bottom:20px;
+}
+</style>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+$(function(){
+	$("#texto1,#texto2,#texto3").hide();
+
+	$("#menu a").click(function(){
+
+		var seccion=$(this).attr("data-cual");
+
+		$(seccion).slideDown(350).hide().fadeTo(1000,1);
+
+	});
+
+});
+</script>
+
+</head>
+
+<body>
+<h3>para que no aparezca fadeTo de golpe </h3>
+<ul id="menu">
+  <li><a href="#" data-cual="#texto1">ver texto uno</a></li>
+  <li><a href="#" data-cual="#texto2">ver texto dos</a></li>
+  <li><a href="#" data-cual="#texto3">ver texto tres</a></li>
+</ul>
+
+<div id="texto1">
+  <h2>Admit impediments</h2>
+  <p> love is not love within his bending sickle's compass come; love alters not with his brief hours and weeks. Let me not to the marriage of true minds oh, no, it is an ever fixed mark it is the star to every wand'ring bark. I never writ, nor no man ever loved.</p>
+  <p>Love's not time's fool, though rosy lips and cheeks whose worth's unknown, although his height be taken. Let me not to the marriage of true minds or bends with the remover to remove. It is the star to every wand'ring bark, oh, no, it is an ever fixed mark within his bending sickle's compass come. Which alters when it alteration finds, let me not to the marriage of true minds oh, no, it is an ever fixed mark. Admit impediments; love is not love but bears it out even to the edge of doom.</p>
+</div>
+
+<div id="texto2">
+  <h2>While those at the coal face</h2>
+  <p> don't have sufficient view of the overall goals. To experience a profound paradigm shift, building a dynamic relationship between the main players. Benchmarking against industry leaders, an essential process, should be a top priority at all times motivating participants and capturing their expectations, exploiting the productive lifecycle. Building flexibility through spreading knowledge and self-organization, from binary cause and effect to complex patterns, by moving executive focus from lag financial indicators to more actionable lead indicators. The balanced scorecard, like the executive dashboard, is an essential tool the components and priorities for the change program as knowledge is fragmented into specialities.</p>
+  <p>Working through a top-down, bottom-up approach, an investment program where cash flows exactly match shareholders' preferred time patterns of consumption by moving executive focus from lag financial indicators to more actionable lead indicators. Quantitative analysis of all the key ratios has a vital role to play in this defensive reasoning, the doom loop and doom zoom the balanced scorecard, like the executive dashboard, is an essential tool. That will indubitably lay the firm foundations for any leading company exploiting the productive lifecycle whenever single-loop learning strategies go wrong.</p>
+</div>
+
+<div id="texto3">
+  <h2>Exploitation of core competencies as an essential enabler</h2>
+  <p> by moving executive focus from lag financial indicators to more actionable lead indicators, the three cs - customers, competition and change - have created a new world for business. While those at the coal face don't have sufficient view of the overall goals. The strategic vision - if indeed there be one - is required to identify to ensure that non-operating cash outflows are assessed. Big is no longer impregnable working through a top-down, bottom-up approach, the three cs - customers, competition and change - have created a new world for business.</p>
+  <p>The new golden rule gives enormous power to those individuals and units, highly motivated participants contributing to a valued-added outcome. Through the  adoption of a proactive stance, the astute manager can adopt a position at the vanguard. Exploiting the productive lifecycle from binary cause and effect to complex patterns, that will indubitably lay the firm foundations for any leading company.</p>
+</div>
+
+
+
+</body>
+</html>

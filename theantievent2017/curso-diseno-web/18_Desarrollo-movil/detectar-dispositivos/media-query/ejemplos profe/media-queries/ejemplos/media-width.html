@@ -1,0 +1,57 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<!--obligatorio poner viewport (sino falla ipad)-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8">
+<title>media queries</title>
+<style type="text/css">
+/* @media only screen and...  por defecto no funciona en IE 7 y 8 (se puede arreglar con JS)
+
+Los Media Query no están soportados por todos los móviles: BlackBerry anteriores a 6.0, Windows Phone 7 y NetFront; y algunos Android no lo soportan. Lo recomendable es poner para móviles sin @media: */
+
+/*################# MOVIL ###################*/
+    body {
+     background-image: url(layout_grid.jpg);
+     margin: 0px;
+    }  
+
+    #caja {
+     position: absolute;
+     left: 49px;
+     top: 102px;
+     width: 210px;
+     height: 527px;
+
+	background-color: pink;
+    }
+
+
+
+/*################# TABLETA ###################*/
+@media only screen and (min-width: 481px){
+    #caja {
+     background-color: teal;
+    }  
+}
+
+
+
+/*################# ESCRITORIO ###################*/
+@media only screen and (min-width: 769px)  {
+     #caja {
+ 	background-color: grey;
+    }   
+}
+
+
+</style>
+</head>
+
+<body>
+ <h2>detectar ancho navegador por CSS, y cambio color de fondo... </h2>
+
+ <div id="caja"></div>
+</body>
+</html>

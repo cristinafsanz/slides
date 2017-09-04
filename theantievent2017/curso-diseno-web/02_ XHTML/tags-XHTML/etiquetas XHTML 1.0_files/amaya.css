@@ -1,0 +1,80 @@
+/* Effective stylesheet produced by snapshot save */
+html { font-family: sans-serif; background-color: rgb(244, 244, 255); text-align: justify; margin: 0px 10px; }
+h1 { font-size: 200%; text-align: center; margin-left: 40px; font-weight: bold; }
+h2 { font-size: 120%; margin-left: -10px; font-weight: bold; }
+h3 { font-size: 110%; margin-left: -10px; font-weight: bold; }
+h4 { font-size: 105%; margin-left: -10px; font-weight: bold; }
+p { margin: 5px 0px; }
+p.aviso { margin: 10px; padding: 10px; border-left: 2px solid red; color: red; }
+.centrado { text-align: center; }
+.limpia { clear: both; }
+address#ultmod { border-top: 1px solid black; margin-top: 5px; padding-top: 5px; clear: both; margin-left: -5px; }
+pre.fuente { background-color: rgb(224, 224, 224); color: black; padding: 3px 5px; border: 2px solid rgb(125, 125, 125); margin: 0px 10px; }
+.fuente-num { color: blue; }
+kbd { font-family: sans-serif; font-weight: bold; font-style: oblique; }
+hr { clear: both; }
+hr.corta { width: 50%; text-align: center; clear: both; }
+a img { border: medium none; }
+table.indice td { vertical-align: top; }
+th { text-align: center; }
+col.centrado { padding: 0px 10px; text-align: center; }
+ol, ul { margin-top: 5px; }
+li { clear: both; }
+img#vpp { position: absolute; top: 5px; left: 5px; border: medium none; }
+img.d { float: right; margin-left: 10px; margin-bottom: 5px; border: medium none; }
+img.i { float: left; margin-right: 10px; margin-bottom: 5px; border: medium none; }
+object.ejercicio { width: 90%; height: 400px; border: 2px solid black; }
+p.enlace-ejercicio { margin-right: 5%; text-align: right; font-size: 80%; }
+.regla { border: 2px solid blue; padding: 8px 3px; }
+.selector { border: 2px solid red; padding: 5px 3px; }
+.declara { border: 2px solid green; padding: 5px 3px; }
+.propied { border: 2px solid black; padding: 2px; }
+.valor { border: 2px solid yellow; padding: 2px; }
+.barresta { background-color: rgb(212, 208, 200); font-family: serif; }
+.amaya-menu { background-color: rgb(212, 208, 200); font-family: serif; }
+.amaya-bug { border-left: 4px double red; border-right: 4px double red; margin: 0px 10px; padding: 0px 10px; }
+.amaya-atajo-teclado { font-family: monospace; font-weight: bold; font-size: 120%; }
+.ff-atajo-teclado { font-family: monospace; font-weight: bold; font-size: 120%; }
+.ff-menu { background-color: rgb(212, 208, 200); font-family: serif; }
+.ie-menu { background-color: rgb(212, 208, 200); font-family: serif; }
+.incompleto { color: red; background-color: rgb(255, 238, 255); }
+div.codcss, div.codhtml { border: 2px solid rgb(127, 127, 128); background-color: rgb(222, 222, 222); margin: 5px 20px; padding: 10px; }
+.css-sele { font-style: oblique; background-color: NavajoWhite; }
+.css-prop { font-style: oblique; background-color: lightyellow; }
+.css-valor { font-style: oblique; background-color: Aquamarine; }
+.css-unidad { font-style: oblique; background-color: PaleGreen; }
+.css-pseudo { font-style: oblique; background-color: PowderBlue; }
+.css-prop:hover { color: black; background-color: LightGrey; }
+.css-valor:hover { color: black; background-color: LightGrey; }
+.css-unidad:hover { color: black; background-color: LightGrey; }
+.css-pseudo:hover { color: black; background-color: LightGrey; }
+.html-eti { font-style: oblique; background-color: NavajoWhite; }
+.html-eti:hover { color: NavajoWhite; background-color: silver; }
+.html-atri { font-style: oblique; background-color: MintCream; }
+.html-atri:hover { color: MintCream; background-color: silver; }
+.html-atri-valor { font-style: oblique; background-color: rgb(238, 238, 238); }
+.html-atri-valor:hover { color: NavajoWhite; background-color: silver; }
+table.ejemplo { width: 100%; text-align: left; border-spacing: 5px; }
+td.ffie { width: 20px; }
+td.codcss { width: 50%; background-color: rgb(224, 224, 224); border: 2px solid rgb(125, 125, 125); padding: 0px 5px; vertical-align: top; }
+td.codhtml { width: 50%; background-color: rgb(224, 224, 224); border: 2px solid rgb(125, 125, 125); padding: 0px 5px; vertical-align: top; }
+td.resul { width: 50%; background-color: lightyellow; border: 2px solid rgb(125, 125, 125); }
+td.solores { width: 100%; background-color: lightyellow; border: 2px solid rgb(125, 125, 125); }
+table.listado { border: medium none; text-align: left; }
+table.listado tr.titulo td { border-right: medium none; border-width: 20px medium medium; border-style: solid none none; border-color: rgb(244, 244, 255) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; background-color: rgb(255, 196, 196); font-weight: bolder; }
+table.listado tr.cabecera td { border-width: medium medium 2px; border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color black; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-image: none; }
+table.centrado { margin-left: auto; margin-right: auto; }
+math { font-family: sans-serif; font-size: 105%; }
+div.diario { margin: 20px 50px 3px; padding-left: 20px; }
+div.diario p.fecha { font-weight: bolder; margin-top: 0px; margin-left: -20px; padding: 5px; }
+div.gr1 { border: 3px solid rgb(201, 201, 255); background-color: rgb(231, 231, 255); }
+div.gr1 p.fecha { background-color: rgb(201, 201, 255); color: rgb(255, 255, 255); }
+div.gr2 { border: 3px solid rgb(176, 226, 147); background-color: rgb(206, 255, 206); }
+div.gr2 p.fecha { background-color: rgb(176, 226, 147); color: rgb(255, 255, 255); }
+div.bug-amaya-pendi { border-left: 3px solid red; margin: 10px; padding-left: 20px; }
+div.bug-amaya-cvs { border-left: 3px solid yellow; margin: 10px; padding-left: 20px; }
+div.bug-amaya-corre { border-left: 3px solid green; margin: 10px; padding-left: 20px; }
+div.bug-amaya-nobug { border-left: 3px solid black; margin: 10px; padding-left: 20px; }
+div.obsoleto { border-left: 5px solid red; padding-left: 20px; }
+div.salto { page-break-before: always; }
+div.salto div { page-break-before: avoid; }

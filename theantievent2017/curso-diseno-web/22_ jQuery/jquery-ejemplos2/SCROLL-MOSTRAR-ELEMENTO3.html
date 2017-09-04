@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<style>
+#apDiv1 {
+ width: 440px;
+ height: 100%;
+border:2px dotted;
+float:left;
+}
+#apDiv2 {
+ width: 233px;
+ height: 100%;
+float:left;
+border:2px dashed;
+}
+#contenedor {margin:0 auto;
+ width: 701px;
+}
+#oculto {
+ width: 100%;
+ height: 100%;
+ background-color: #996699;
+}
+</style>
+<script>
+
+$(function(){
+
+		$("#oculto").hide();
+
+		$(document).scroll(function(){
+
+			var y = $(document).scrollTop();
+
+			if(y > 400){$("#oculto").fadeIn(800);}
+			else{$("#oculto").fadeOut(800);}
+
+		});
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div id="contenedor">
+<div id="apDiv1">
+<h1 id="titulo">mostrar elementos por scroll</h1>
+  <p>Ut aliquip ex ea commodo consequat. Excepteur sint occaecat duis aute irure dolor lorem ipsum dolor sit amet. Sunt in culpa consectetur adipisicing elit, ut enim ad minim veniam. Cupidatat non proident, duis aute irure dolor sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua.</p>
+  <p>Eu fugiat nulla pariatur. Excepteur sint occaecat consectetur adipisicing elit, in reprehenderit in voluptate. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>Sed do eiusmod tempor incididunt velit esse cillum dolore excepteur sint occaecat. Quis nostrud exercitation consectetur adipisicing elit, cupidatat non proident. Ut enim ad minim veniam, in reprehenderit in voluptate sed do eiusmod tempor incididunt. Velit esse cillum dolore excepteur sint occaecat duis aute irure dolor.</p>
+  <p>Sunt in culpa ullamco laboris nisi ut labore et dolore magna aliqua. Qui officia deserunt mollit anim id est laborum. Duis aute irure dolor consectetur adipisicing elit, ut aliquip ex ea commodo consequat. Ullamco laboris nisi cupidatat non proident, mollit anim id est laborum.</p>
+  <p>Quis nostrud exercitation lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Duis aute irure dolor ut enim ad minim veniam, qui officia deserunt. Velit esse cillum dolore excepteur sint occaecat ut aliquip ex ea commodo consequat.</p>
+  <p>Ut labore et dolore magna aliqua. Ut labore et dolore magna aliqua. Ut enim ad minim veniam, eu fugiat nulla pariatur. Sunt in culpa ut aliquip ex ea commodo consequat. Consectetur adipisicing elit, lorem ipsum dolor sit amet, quis nostrud exercitation.</p>
+  <p>Qui officia deserunt mollit anim id est laborum. In reprehenderit in voluptate excepteur sint occaecat velit esse cillum dolore. Consectetur adipisicing elit, lorem ipsum dolor sit amet, ut aliquip ex ea commodo consequat.</p>
+  <p>Ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, ullamco laboris nisi velit esse cillum dolore. Ut aliquip ex ea commodo consequat. Quis nostrud exercitation cupidatat non proident, consectetur adipisicing elit. Sed do eiusmod tempor incididunt eu fugiat nulla pariatur.</p>
+  <p>Duis aute irure dolor excepteur sint occaecat ut aliquip ex ea commodo consequat. Sunt in culpa lorem ipsum dolor sit amet, ullamco laboris nisi. Eu fugiat nulla pariatur. Ut labore et dolore magna aliqua. In reprehenderit in voluptate consectetur adipisicing elit, quis nostrud exercitation.</p>
+  <p>Duis aute irure dolor lorem ipsum dolor sit amet, eu fugiat nulla pariatur. Qui officia deserunt ullamco laboris nisi mollit anim id est laborum. Velit esse cillum dolore lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit in voluptate quis nostrud exercitation sunt in culpa. Cupidatat non proident, sed do eiusmod tempor incididunt.</p>
+  <p>Quis nostrud exercitation ullamco laboris nisi lorem ipsum dolor sit amet. Duis aute irure dolor eu fugiat nulla pariatur. Ut labore et dolore magna aliqua. Velit esse cillum dolore mollit anim id est laborum.</p>
+  <p>Qui officia deserunt sed do eiusmod tempor incididunt lorem ipsum dolor sit amet. Ut labore et dolore magna aliqua. Excepteur sint occaecat quis nostrud exercitation velit esse cillum dolore.</p>
+  <p>Duis aute irure dolor ullamco laboris nisi. Ut aliquip ex ea commodo consequat. Consectetur adipisicing elit, velit esse cillum dolore ut enim ad minim veniam.</p>
+  <p>In reprehenderit in voluptate excepteur sint occaecat qui officia deserunt. Ut aliquip ex ea commodo consequat. Sunt in culpa ullamco laboris nisi velit esse cillum dolore. Consectetur adipisicing elit, qui officia deserunt in reprehenderit in voluptate. Ut labore et dolore magna aliqua.</p>
+  <p>Cupidatat non proident, sed do eiusmod tempor incididunt. Duis aute irure dolor ut labore et dolore magna aliqua. Consectetur adipisicing elit, lorem ipsum dolor sit amet, cupidatat non proident. Ut enim ad minim veniam, qui officia deserunt excepteur sint occaecat.</p>
+</div>
+<div id="apDiv2">
+  <p>Velit esse cillum dolore quis nostrud exercitation consectetur adipisicing elit. Eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt sunt in culpa mollit anim id est laborum.</p>
+  <p>Cupidatat non proident, consectetur adipisicing elit, velit esse cillum dolore. Quis nostrud exercitation excepteur sint occaecat eu fugiat nulla pariatur. Qui officia deserunt in reprehenderit in voluptate sed do eiusmod tempor incididunt. Duis aute irure dolor. Ullamco laboris nisi in reprehenderit in voluptate excepteur sint occaecat.</p>
+  <p>Sunt in culpa quis nostrud exercitation duis aute irure dolor. Velit esse cillum dolore qui officia deserunt consectetur adipisicing elit. Lorem ipsum dolor sit amet, quis nostrud exercitation in reprehenderit in voluptate.</p>
+  <p>Sunt in culpa ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ullamco laboris nisi quis nostrud exercitation. Consectetur adipisicing elit, ullamco laboris nisi sed do eiusmod tempor incididunt. Excepteur sint occaecat velit esse cillum dolore sunt in culpa.</p>
+  <p>Mollit anim id est laborum. Ut labore et dolore magna aliqua. Cupidatat non proident, consectetur adipisicing elit, ullamco laboris nisi.</p>
+
+    <div id="oculto">
+      <p>Quis nostrud exercitation in reprehenderit in voluptate ut aliquip ex ea commodo consequat. Excepteur sint occaecat ut enim ad minim veniam, ullamco laboris nisi. Ut labore et dolore magna aliqua. Mollit anim id est laborum.</p>
+    </div>
+
+</div>
+
+
+</div>
+</body>
+</html>

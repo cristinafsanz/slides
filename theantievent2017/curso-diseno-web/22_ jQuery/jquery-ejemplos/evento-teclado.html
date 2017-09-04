@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+	$("#key").keydown(function () {
+		$("#apDiv1").html("pulsáste una tecla");
+	});
+
+	$("#key2").keypress(function (event) {
+		$("#apDiv1").html('código de la tecla = '+ event.which);
+		//$("#apDiv1").html(event.which + ": " + String.fromCharCode(event.which))//para saber código y tecla
+	});
+});
+
+</script>
+<style>
+#apDiv1 {
+ position:absolute;
+ left:320px;
+ top:14px;
+ width:877px;
+ height:183px;
+ z-index:1;
+ font-size:50px;
+}
+</style>
+</head>
+
+<body>
+
+<p>Prueba keydown: <input type="text" name="key" id="key" /></p>
+<p>Saber código de tecla: <input type="text" name="key2" id="key2" /></p>
+
+
+<div id="apDiv1"></div>
+</body>
+</html>

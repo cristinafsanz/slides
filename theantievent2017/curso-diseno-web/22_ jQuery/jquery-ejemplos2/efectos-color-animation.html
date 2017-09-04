@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<!--Color animation jQuery-plugin (¡ojo!, hay 2 versiones: jQuery 1.7 e inferior; y jQuery 1.8 y superior)-->
+<script src="scripts/jquery.animate-colors-min.js"></script>
+
+<script>
+/*nota: no se pueden usar nombres de colores: blue, red, teal,...
+tampoco el shorthand de background
+cambia el "color" si lo tiene el elemento llamado (#micapa ), pero si lo llevara el h1 no locambiaría.
+*/
+$(function(){
+   $("#micapa").hover(
+   function(){
+     $(this).stop(true).animate({"background-color":"#400101","border-color":"#FF3300","color":"#99FF00"},"slow");
+     },
+	 function(){
+     $(this).stop(true).animate({"background-color":"#FF3300","border-color":"#00F","color":"#FFF"},"slow");
+     });
+});
+
+
+</script>
+<style>
+#micapa {
+ position:absolute;
+ left:177px;
+ top:58px;
+ width:537px;
+ height:124px;
+ z-index:1;
+ background-color: #FF3300;
+ border:10px solid #00F;
+ color:#FFF;
+}
+
+</style>
+</head>
+
+<body>
+<div id="micapa">
+  <h1>Color animation jQuery-plugin</h1>
+</div>
+</body>
+</html>

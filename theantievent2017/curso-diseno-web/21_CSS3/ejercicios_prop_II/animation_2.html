@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>		
+	@keyframes mover {
+		0%{transform:translate(0,0); opacity:1; width:200px;}
+		25%{transform:translate(500px,0); opacity:0.5;}
+		50%{transform:translate(500px,300px); opacity:0.5;width:600px;}
+		75%{transform:translate(100px,300px); opacity:0.1;}
+		100%{transform:translate(600px,100px); opacity:1;}
+	}
+	#escultura {
+		animation:mover 4s ease-out forwards;	
+	}
+</style>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script>
+	$(function(){
+		$('#escultura').toggle(function(){
+			$(this).addClass("rotate");
+		}, function(){
+			$(this).removeClass("rotate");
+		});
+	});
+</script>
+</head>
+
+<body>	
+	<img id="escultura" src="images/retro-sunlight-texture.jpg" />    
+</body>
+</html>

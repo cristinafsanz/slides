@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$("#foto").hide();
+		
+		$("#boton").toggle(function(){
+			$("#foto").fadeIn(800);
+		}, function(){
+			$("#foto").fadeOut(800);
+		});	
+	});
+</script>
+</head>
+
+<body>
+	<p><a href="#" id="boton">activador</a></p>
+	<p><img src="images/foto1.jpg" id="foto" width="1024" height="325" alt="foto" /></p>    
+</body>
+</html>

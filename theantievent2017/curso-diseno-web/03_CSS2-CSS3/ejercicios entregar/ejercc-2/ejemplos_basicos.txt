@@ -1,0 +1,21 @@
+01) Todos los párrafos serán de color verde
+
+02) Algunos parrafos serán azules, otros verdes, el resto amarillos
+
+03) Los enlaces dentro de encabezados h2 son rojos
+
+04) Sólo existe un párrafo que sea de color rojo
+
+05) Algunos párrafos que se encuentran dentro de una capa (div) son verdes
+
+06) Todos los enlaces que se encuentren dentro de encabezados h2 dentro de capas (div) son verdes 
+
+07) Una tabla concreta es de color rojo
+
+08) Tengo una capa (div) de color rojo y otra de color verde
+
+09) algunos enlaces que se encuentren dentro las tablas son de color rojo si la tabla está dentro de una capa
+
+10) Todos las cajas de texto ("input") de los formularios son de color rojo
+
+11) Algunas de las cajas de texto ("input") de los formularios son de color rojo

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--[if lt IE 9]>
+  <script src="css/html5.js"></script>
+<![endif]-->
+  <link rel="stylesheet" href="css/demo.css" /><!--demo.css es un reset, se puede quitar--> 
+<!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.css" />
+<!--<![endif]-->
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="css/ie.css" />
+<![endif]-->
+</head>
+<style>
+	div{
+		outline:1px solid;		
+	}
+</style>
+<body>
+<div class="grid-container">
+	<div class="grid-40">
+	  <p>40%</p>
+	  <p>&nbsp;</p>
+	</div>
+	<div class="grid-60">
+	  <p>60%</p>
+	  <p>&nbsp;</p>
+	</div>
+    <div class="clear"></div>
+    
+    <div class="grid-10">
+      <p>10%</p>
+      <p>&nbsp;</p>
+    </div>
+	<div class="grid-80 grid-parent">
+	  <p>80%</p>
+	  <div class="grid-70">Semi A</div>
+      <div class="grid-30">Semi B</div>
+	</div>
+    <div class="grid-10">
+      <p>10%</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="clear"></div>
+    
+    <div class="grid-70 suffix-30">Pie</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+/*general*/
+body{font-size:62.5%;
+font-family:Arial, Helvetica, sans-serif;
+margin:0; 
+padding:0; 
+}
+#menu,p{font-size:1.2em;
+clear:both;
+}
+
+/*quitar viñetas*/
+ul,li{
+list-style-type:none;
+}
+
+/*para ponerlo en horizontal*/
+#menu li{
+float:left;
+}
+
+/*formato de caja de li y a*/
+#menu a,#menu ul li{display:block;
+width:6em;
+height:1.4em;
+padding:1em;
+}
+
+/*enlaces*/
+a{
+background-color:#C8D3DB;
+color:#1C242B;
+text-decoration:none;
+}
+
+a:hover {
+background-color:#36C;
+color:#fff;
+}
+
+/*### clase para resaltar item ###*/
+.marcado {
+background-color:#36C;
+color:#fff;
+cursor:default;
+}
+</style>
+
+<!--framework jQuery-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+$(function(){
+        $("#menu a").click(function(){
+        	$("#menu a").removeClass('marcado');
+            $(this).addClass('marcado');
+        })
+});
+</script>
+</head>
+
+<body>
+
+<ul id="menu">
+  <li><a href="#uno">epígrafe 1</a></li>
+  <li><a href="#dos">epígrafe 2</a></li>
+  <li><a href="#tres">epígrafe 3</a></li>
+  <li><a href="#cuatro">epígrafe 4</a></li>
+  <li><a href="#cinco">epígrafe 5</a></li>
+</ul>
+<h2 id="uno">&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2>Ut aliquip ex ea commodo</h2>
+<p> consequat. Eu fugiat nulla pariatur. Excepteur sint occaecat duis aute irure dolor quis nostrud exercitation.</p>
+<h2 id="dos">Consectetur adipisicing</h2>
+<p> elit, in reprehenderit in voluptate cupidatat non proident. Ullamco laboris nisi excepteur sint occaecat ut labore et dolore magna aliqua. Consectetur adipisicing elit, velit esse cillum dolore duis aute irure dolor. Ullamco laboris nisi ut enim ad minim veniam, sunt in culpa. Velit esse cillum dolore consectetur adipisicing elit, duis aute irure dolor.</p>
+<h2 id="tres">Sed do eiusmod tempor</h2>
+<p> incididunt ut labore et dolore magna aliqua. Sunt in culpa ut enim ad minim veniam, ullamco laboris nisi. Mollit anim id est laborum. Excepteur sint occaecat quis nostrud exercitation velit esse cillum dolore. Duis aute irure dolor ut labore et dolore magna aliqua.</p>
+<h2 id="cuatro">In reprehenderit in voluptate</h2>
+<p> excepteur sint occaecat ut enim ad minim veniam. Ut labore et dolore magna aliqua. Consectetur adipisicing elit, ut enim ad minim veniam, quis nostrud exercitation. Ullamco laboris nisi eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, mollit anim id est laborum.</p>
+<h2 id="cinco">Sunt in culpa qui officia</h2>
+<p> deserunt in reprehenderit in voluptate. Ullamco laboris nisi sed do eiusmod tempor incididunt lorem ipsum dolor sit amet. Duis aute irure dolor consectetur adipisicing elit, mollit anim id est laborum. Velit esse cillum dolore eu fugiat nulla pariatur. Ut aliquip ex ea commodo consequat.</p>
+</body>
+</html>

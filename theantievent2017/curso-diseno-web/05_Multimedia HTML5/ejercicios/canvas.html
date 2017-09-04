@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+	canvas {
+		background-color:#CCC;
+	}
+</style>
+<script>
+	window.onload=function(){
+		var milienzo=document.getElementById("canvas");
+		var midibujo=milienzo.getContext("2d");
+		midibujo.fillStyle="rgb(255, 102,0)";
+		midibujo.fillRect(50, 100, 350, 180);
+	}
+</script>
+</head>
+
+<body>
+<canvas id="canvas" width="550" height="400"></canvas>
+</body>
+</html>

@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--jQuery-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!--jquery-ui-1.10.4.efectos necesario para animación "easeInOutBack..."; ver todas:
+http://ralphwhitbeck.com/demo/jquery-ui-easing-effects-demo-and-documentation/-->
+<script src="jquery-ui-1.10.4.efectos.min.js"></script>
+<script>
+$(function(){
+	$("#contenido").hover(function(){
+		$("#contenido #texto").stop(true).animate({"margin-left":"-250px"},900,"easeInOutBack");
+	},function(){
+		$("#contenido #texto").stop(true).animate({"margin-left":"0px"},900,"easeOutBounce");
+	});
+});
+</script>
+<style type="text/css">
+#contenido
+{
+width:196px;
+height:152px;
+overflow:hidden;
+background-image:url(img/hawai.jpg);
+border:2px solid #FFF;
+border-radius:4px;
+}
+
+#contenido #texto
+{
+width:190px;
+height:146px;
+overflow:hidden;
+background-color:#036;
+margin:0;
+padding:5px;
+}
+
+body {
+ background-color: #F60;
+}
+body,td,th {
+ color: #CCC;
+ font-family: Verdana, Geneva, sans-serif;
+ font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="contenido">
+	<div id="texto">
+      <h3>Hawái</h3>
+      <p>Hawái es el más reciente de los cincuenta estados de los Estados Unidos (desde el 21 de agosto de 1959). </p>
+  </div>
+</div>
+
+</body>
+</html>

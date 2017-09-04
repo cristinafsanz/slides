@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+div.rojo {
+	border:1px solid #F06;
+}
+
+div.verde {
+	border:1px solid #0F3;
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TRUE NATURE</title>
+<style type="text/css">
+	body {
+		font-family: Arial;
+		background-color: #3a3a3a;
+	}
+	div#contenedor {
+		width: 960px;
+		height: 1300px;
+		margin:0 auto;
+	}	
+	header#principal {
+		width: 960px;
+		height: 382px;
+		float: left;
+	} 
+	header#principal h1 {
+		color: #a5c35c;
+		font-size: 40px;
+	}
+	header#principal span {
+		color: #000;
+		font-size: 15px;
+		display:block;		
+	}	
+	nav {
+		width: 960px;
+		height: 48px;
+		background-color:#000;		
+		float: left;
+		clear: left;
+	}	
+	section#seccion {
+		width: 550px;
+		height: 860px;
+		float: left;
+		margin: 20px 10px 10px 0;
+	}
+	section#seccion section footer { 
+		font-size:14px;
+	}
+	section#seccion section .imagenYTexto {
+		margin-top: 30px;
+	}	
+	section#seccion section .imagenYTexto img {
+		float: left;
+		margin: -10px 20px 0 0;
+	}	
+	section#seccion section .imagenYTexto span {
+		text-align: justify;
+	}		
+	img.separador{
+		float:left;
+		clear:left;
+		width: 540px;
+		height: 3px;
+		margin: 30px 0;
+	}		 
+	aside {
+		width: 300px;
+		height: 560px;
+		float: left;
+		margin: 20px;
+	}	
+	aside img {
+		float: left;
+		margin: 20px 40px 0 40px;
+		height: 830px;
+		width: 3px;
+	}	
+	footer#pie {
+		width:960px;
+		height: 98px;
+		float: left;
+		clear: left;		
+	}	
+	footer#pie p {
+		font-size: 14px;		
+	}	
+	footer#pie img#separadorFinal {
+		float:left;
+		clear:left;
+		width: 900px;
+		height: 3px;
+		margin: 30px 0;
+	}
+	a {
+		color: #a5c35c;
+	}
+	ul#menu, ul#menu li ol {
+		padding:0;
+	}
+	/* info menú */
+	#menu {
+		background-image:url(images/img04.jpg);
+	}
+	#menu li {
+		list-style-type: none;	
+		width: 138px;
+		height: 48px;
+		/*background-image:url(images/img04.jpg);*/					
+		float: left;		
+	}	
+	/* Info submenú */
+	#menu li ol{
+		display: none;								
+	}
+	#menu li ol li{
+		background:#000;
+		padding: 0px;		
+	}
+	#menu li ol li:hover{
+		background:#000;
+		padding: 0px;		
+	}	
+	
+	#menu li:hover ol{
+		display: block;
+		position: relative;	
+		top: -16px;		
+	}		
+	#menu a:link, #menu a:visited {
+		color:#fff;
+		height:48px;
+		text-decoration: none;		
+		display:block;
+		width: 95px;
+		padding:0 0 0 25px;
+		font-size: 14px;		
+	}	
+	#menu a:hover {
+		color:#F60;
+	}	
+</style>
+</head>
+
+<body>
+<div id="contenedor">
+
+	<!--#include file="header.html" -->
+    
+    <section id="seccion">
+        <section>
+            <header>
+                <h2>WELCOME TO TRUENATURE SEGUNDA</h2>        	
+            </header>
+            <footer>
+                Posted by <a href="#">Someone</a> on February 10, 2011
+                <a href="#">Comments (64)</a>
+                <a href="#">Full article</a>
+            </footer>
+            <div class="imagenYTexto">
+                <img src="images/img08.jpg" />
+                <span>True Nature Unfolds is the first true full-length album by the Finnish post-metal band Callisto. It was first released in 2004 by Fullsteam Records, and then re-released in 2005 by Earache Records with different artwork. The lyrics reference Christian themes in most of the songs.</span>            
+            </div>
+            <img class="separador" src="images/img05.jpg" />
+        </section>
+        <section>
+            <header>
+                <h2>TRACK TITLE</h2>        	
+            </header>
+            <footer>
+                Posted by <a href="#">Someone</a> on February 10, 2011
+                <a href="#">Comments (64)</a>
+                <a href="#">Full article</a>
+            </footer>
+            <div class="imagenYTexto">
+                <img src="images/img09.jpg" />
+                <span>The introductory track's title is that of a geographic coordinate that is pointing to Golgotha, a hill just outside the walls of ancient Jerusalem where Jesus Christ was crucified according to the Bible.</span>            
+            </div>
+            <img class="separador" src="images/img05.jpg" />
+        </section>
+        <section>
+            <header>
+                <h2>HISTORY</h2>        	
+            </header>
+            <footer>
+                Posted by <a href="#">Someone</a> on February 10, 2011
+                <a href="#">Comments (64)</a>
+                <a href="#">Full article</a>
+            </footer>
+            <div class="imagenYTexto">
+                <img src="images/img07.jpg" />
+                <span>True Nature Unfolds is the first true full-length album by the Finnish post-metal band Callisto. It was first released in 2004 by Fullsteam Records, and then re-released in 2005 by Earache Records with different artwork. The lyrics reference Christian themes in most of the songs.</span>            
+            </div>
+            <img class="separador" src="images/img05.jpg" />
+        </section>
+   </section>
+    <aside>
+    	<img src="images/img06.jpg" />
+    	<section>        	
+        	<header>
+            	<h3>TRACKS</h3>                
+            </header>
+            <a href="#">Track 1 from Truenature</a><br/>
+            <a href="#">Track 2 from Truenature</a><br/>
+            <a href="#">Track 3</a><br/>
+            <a href="#">Track 4</a><br/>
+            <a href="#">Track 5</a><br/>
+            <a href="#">Track 6</a><br/>
+            <a href="#">Track 7</a><br/>
+        </section>
+        <section>        	
+        	<header>
+            	<h3>RECENT POSTS</h3>                
+            </header>
+            <a href="#">Track 1 from Truenature</a><br/>
+            <a href="#">Track 2 from Truenature</a><br/>
+            <a href="#">Track 3</a><br/>
+            <a href="#">Track 4</a><br/>
+            <a href="#">Track 5</a><br/>
+            <a href="#">Track 6</a><br/>
+            <a href="#">Track 7</a><br/>
+        </section>
+    </aside>
+    <footer id="pie">
+    	<img id="separadorFinal" src="images/img05.jpg" />
+        <p>Copyright @ 2010. Designed by CSS Templates</p>
+    </footer>
+</div>
+</body>
+</html>

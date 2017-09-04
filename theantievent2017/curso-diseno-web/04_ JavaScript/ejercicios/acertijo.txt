@@ -1,0 +1,1 @@
+Acertijo: piensa en un nº (mejor del 1 al 10); multiplícalo por 2; súmale 8; y dividelo entre 2. Réstale el nº que pensaste.

@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+     <head>
+          <title>Ejemplo</title>
+          <meta charset="utf-8">
+          <!--[if lte IE 8]> 
+			<script src="js/html5.js"></script>
+		  <![endif]-->
+          <style type="text/css">
+		  	#contenedor {
+				width: 960px;
+				height: 900px;
+			}
+		  	header#titulo {
+				width: 960px;
+				height: 200px;
+				background-color:#FF9;
+				float:left;
+				margin-bottom: 10px;
+			}			
+			nav {
+				width: 960px;
+				height: 200px;
+				background-color:#6F9;
+				float:left;
+				clear:left;
+				margin-bottom: 10px;
+			}			
+			article {
+				width: 560px;
+				height: 500px;
+				background-color:#C66;
+				float:left;				
+			}
+			aside {
+				padding-top: 10px;
+				margin-left: 10px;
+				width: 390px;
+				height: 490px;
+				background-color:#CCC;
+				float:left;
+			}
+			#section1 {
+				padding-top: 10px;
+				margin: 10px 10px 20px 10px;
+				height: 170px;
+				background-color:#FC9;
+			}
+			#section2 {
+				padding-top: 10px;
+				margin: 10px;
+				height: 170px;
+				background-color:#FC9;
+			}
+			footer {
+				margin: 10px 0 10px 0;				
+				padding-top: 10px;
+				width: 960px;
+				height: 200px;
+				background-color:#0CF;
+				float:left;
+				clear: left;
+			}
+			span.negrita {
+				font-weight: bold;
+			}
+		  </style>
+     </head>
+     <body>
+     	<div id="contenedor">
+            <header id="titulo">
+                <h1>título</h1>
+                <p><span class="negrita">header</span> representa una cabecera</p>
+            </header>        
+            <nav><ul>
+            	<li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+            </ul>            
+                    <p><span class="negrita">nav</span> representa una sección dedicada a la navegación entre el sitio</p>
+            </nav>
+            <article>
+                <header><h2>Mi artículo</h2></header>
+                <p><span class="negrita">article</span> representa un contenido independiente en un documento</p>
+                <section id="section1">
+                	<h3>mi section 1</h3>
+                	<span class="negrita">section</span> representa una sección general dentro de un documento
+                </section>
+                <section id="section2">
+                	<h3>mi section 2</h3>
+                	<span class="negrita">section</span> representa una sección general dentro de un documento
+                </section>
+            </article>    
+            <aside><span class="negrita">aside</span> representa un contenido que está muy poco relacionado con el resto de la página</aside>
+            <footer><span class="negrita">footer</span> representa un pie</footer>
+        </div>
+     </body>
+</html>

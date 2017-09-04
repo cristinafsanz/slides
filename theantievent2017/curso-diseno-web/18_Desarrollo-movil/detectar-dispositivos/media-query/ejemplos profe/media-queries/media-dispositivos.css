@@ -1,0 +1,39 @@
+﻿/*********** detectar dispositivo por resolución de pantalla ***************/
+
+
+/* móvil: menos de 480 px */
+
+body{background-color:#fff;
+}
+
+
+/* tableta: de 481 px a 768 px */
+
+@media only screen and (min-width: 481px) {
+body{background-color:#ccc;
+}
+}
+
+/* escritorio: más de 769 px */
+
+@media only screen and (min-width: 769px) {
+ body{background-color:#333;
+}
+}
+
+
+/*************** además para móviles/tabletas ***************/
+
+
+/*portrait: más alto que ancho*/
+
+@media only screen and (orientation:portrait)  {
+    
+}
+
+/*landscape: mas ancho que alto*/
+
+@media only screen and (orientation:landscape)  {
+
+}
+

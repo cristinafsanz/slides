@@ -1,0 +1,44 @@
+01) Todos los párrafos serán de color verde
+HTML: <p>
+CSS: p{color:green;}
+
+02) Algunos parrafos serán azules, otros verdes, el resto amarillos
+CSS: p.azul{...} ... y tb vale    .azul{...} (para verde igual); p{color:yellow;}
+html: <p class="azul">    <p class="verde">     <p>
+
+03) Los enlaces dentro de encabezados h2 son rojos
+css: h2 a{...}
+html: <h2>....<a>....</h2>
+
+04) Sólo existe un párrafo que sea de color rojo
+css: #rojo{...}  y tb vale    p#rojo{...}
+html: <p id="rojo">
+
+05) Algunos párrafos que se encuentran dentro de una capa (div) son verdes
+css: div p.verde{...}
+html: <div>....<p class="verde">...</div>
+
+06) Todos los enlaces que se encuentren dentro de encabezados h2 dentro de capas son verdes
+css:div h2 a{...}
+html: <div>... <h2>... <a>
+ 
+07) Una tabla concreta es de color rojo
+css: table#rojo{...}
+html: <table id="rojo">
+
+08) Tengo una capa de color rojo y otra de color verde
+css:div#rojo{...}   div#verde{...}
+html:<div id ="rojo">....</div>                   <div id ="verde">....</div>
+
+
+09) algunos enlaces que se encuentren dentro las tablas son de color rojo si la tabla está dentro de una capa
+css: div table a.rojo{...}
+html: <div>... <table>.... <tr>... <td>... <a class="rojo">
+
+10) Todos las cajas de texto ("input") de los formularios son de color rojo
+css: input{...}    form input{...}
+
+11) Algunas de las cajas de texto ("input") de los formularios son de color rojo
+css: input.rojo{...}
+
+html: <form>.....<input class="rojo"...>

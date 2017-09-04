@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<form action="recibir.php" id="form1" name="form1" method="post">
+  <p>
+    <label for="textfield">Nombre:</label>
+    <input name="textfield" type="text" id="textfield" pattern="[A-z]{1-20}" title="mayúsculas y minúsculas" placeholder="Dame tu nombre">
+  </p>
+  <p>
+    <label for="textfield2">Edad:</label>
+    <input type="text" name="textfield2" id="textfield2" pattern="[0-9]{1,3}" title="con número">
+  </p>
+  <p>
+    <label for="textfield3">Tarjeta cred.:</label>
+    <input type="text" name="textfield3" id="textfield3" pattern="[0-9]{12}" title="con número">
+  </p>
+  <p>
+    <label for="textfield4">Contraseña:</label>
+    <input type="text" name="textfield4" id="textfield4" pattern="[0-9A-z]{8,}" title="mínimo 8 caracteres">
+  </p>
+  <p>
+    <label for="textfield5">Socio:</label>
+    <input type="text" name="textfield5" id="textfield5" pattern="[0-9]{4}[A-Z]{3}" title="mínimo 8 caracteres">
+  </p>
+  <p>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+  </p>
+</form>
+</body>
+</html>

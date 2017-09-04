@@ -1,0 +1,102 @@
+fuente: "Trebuchet MS" 16px 
+
+fondo: #E4E4E4
+
+color gris textos: #3F3E3C
+
+color rosa texto: #FF6666
+
+color salmón botón: #FF9966
+
+###########################################
+
+Home About Portfolio News Contact
+
+
+
+Welcome
+
+Douglas Adams: One of the problems of taking things apart and seeing how they work - supposing you're trying to find out how a cat works--you take that cat apart to see how it works, what you've got in your hands is a non-working cat. The cat wasn't a sort of clunky mechanism that was susceptible to our available tools of analysis.
+
+
+
+
+I am watching...
+
+gato
+
+Cats don't like change without their consent. Cats can be cooperative when something feels good, which, to a cat, is the way everything is supposed to feel as much of the time as possible. The cat is a creature of most refined and subtle perceptions naturally.
+
+Read more
+
+
+
+
+I am thinking...
+
+gato
+
+There are people who reshape the world by force or argument, but the cat just lies there, dozing; and the world quietly reshapes itself to suit his comfort and convenience.
+
+Read more
+
+
+
+
+
+
+I am resting...
+
+gato
+
+The thing about cats, As you may find, Is that no one knows What they have in mind.
+
+Read more
+
+
+
+
+
+
+And purr sleeping..
+
+gato
+
+Cats have always been associated with the Moon. Like the Moon, they come to life at night, escaping from humanity and wandering over housetops with their eyes beaming out through the darkness.
+
+Read more
+
+
+
+
+
+
+Fernand Mery quote
+
+gatoWith the qualities of cleanliness, affection, patience, dignity, and courage that cats have, how many of us, I ask you, would be capable of becoming cats? God made the cat in order that man might have the pleasure of caressing the lion. Are cats lazy? Well, more power to them if they are. Which one of us has not entertained the dream of doing just as he likes, when and how he likes, and as much as he likes? The cat is magical and the bringer of good luck. - Indian
+
+
+
+
+
+
+
+Behavior
+
+Sociability, Grooming
+Fighting, Hunting and feeding
+Play, Vocalizations
+
+
+
+
+Biology
+
+Taxonomy and evolution
+Genetics, Anatomy
+Physiology, Senses
+
+
+
+
+Design and code by marija zaric - creative simplicity © 2013 cats template

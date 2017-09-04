@@ -1,0 +1,9 @@
+El archivo html5.js sirve para que funcionen las etiquetas básicas (estructurales) del HTML 5 en Internet Explorer.
+
+Básicamente se basa en que con javascript se pueden crear etiquetas (elementos) html de la forma:
+
+document.createElement("header"); 
+document.createElement("nav"); 
+document.createElement("section");
+document.createElement("article");
+document.createElement("footer"); 

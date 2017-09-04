@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="js/jquery-1.7.2.min.js"></script><script>
+	$(function(){				
+		$("#contenedor section").click(function(){
+			$(this).css({"background": "red", "width": "600px"});		
+		});					
+	});	
+</script>
+<style>
+	#uno {
+		width:200px;
+		height:200px;
+		background:yellow;
+	}
+	#dos {
+		width:200px;
+		height:200px;
+		background:pink;
+	}
+	#tres {
+		width:200px;
+		height:200px;
+		background:grey;
+	}
+</style>
+</head>
+
+<body>
+	<div id="contenedor">
+        <section id="uno">Uno</section>
+        <section id="dos">Dos</section>
+        <section id="tres">Tres</section>
+    </div>
+</body>
+</html>

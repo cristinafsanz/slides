@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){
+		$("#contenedor div").hover(function(){
+			$(this).stop(true).animate({"width": "400px", "margin-top": "-85px"}, 395);
+			$("#contenedor").stop(true).animate({"width": "720px"}, 400); /* 400px + 2x150px + márgenes */			
+			
+		}, function(){
+			$(this).stop(true).animate({"width": "150px", "margin-top": "0"}, 395);	
+			$("#contenedor").stop(true).animate({"width": "462px"}, 400);					
+		});		
+	});
+</script>
+<style>	
+	img {
+		max-width:100%;		
+	}
+	#contenedor {
+		width: 462px;
+		margin: 200px auto 0 auto;
+		overflow:visible !important;			
+	}
+	#contenedor div {
+		width: 150px;
+		float:left;
+		margin: 0 2px 0 2px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="contenedor">
+    	<div><img src="images/normal_natu003.jpg" /></div>
+        <div><img src="images/normal_natu004.jpg" /></div>
+        <div><img src="images/normal_natu006.jpg" /></div>       
+    </div>
+</body>
+</html>

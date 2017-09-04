@@ -1,0 +1,27 @@
+¡ojo! en BIMO al meter la fuente .svg desparecía la .ttf en android, por lo que le puse el CSS-browser-selector:
+
+@font-face {
+ font-family: ArchRival;
+ src: url("../fuentes/SF_Arch_Rival_Extended_Bold-webfont.eot"); 
+}
+
+.iphone @font-face,.ipod @font-face,.ipad @font-face {
+ font-family: ArchRival;
+ src: url("../fuentes/SF_Arch_Rival_Extended_Bold-webfont.svg"); 
+}
+
+@font-face {
+ font-family: ArchRival;
+ src: url("../fuentes/SF_Arch_Rival_Extended_Bold-webfont.ttf"); 
+}
+
+####################
+NOTA: CON EL NUEVO FORMATO YA NO ME PASA::
+
+@font-face {
+ font-family: oggle;
+	src: url('oggle-webfont.eot'); /* IE9 Compat Modes */
+	src: url('oggle-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('oggle-webfont.ttf') format('truetype'), /* Modern Browsers */
+		url('oggle-webfont.svg') format('svg'); /* Legacy iOS */
+}

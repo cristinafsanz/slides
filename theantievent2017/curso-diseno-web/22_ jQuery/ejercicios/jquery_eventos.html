@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	$(function(){
+		//$("#boton").click(function(){});		
+		$("#boton").click(function(){
+			$("#contenedor p:contains('Which alters when it alteration finds')").css("border", "3px solid blue");		
+			$("#contenedor p:has(em)").css("background", "yellow");
+			$("#contenedor p:not(.nocambiar)").css("font-family", "Verdana");	
+		});		
+	});
+</script>
+</head>
+
+<body>
+<div id="contenedor">
+	<a href="#" id="boton">Dispara acciones</a>
+    
+    <p>That looks on tempests and is never shaken; admit impediments; love is not love oh, no, it is an ever fixed mark. Or bends with the remover to remove. Love's not time's fool, though rosy lips and cheeks let me not to the marriage of true minds if this be error and upon me proved.</p>
+    <p class="nocambiar">Love alters not with his brief hours and weeks, oh, no, it is an ever fixed mark or bends with the remover to remove. <strong>But bears it out even to the edge of doom</strong>. That looks on tempests and is never shaken; whose worth's unknown, although his height be taken. Admit impediments; love is not love.</p>
+  <p>Admit impediments; love is not love or bends with the remover to remove. Which alters when it alteration finds, but bears it out even to the edge of doom. Love's not time's fool, though rosy lips and cheeks let me not to the marriage of true minds admit impediments; love is not love. Love alters not with his brief hours and weeks, I never writ, nor no man ever loved.</p>
+    <p>But bears it out even to the edge of doom. <strong>If this be error and upon me proved,</strong> it is the star to every wand'ring bark, oh, no, it is an ever fixed mark. Love's not time's fool, though rosy lips and cheeks. It is the star to every wand'ring bark, or bends with the remover to remove.</p>
+    <p>Love alters not with his brief hours and weeks, which alters when it alteration finds, but bears it out even to the edge of doom. <em>Oh, no, it is an ever fixed mark let me not to the marriage</em> of true minds love's not time's fool, though rosy lips and cheeks. Love alters not with his brief hours and weeks, admit impediments; love is not love that looks on tempests and is never shaken. Oh, no, it is an ever fixed mark but bears it out even to the edge of doom. Within his bending sickle's compass come.</p>
+  <p class="nocambiar">Which alters when it alteration finds, <em>or bends with the remover to remove</em>. Let me not to the marriage of true minds love alters not with his brief hours and weeks, within his bending sickle's compass come. Oh, no, it is an ever fixed mark admit impediments; love is not love that looks on tempests and is never shaken.</p>
+</div>
+</body>
+</html>

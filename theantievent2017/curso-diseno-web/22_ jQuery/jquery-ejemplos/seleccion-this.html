@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+$(function(){
+   $("#micapa").click(function(){
+	 //$("#micapa").html("<h1>lleno</h1>");//en vez de usar cualquiera de los selectores vistos
+     $(this).html("<h1>lleno</h1>");//this selecciona el elemento sobre el que actuamos
+     });
+
+   $("li").click(function(){
+     $(this).html("<h3>clic!</h3>");
+     });
+ });
+
+
+</script>
+<style type="text/css">
+#micapa {
+ position:absolute;
+ left:177px;
+ top:58px;
+ width:106px;
+ height:79px;
+ z-index:1;
+ background-color: #FFCCCC;
+}
+</style>
+</head>
+
+<body>
+
+<div id="micapa">
+  <h1>vacio</h1>
+</div>
+
+<ul>
+  <li>uno</li>
+  <li>dos</li>
+  <li>tres</li>
+  <li>cuatro</li>
+</ul>
+
+</body>
+</html>

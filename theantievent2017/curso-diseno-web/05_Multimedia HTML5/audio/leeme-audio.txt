@@ -1,0 +1,19 @@
+##Test soporte audio navegador:
+
+http://www.jplayer.org/HTML5.Audio.Support/
+
+
+##Conversor online:
+
+http://www.online-convert.com/es?fl=es
+
+
+##Tipos MIME audio:
+audio/ogg .ogg
+audio/mpeg .mp3
+
+(en PHP ver .htaccess)
+
+##Internet explorer puede que no reproduzca en local, subirlo a servidor y suena
+
+

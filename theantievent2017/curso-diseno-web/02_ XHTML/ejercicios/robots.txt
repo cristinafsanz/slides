@@ -1,0 +1,13 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: Robozilla
+Disallow: /
+User-agent: baiduspider
+Disallow: /
+User-agent: psbot
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /media/
+Disallow: /tablas.html
+Disallow: /form.html
+Sitemap: http://www.ciceonline.com/Jmateo/t10/cristina_fernandez/sitemap.xml

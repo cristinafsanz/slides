@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>fecha</title>
+</head>
+
+<body>
+
+<script>
+
+var hoy = new Date();
+var dia, diaSemana, mes, anyo;
+dia = hoy.getDate();
+diaSemana = dameDiaSemana(hoy.getDay());
+mes = dameMes(hoy.getMonth());
+anyo = hoy.getFullYear();
+
+document.write ("Hoy es día " + dia + "  (" + diaSemana + ")  " + mes + " " + anyo);
+
+function dameDiaSemana(diaSemana) {
+	switch(diaSemana) {
+		case 0:
+			return "Domingo";
+			break;
+			
+		case 1:
+			return "Lunes";
+			break;
+			
+		case 2:
+			return "Martes";
+			break;	
+			
+		case 3:
+			return "Miércoles";
+			break;	
+			
+		case 4:
+			return "Jueves";
+			break;
+			
+		case 5:
+			return "Viernes";
+			break;	
+			
+		default:
+			return "Sin día";			
+	}
+}
+
+function dameMes(mes) {
+	switch(mes) {
+		case 0:
+			return "Enero";
+			break;
+			
+		case 1:
+			return "Febrero";
+			break;
+			
+		case 2:
+			return "Marzo";
+			break;	
+			
+		case 3:
+			return "Abril";
+			break;	
+			
+		case 4:
+			return "Mayo";
+			break;
+			
+		case 5:
+			return "Junio";
+			break;	
+			
+		case 6:
+			return "Julio";
+			break;	
+			
+		case 7:
+			return "Agosto";
+			break;	
+			
+		case 8:
+			return "Septiembre";
+			break;	
+			
+		case 9:
+			return "Octubre";
+			break;	
+			
+		case 10:
+			return "Noviembre";
+			break;	
+			
+		case 11:
+			return "Diciembre";
+			break;	
+			
+		default:
+			return "Sin mes";			
+	}
+}
+
+</script>
+
+</body>
+
+</html>
+

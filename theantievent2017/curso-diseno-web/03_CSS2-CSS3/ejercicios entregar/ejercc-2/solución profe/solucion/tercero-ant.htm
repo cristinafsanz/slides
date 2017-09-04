@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio formatear tabla</title>
+<style type="text/css">
+<!--
+table {
+font: .9em Arial, Helvetica, sans-serif;
+border: 1px solid #333;
+border-collapse: collapse;
+text-align: center;
+}
+table th {
+background: #F5F5F5;
+padding: 0 .3em;
+}
+table th.euro {
+background: #E6F3FF;
+padding: 0 .3em 0 .3em;
+}
+table th.dolar {
+background: #E6F3FF;
+padding: 0 .3em 0 .3em;
+}
+table th.libra {
+background: #E6F3FF;
+padding: 0 .3em 0 .3em;
+}
+table th.yen {
+background: #E6F3FF;
+padding: 0 .3em 0 .3em;
+}
+table th, table, td {
+border: 1px solid #333;
+line-height: 2em;
+}
+.fila {
+text-align: left;
+}
+.par {
+background-color:#FFFFCC;
+}
+.logomoneda
+{
+vertical-align: middle;
+font-size: 1.2em;
+}
+.naranja
+{
+color: #E6B800;
+}
+.verde
+{
+color: #693;
+}
+.azul
+{
+color: #09C;
+}
+.verdoso
+{
+color: #063;
+}
+/* para meter un efecto roll-over en las filas */
+table tr:hover {
+background: #FFFF66;
+}
+-->
+</style>
+</head>
+<body>
+<table summary="Tipos de cambio">
+<tr>
+<th scope="col">Cambio</th>
+<th scope="col">Compra</th>
+<th scope="col">Venta</th>
+<th scope="col">M&aacute;ximo</th>
+<th scope="col">M&iacute;nimo</th>
+</tr>
+<tr class="par">
+<th scope="row" class="fila euro"><span class="logomoneda naranja">&#8364;</span> <span>Euro/Dolar</span></th>
+<td>1.2524</td>
+<td>1.2527</td>
+<td>1.2539</td>
+<td>1.2488</td>
+</tr>
+<tr>
+<th scope="row" class="fila dolar"><span class="logomoneda verde">$</span> Dolar/Yen</th>
+<td>119.01</td>
+<td>119.05</td>
+<td>119.82</td>
+<td>119.82</td>
+</tr>
+<tr class="par">
+<th scope="row" class="fila libra"><span class="logomoneda azul">&pound;</span> Libra/Dolar</th>
+<td>1.8606</td>
+<td>1.8611</td>
+<td>1.8651</td>
+<td>1.8522</td>
+</tr>
+<tr>
+<th scope="row" class="fila yen"><span class="logomoneda verdoso">&yen;</span> Yen/Euro</th>
+<td>0.6711</td>
+<td>0.6705</td>
+<td>0.6676</td>
+<td>0.6713</td>
+</tr>
+</table>
+</body>
+</html>
+

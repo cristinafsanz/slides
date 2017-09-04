@@ -1,0 +1,93 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+#modificable{background-color:#9CF;
+width:310px;
+}
+#otrodiv {
+ width:300px;
+ background-color: #F93;
+ margin-top:40px;
+padding:5px;
+ }
+.azul{color:#03C}
+</style>
+<!--framework jQuery-->
+<script src="scripts/jquery-1.7.2.min.js"></script>
+
+<script>
+
+$(function(){
+	$("#uno").click(function() {                
+		   $("#modificable").html("codigo <b>HTML en negrita</b>");//hay cadenas y etiquetas HTML       
+	});
+
+	$("#dos").click(function() {                
+		   $("#modificable").text("codigo <b>HTML no negrita</b>");//sólo hay cadenas de texto       
+	});
+
+	$("#tres").click(function(){
+			$("#modificable").append("<p>Código añadido a través de <b>append()</b></p>");//se añade al final del elemento
+	})
+
+	$("#cuatro").click(function(){
+		   $("#modificable").appendTo("#otrodiv");//el div 'modificable' va a ser añadido dentro del div 'otrodiv' al final
+	})
+
+	$("#cinco").click(function(){
+		   $("#modificable").prepend("<p>Código añadido a través de <b>prepend().</b></p>");//"antepone" contenido en el interior del elemento
+	})
+
+	$("#seis").click(function(){
+		   $("#modificable").prependTo("#otrodiv");//el div 'modificable' va a ser añadido dentro del div 'otrodiv' al inicio
+	})
+
+	$("#siete").click(function(){
+		   $("#modificable").after("<p> Insertado con <u>after</u></p>");//añade este párrafo después de 'modificable'
+	})
+
+	$("#ocho").click(function(){
+			$("#modificable").insertAfter("#otrodiv");//inserta modificable despues de otrodiv
+	})
+
+	$("#nueve").click(function(){
+		   $("#modificable").before("<p> Insertado con <u>before</u></p>");//añade este párrafo antes de 'modificable'
+	})
+
+	$("#diez").click(function(){
+			$("#modificable").insertBefore("#otrodiv");//inserta modificable antes de otrodiv
+	})
+});
+</script>
+</head>
+
+<body>
+
+
+<p><a id="uno" href="#">método html()</a></p>
+<p><a id="dos" href="#">método text()</a></p>
+<p><a id="tres" href="#">método append()</a></p>
+<p><a id="cuatro" href="#">método appendTo()</a></p>
+<p><a id="cinco" href="#">método prepend()</a></p>
+<p><a id="seis" href="#">método prependTo()</a></p>
+<p><a id="siete" href="#">método after()</a></p>
+<p><a id="ocho" href="#">método insertAfter()</a></p>
+<p><a id="nueve" href="#">método before()</a></p>
+<p><a id="diez" href="#">método insertBefore()</a></p>
+
+
+
+<hr>
+
+
+
+<div id="modificable"><p>CONTENIDO INICIAL "modificable"......</p></div>
+<div id="otrodiv">
+  <p class="azul">Contenido original de "otro div".....</p>
+  <p class="azul"><img src="images/phot-ojo-fantasia.jpg" width="300" height="225" alt="ojo"></p>
+</div>
+</body>
+</html>
