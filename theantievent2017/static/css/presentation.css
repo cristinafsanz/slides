@@ -19,7 +19,7 @@ h2.presentation {
 }
 
 a, .bg-white a {
-    color: #009933;
+    color: #000;
 }
 
 a:hover {
@@ -75,7 +75,15 @@ ul.description li {
     line-height: 6rem;
 }
 
-.bold {
+.bold-main {
     font-weight: bold;
     color: #009933;
+}
+.bold-second {
+    font-weight: bold;
+    color: #606060;
+}
+
+.bold-second a {
+    color: #606060;
 }
