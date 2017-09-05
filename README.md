@@ -14,7 +14,15 @@
 
     * [Guión](techshessions2017/15min/guion.md)
 
-## Ideas futuras slides
+## TheAntiEvent:
+
+* Presentación:
+
+    * [Slides](https://cristinafsanz.github.io/slides/theantievent2017)
+
+    * [Guión](theantievent2017/guion.md)
+
+## Ideas diseño slides
 
 * [Que cumplan 4 reglas](https://speakerdeck.com/mseckington/the-art-of-slide-design): 
 

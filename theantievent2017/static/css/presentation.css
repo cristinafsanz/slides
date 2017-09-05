@@ -9,7 +9,7 @@ footer {
 }
 
 h2 {
-    padding-top: 9rem;
+    padding-top: 4rem;
     border-bottom: 5px solid black;
     font-size: 7rem;
 }
@@ -52,10 +52,17 @@ pre {
     font-size: 7rem;
 }
 
-.text-end {
+.text-end, .text-end-small, .text-end-margin {
     font-size: 3.5rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.text-end-small {
+    font-size: 3rem;
+}
+.text-end-margin {
+    margin-top: 4rem;
 }
 .flex-content {
     min-height: 50rem;
@@ -74,15 +81,41 @@ ul.description li {
     line-height: 6rem;
 }
 
+.normal-main, .bold-main {
+    color: #009933;
+}
 .bold-main {
     font-weight: bold;
-    color: #009933;
 }
 .bold-second {
     font-weight: bold;
     color: #606060;
 }
-
 .bold-second a {
     color: #606060;
+}
+.flexbox-asymetric {
+    display: flex;
+}
+.flexbox-asymetric > div {
+    margin-top: 1.5rem;
+}
+.flexbox-bigitem {
+    -webkit-flex: 3 0 0;
+    flex: 3 0 0;
+}
+.flexbox-mediumitem {
+    -webkit-flex: 2 0 0;
+    flex: 2 0 0;
+}
+.flexbox-smallitem {
+    -webkit-flex: 1 0 0;
+    flex: 1 0 0;
+}
+
+.description > li {
+    margin-top: 2rem;
+}
+.description > li:first-child {
+    margin-top: 3rem;
 }
