@@ -119,3 +119,6 @@ ul.description li {
 .description > li:first-child {
     margin-top: 5rem;
 }
+.description.presentation > li:first-child {
+    margin-top: 0;
+}
