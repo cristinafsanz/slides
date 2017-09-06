@@ -122,3 +122,7 @@ ul.description li {
 .description.presentation > li:first-child {
     margin-top: 0;
 }
+
+.section-transition {
+    font-size: 7rem;
+}
