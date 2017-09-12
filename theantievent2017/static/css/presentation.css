@@ -8,6 +8,10 @@ footer {
     font-weight: bold;
 }
 
+.column img {
+    width: 100%;
+}
+
 h2 {
     padding-top: 4rem;
     border-bottom: 5px solid black;
