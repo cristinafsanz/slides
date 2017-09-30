@@ -14,13 +14,9 @@
 
     * [Guión](techshessions2017/15min/guion.md)
 
-## TheAntiEvent:
+* Presentación 30 minutos:
 
-* Presentación:
-
-    * [Slides](https://cristinafsanz.github.io/slides/theantievent2017)
-
-    * [Guión](theantievent2017/guion.md)
+    * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/30min)
 
 ## Ideas diseño slides
 
