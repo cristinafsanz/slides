@@ -80,6 +80,10 @@ pre {
 ul.description li {
     font-size: 3.5rem;
 }
+ul.description.description-final li {
+    font-size: 6rem;
+    line-height: 6rem;
+}
 ul.description.description-small li {
     font-size: 2rem;
 }
@@ -131,6 +135,6 @@ ul.description.description-small li {
 }
 
 .section-transition {
-    font-size: 11rem;
+    font-size: 10rem;
     line-height: 12rem;
 }
