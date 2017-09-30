@@ -16,7 +16,7 @@
 
 * Presentación 30 minutos:
 
-    * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/30min)
+    * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/30min/#slide=1)
 
 ## Ideas diseño slides
 
