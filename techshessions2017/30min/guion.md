@@ -48,7 +48,7 @@ Sarah Drasner (desarrolladora front-end) tiene un proyecto con el código en Git
 
 Los ejemplos anteriores necesitan de 2 plataformas para tener el código y la demo, pero GitHub nos facilita el poder alojar un sitio web con cada repositorio. ¿Por qué no utilizarlo para poder asimilar mejor lo que aprendemos?
 
-Quien no haya trabajao con Git y GitHub puede que crea que es algo complicado, así que voy a poner todos los pasos necesarios para que se vea que no hace falta ser un experto en Git y GitHub para utilizarlo para facilitar el aprendizaje.
+Quien no haya trabajado con Git y GitHub puede que crea que es algo complicado, así que voy a poner todos los pasos necesarios para que se vea que no hace falta ser un experto en Git y GitHub para utilizarlo para facilitar el aprendizaje.
 
 ## Crear una cuenta
 
