@@ -79,3 +79,49 @@ Los pasos anteriores sirven para subir a GitHub. Con eso ya tienes el código en
 Eliges desde dónde se publicará en GitHub Pages: desde la rama master, desde el subdirectorio docs de la rama master o de la rama gh-pages si la has creado para subir el código ahí.
 
 El caso más típico sería el de utilizar la rama master para publicar el proyecto web pero después explicaré usos en los cuales tiene sentido utilizar el subdirectorio docs de master o utilizar la rama gh-pages.
+
+## Enlaces con README
+
+La manera más sencilla para agrupar los ejemplos sería subirlos en carpetas y enlazarlos desde el README, tanto el enlace al código como al resultado. A la izquierda tendríamos el fichero README y a la derecha la GitHub Page.
+
+## Jotted: resultado y código
+
+Además, hay una alternativa para utilizar en GitHub como si fuera Codepen. Usar alguna librería como Jotted para que tengamos en la GitHub Page tanto el resultado como el código, en este caso en pestañas.
+
+## Ejemplos con GitHub Pages
+
+Además de para el caso particular de aprendizaje podemos usar GitHub Pages para otros fines. A continuación voy a mostrar ejemplos reales de casos de uso.
+
+## GitHub Pages desde master
+
+Si quieres alojar la página web demo de un proyecto puedes habilitar la rama master y todo lo que subas que sea contenido web podrás mostrarlo, como el caso del proyecto de Elena Torró sobre Redux y la música.
+
+## GitHub Pages desde /docs
+
+Si utilizas herramientas de automatización como Gulp o generadores estáticos como Hugo puedes habilitar que sólo se vea el contenido web que se genera en una carpeta determinada, que sería la carpeta de distribución a producción. Lo único es que en vez de ser una carpeta dist o output se tiene que llamar docs. Otro uso sería para poner la documentación de un proyecto, por ello el nombre de la carpeta.
+
+## GitHub Pages desde gh-pages
+
+El caso anterior puede que a gente no le termine de convencer, al subir tanto el código fuente como el código para producción. Otra opción sería subir en master el código fuente y en una nueva rama gh-pages el código de producción (el código que antes subimos a la carpeta /docs). Elegimos que se coja el código de esa rama y obtenemos el mismo resultado.
+
+Para este último ejemplo convendría usar un sistema de integración continua como Travis para que cada vez que se haga un push a la rama master se genere el código para hacer un push automático a la rama gh-pages.
+
+## Documentación
+
+Además de subir el código en GitHub y mostrar la demo en alguna de las alternativas vistas, es conveniente documentar el proceso, tanto para tu yo futuro como para otros a los que le pueda venir bien. En este ejemplo hay un extracto con la documentación para hacer las diapositivas con la herramienta WebSlides.
+
+## Conclusiones
+
+Aprovecha cuando aprendas algo a hacerlo bien, si no al final puedes haber perdido el tiempo. Practica de la mejor forma dependiendo de tu rol. Lo que he contado puede servir más a alguien de mi perfil pero a lo mejor da ideas para otros sectores.
+
+Documenta lo que vas consiguiendo, cómo instalaste una herramienta, qué utilizaste, consejos que te han servido, etc. Seguramente te sirvan la siguiente vez que lo tengas que hacer.
+
+Publica el código y la demo si puedes. Si haces un curso pregunta si los ejercicios los puedes tener públicos. Así será más fácil si tienes que volver a ellos en el futuro. Si eres una persona visual te puede venir muy bien ver la demo.
+
+## Muchas gracias
+
+Podéis encontrar la información sobre los casos de uso de GitHub Pages que he explicado aquí de forma más detallada en: https://github.com/cristinafsanz/github-pages. 
+
+He escrito sobre el proyecto en https://melies-hugo.js.org, que es un blog generado con el generador estático Hugo y publicado en GitHub Pages.
+
+Las slides las podéis encontrar en https://cristinafsanz.github.io/slides/techshessions2017/30min/#slide=1, están creadas usando WebSlides y también se han publicado con GitHub Pages.
