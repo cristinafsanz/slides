@@ -18,6 +18,8 @@
 
     * [Slides](https://cristinafsanz.github.io/slides/techshessions2017/30min/#slide=1)
 
+    * [Guión](techshessions2017/30min/guion.md)
+
 ## Ideas diseño slides
 
 * [Que cumplan 4 reglas](https://speakerdeck.com/mseckington/the-art-of-slide-design): 

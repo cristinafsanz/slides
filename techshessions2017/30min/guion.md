@@ -2,17 +2,27 @@
 
 https://cristinafsanz.github.io/slides/techshessions2017/30min/#slide=1
 
+## GitHub y el Aprendizaje
+
+Bienvenidos a la charla de GitHub y el aprendizaje. 
+
+Estos últimos meses he estado investigando casos de uso de GitHub Pages para ver para qué lo utiliza la gente y explicarlo en la charla.
+
+Inicialmente yo lo utilicé para publicar un portfolio de páginas web para practicar y un blog para escribir sobre desarrollo front-end, pero me he dado cuenta que mucha gente lo usa para mostrar tutoriales, documentación y cursos.
+
+Por eso he pensado en hacer una charla enfocada en GitHub como herramienta apara ayudar en el aprendizaje. Explicar qué se puede hacer y cómo y sobre todo, mostrar que no hace falta ser experto en Git y GitHub para utilizarlo como herramienta de aprendizaje.
+
 ## Presentación
 
-Bienvenidos a la charla de GitHub y el aprendizaje.
+Me presento, soy Cristina Fernández y trabajo como desarrolladora front-end desde hace más de 2 años. Como me dedico al front he enfocado el estudio a cómo aprender mejor html, css y JavaScript, pero espero que también os puedan servir algunas ideas aunque no os dediquéis al front-end.
 
-Me presento, soy Cristina Fernández y trabajo como desarrolladora front-end desde hace más de 2 años. Me podéis encontrar en twitter y en GitHub como cristinafsanz.
+Me podéis encontrar en twitter y en GitHub como cristinafsanz. Si tenéis preguntas sobre la charla o sobre los repositorios que tengo, no dudéis en contactarme.
 
 ## Épocas de cursitis
 
-Esta charla viene motivada por etapas de Cursitis que he tenido pero que no me han ayudado a avanzar en conocimientos de front-end. ¿Y qué es para mí Cursitis? Empezar a hacer cursos pero no asimilarlos bien y no aprender a ver cómo utilizarlos al no hacer ejercicios o proyectos a partir de ellos.
+Esta charla viene motivada por etapas de Cursitis que he tenido pero que no me han ayudado a avanzar en conocimientos. ¿Y qué es para mí Cursitis? Empezar a hacer cursos uno detrás de otro pero no asimilarlos bien. es decir, no aprender cuándo y cómo utilizarlos. Esto se debe a que no se practican lo suficiente o no se hacen ejercicios o proyectos a partir de ellos.
 
-Un ejemplo sería el curso del preprocesador de CSS Sass que hice el año pasado, que ayuda a hacer un css más mantenible. En el curso estaba el entorno montado, yo no tenía que instalar nada. En cada tema venía la explicación y la parte de ejercicios era más de rellenar huecos, ejecutar y ver el resultado. Después me he dado cuenta que no aproveché bien el curso porque no sé cuándo utilizar las distintas funcionalidades en un proyecto real, no sé los casos de uso de cuando aplicarlos.
+Un ejemplo sería el curso del preprocesador de CSS Sass que hice el año pasado, que ayuda a hacer un css más mantenible. En el curso estaba el entorno montado, yo no tenía que instalar nada. En cada tema venía la explicación y la parte de ejercicios era más de rellenar huecos, ejecutar y ver el resultado. Después me he dado cuenta que no aproveché bien el curso porque no sé cuándo utilizar las distintas funcionalidades en un proyecto real, no sé los casos de uso de cuando aplicarlos y al final no utilizó más de un 10% de lo que podría usar.
 
 ## Errores al aprender
 
@@ -24,7 +34,7 @@ Como hay que aprender de los errores, voy a explicar algunas alternativas que he
 
 ## Curso Flexbox
 
-Como ejemplo de curso que he aprovechado mejor es el de Flexbox que impartió Diana Aceves para EscuelaIT. Ella va haciendo todos los ejercicios en la herramienta online Codepen y puedes ver a través de una colección el ejemplo que necesites en algún momento, por ejemplo centrado vertical y horizontal.
+Como ejemplo de curso que he aprovechado mejor es el de Flexbox que impartió Diana Aceves para EscuelaIT. Ella va haciendo todos los ejercicios en la herramienta online Codepen y puedes ver a través de una colección el ejemplo que necesites en algún momento, por ejemplo centrado vertical y horizontal. En las colecciones puedes ver cómo se mostraría el resultado en un navegador para cada ejemplo.
 
 ## Codepen
 Una vez que te metes en un pen concreto puedes ver el código y el resultado en navegador en la misma página, por lo que puedes ver de un vistazo si es lo que necesitas.
@@ -102,7 +112,7 @@ Si utilizas herramientas de automatización como Gulp o generadores estáticos c
 
 ## GitHub Pages desde gh-pages
 
-El caso anterior puede que a gente no le termine de convencer, al subir tanto el código fuente como el código para producción. Otra opción sería subir en master el código fuente y en una nueva rama gh-pages el código de producción (el código que antes subimos a la carpeta /docs). Elegimos que se coja el código de esa rama y obtenemos el mismo resultado.
+El caso anterior puede que a gente no le termine de convencer, al subir tanto el código fuente como el código para producción. Otra opción sería subir en master el código fuente y en una nueva rama gh-pages el código de producción (el código que antes subimos a la carpeta /docs). Elegimos que se coja el código a mostrar de esa rama y obtenemos el mismo resultado que si lo hiciéramos con la opción de docs.
 
 Para este último ejemplo convendría usar un sistema de integración continua como Travis para que cada vez que se haga un push a la rama master se genere el código para hacer un push automático a la rama gh-pages.
 
