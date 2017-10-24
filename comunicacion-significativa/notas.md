@@ -186,6 +186,229 @@ No pasa nada por reconocer que te has quedado en blanco, se para y se dice.
 
 12. Practicar: Ensayar tu comunicación, prepara tus apoyos (tarjetas, guión, notas), cuéntasela a otra persona, etc.
 
+## Ansiedad
+
+Medicina para combatirla
+
+1. Repasa respiración abdominal: 1 mano al pecho y otra a la tripa y respirando tratando que solo se mueva la mano de la tripa.
+
+2. Reconocer y cuestionar pensamientos distorsionales.
+
+    - Miedos: no va a valer para nada lo que voy a contar, me voy a quedar en blanco, no va a funcionar el ordenador.
+
+    - Separa en hechos objetivos, pensamientos distorsionados y emoción que te produce la situación.
+
+    - ¿De dónde vienen? Añadirle una parte cómica.
+
+    - Interpretar lo que hacen los demás: se están aburriendo.
+
+    - Culpa: Me lo tenía que haber preparado más.
+
+3. Aplicar el método científico u otro procedimiento para elaborar el discurso.
+
+4. Procura exponerte: Ayuda a disminuir la ansiedad.
+
+### Antes
+
+- Prepárate bien: Prepara salidas por si me quedo en blanco, respuestas, ...
+
+### Durante
+
+- Habla con la audiencia antes si puedes.
+
+- Relaja tensión: tensar y destensar partes del cuerpo.
+
+- Muévete por el espacio, ayuda a los nervios. Coger algo que vayas a utilizar.
+
+### Después
+
+- Ya está hecho, refuérzate.
+
+- Evalúa tu presentación.
+
+** Nos darán un capítulo de un libro sobre técnicas contra la ansiedad.
+
+## Humor
+
+- Cuidado con el humor porque no es compartido, mejor si nos reimos de nosotros mismos.
+
+- Mejor anécdotas que chistes.
+
+- Sí es es bueno, se rompe el hielo y genera buenas sensaciones, pero con cuidado.
+
+## Notas
+
+- Llevar los apoyos que más se adapten.
+
+- Tenerlo cerca y que nos permita movernos.
+
+- Tarjetas numeradas para ir directamente a las que necesito (y mejor si son con arandelas).
+
+- Cuidado con pasador de móvil.
+
+- No llevar el discurso escrito, mejor un resumen (si no, lo vas a acabar leyendo).
+
+- Recordar que la presentación es una herramienta para la audiencia, no para ti.
+
+## Comunicación verbal
+
+- La idea y el discurso es lo importante, aunque hay que saber acompañarlos.
+
+- Se ayuda siendo claros, hay que seleccionar.
+
+- Ser concretos: utilizar frases cortas.
+
+- Ser cercanos: usar un lenguaje adaptado a la audiencia.
+
+## Comunicación corporal
+
+- Expresión facial: Hay que saber cuál es nuestra expresión para compensarla (ejemplo si tienes cara seria intentar sonreir). Revisarlo tanto al escuchar como al hablar.
+
+- Microgestos: pueden meter ruido: Si parpadeas mucho o te tocas el ojo...
+
+- Mirada: Repartir por toda la audiencia y mirar a la mitad del cuerpo para arriba a la gente (aunque no miradas fijas, ir cambiando). 
+    - Como truco se puede dividir al público en 3 partes e ir mirando a cada una de ellas.
+
+    - No mirar al suelo, ayuda a que la gente se distraiga.
+
+- Sonrisa: si se puede meter, mejor.
+
+- Movimiento brazos, manos y piernas: moverlas respecto a lo que se está contando.
+
+    - Enumerar: puedes utilizar las manos para potenciar el resultado.
+
+    - Piernas: no enrollarlas para no tener tensión. Hay que asumir el foco, estamos presentando algo.
+
+    - Lo ideal ancho de caderas para una postura más equilibrada.
+
+## Comunicación paraverbal
+
+- Vocalización: Para trabajar se puede usar un lápiz y leer en voz alta. Requiere práctica.
+
+- Tono: Leer prensa y leer distintos tonos (asustada, feliz, con frío, ...).
+
+- Velocidad: Probar con una escaleta de tiempo para ver cuánto haces en cada parte.
+
+- Volumen: Subir el volumen para una idea importante.
+
+- Pausas: Meter silencios. Evitar ir todo seguido para terminar antes.
+
+Son facilitadores y hay que ver cómo compensarlos para que llegue el mensaje.
+
+Lo importane es que lleguen las ideas interesantes que tenemos.
+
+## Consejos comunicación persuasiva
+
+** Nos pasarán un documento
+
+Nota: Técnica de contraste explicada en una charla TED de Nancy Duarte, así se consigue que en el desarrollo la gente esté atenta.
+
+## Propuestas criterios feedback
+
+- Respeta la estructura narrativa: apertura, desarrollo y cierre.
+
+- Ofrece un motivo para la escucha.
+
+- Utiliza recursos narrativos.
+
+- Invita a la acción al finalizar su comunicación.
+
+- Se ajusta al tiempo establecido.
+
+- Mantiene el mismo volumen durante toda la frase.
+
+- Vocaliza de forma clara.
+
+- La respiración es relajada.
+
+- Hace uso de las pausas.
+
+- Mantiene una expresión facial amable y relajada.
+
+- Compensa posibles micro gestos.
+
+- Interactúa con la audiencia para verificar su comprensión.
+
+- El movimiento del cuerpo comunica seguridad.
+
+- Controla el espacio.
+
+- Añade expresividad a las ideas con el movimiento del cuerpo.
+
+- Adapta el movimiento de manos y brazos al espacio.
+
+- Enfatiza ideas o frases con el movimiento de manos y brazos.
+
+- Los recursos que utiliza contribuye a la comunicación.
+
+- Reparte la mirada por toda la audiencia.
+
+- Sonríe en los momentos apropiados.
+
+Como casi todas las habilidades, se aprende a través de la observación y la práctica.
+
+Dar y recibir feedback es una oportunidad para mejorar nuestras presentaciones en público.
+
+## Feedback recibido de la charla
+
+- Hacer slides manuales da personalidad a la charla.
+
+- Contar la historia del proceso es buen punto.
+
+- Lenguaje sencillo al principio pero a veces muy técnico después.
+
+- Experiencia personal e historia muy bien contada como proceso de descubrimiento.
+
+- Extra bonus: slides en GitHub, muy interesante.
+
+- No explicar que has usado algo que no se debe. Los dibujos estaban genial!
+
+- Me ha gustado el tono de voz tranquilo. También llevado al tema postural.
+
+- Muy didáctica.
+
+- Experiencia personal. Te presentas y dices que aunque sea técnico cualquiera puede usarlo.
+
+- Muy técnica: demasiados conceptos técnicos. Hay que adaptar a la audiencia.
+
+- Cuentas tu proceso de solucionar un problema paso a pso.
+
+- +1 a poner ejemplos y alternativas a tu solución.
+
+- Cambia los eeeeh...por pausas :)
+
+- Ha sido muy técnico pero no excluyente.
+
+- Deberías haber hablado de GitHub antes, pero muy buena la descripción/definición.
+
+- Buena ayuda visual para no perderse.
+
+- Meter la charla alojada en GitHub en la presentación.
+
+- Postura corporal muy buena, tienes mucho aplomo.
+
+- Tono de voz muy bueno, velocidad también.
+
+- Muy buenos apoyos visuales.
+
+- Desde lo personal.
+
+- Buen tono y modulación.
+
+- Muy bien explicado ara que lo entendamos aunque no somos expertos.
+
+- Muy buen tono y contado visual con la audiencia.
+
+## Mindfulness
+
+- Consejo: Usar aplicación REM Volver a casa para tratar la ansiedad a través del Mindfulness.
+
+- Se trabaja el aquí y ahora.
+
+
+
+
+
 
 
 
