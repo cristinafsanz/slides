@@ -349,7 +349,7 @@ Como casi todas las habilidades, se aprende a través de la observación y la pr
 
 Dar y recibir feedback es una oportunidad para mejorar nuestras presentaciones en público.
 
-## Feedback recibido de la charla
+## Feedback recibido de la charla (discurso)
 
 - Hacer slides manuales da personalidad a la charla.
 
@@ -399,13 +399,147 @@ Dar y recibir feedback es una oportunidad para mejorar nuestras presentaciones e
 
 - Muy buen tono y contado visual con la audiencia.
 
+## Feedback recibido de la charla (comunicación verbal y no verbal)
+
+- No vocalizo mucho, sobre todo al principio.
+
+- Tick ehh, yyy, y alargar palabras, no tolero el silencio.
+
+- Miro a la audiencia aunque un poco más de contacto estaría bien.
+
+- A veces no hago frases claras y repito palabras.
+
+- Tiempo y velocidad buena, ayuda a seguir el hilo.
+
+- Expresión facial muy bien, transmite mucho el mensaje.
+
+- Final un poco tímido.
+
+- Comentarios en voz baja, no se entiende.
+
+- Casi toda la presentación en el mismo sitio.
+
+- Tienes una leve sonrisa durante toda la presentación, muy guay.
+
+- Muy estática, muevo manos pero no brazos.
+
+- Miro a la pantalla antes de terminar una frase para continuar.
+
+- Muy seria, intentar sonreír más.
+
+- Tono uniforme.
+
+- Mucho movimiento de los pies.
+
+- Responder a tus propias preguntas.
+
 ## Mindfulness
 
 - Consejo: Usar aplicación REM Volver a casa para tratar la ansiedad a través del Mindfulness.
 
 - Se trabaja el aquí y ahora.
 
+## Interacción con la audiencia
 
+- 3 dictados de dibujar formas en un papel, una sin que viéramos al que explica, otra en la que podemos vernos pero no hacer preguntas y otra en la que sí podemos hacer preguntas. El mejor dibujo es el que sale en el último caso.
+
+- Con una presentación es lo mismo, si hablas sin mirar a la gente no ves sus reacciones y no puedes adaptar el discurso o incluso interrumpirlo. Si no preguntan hasta el final puede que queden muchas cosas pendientes o se hayan entendido mal.
+
+## Habilidades sociales en la comunicación
+
+### Escucha activa
+
+Interpretar lo que la otra persona está diciendo sirve para ver que hay interés.
+
+Puedes parafrasear a otro para demostrar que estás escuchando, validar, reforzar, respetar los silencios, pedir aclaraciones, tomar notas, resumir, asentir o preguntar.
+
+### Empatía
+
+Podemos ponernos en la posición de otro para recoger más y mayor información.
+
+Notar que está ausente, que puede estar incómodo. 
+
+Ayuda a manejar las emociones si algo no te gusta, como caras o comentarios (puedes llegar a entender la otra posición).
+
+Asentir, decir que comprendes que estén cansados, me pongo en tu lugar...
+
+### Mensaje yo
+
+Expresar nuestras percepciones desde tu punto de vista.
+
+Pasos:
+
+- Describe una situación objetivamente.
+
+- Explica cómo la situación me hace sentir.
+
+- Proponer una alternativa.
+
+Hablas de cómo te sientes tú, no atacas a la otra persona.
+
+### Recibir y realizar críticas
+
+#### Recibir críticas
+
+- No entrar al trapo, sólo si es constructivo, así controlamos las emociones y mantenemos el tono calmado.
+
+- Escucha activa y empatía aunque no lo entiendas.
+
+- Recogemos información concreta.
+
+- Preguntamos acerca de la conducta molesta y reconocemos parte de la responsabilidad.
+
+- Planteo mi postura.
+
+- Propongo un cambio y/o tiempo.
+
+- Aserción negativa: asumir que no debería haber hecho algo.
+
+- Acuerdo asertivo: tienes razón pero sabes que ...
+
+- Pregunta asertiva: Concretar lo que a la otra persona no ha gustado.
+
+- Aplazamiento asertivo: Es un tema complicado, lo tratamos luego, ...
+
+#### Realizar críticas
+
+- Hablar de mí mismo y cómo me siento.
+
+- Es la conducta, no la persona.
+
+- En el momento adecuado.
+
+- No decir todas las críticas a la vez.
+
+- Llevada preparada.
+
+- Reforzar si ha salido bien.
+
+- Buscar alternativas si no.
+
+### Hacer y responder preguntas
+
+#### Hacer preguntas 
+
+- Invita a replantearse más cosas de las obvias.
+
+- Ayuda a entablar una conversación.
+
+- Ofrece información.
+
+#### Responder preguntas
+
+- Escuchar
+
+- Introducir pausa si lo necesito.
+
+- Parafraseo si necesito confirmar.
+
+- Responder y confirmar que era lo que se preguntaba.
+
+## Recursos
+
+Nos mandarán el vídeo y los apuntes del curso ampliado.
 
 
 
