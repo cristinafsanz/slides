@@ -1,5 +1,7 @@
 # Presentaciones charlas
 
+Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Escribí una guía de cómo hacerlo en [melies-origen](https://github.com/cristinafsanz/melies-origen), por si os sirve :)
+
 ## TechShessions:
 
 * Presentación 5 minutos: 
