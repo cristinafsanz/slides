@@ -62,7 +62,7 @@ Para las notas estaba usando Evernote, que te permite acceder a ellas desde dist
 
 🎨 [💻]
 
-Para el alojamiento web no tenía claro qué contratar, porque yo no quería algo profesional sino más ir publicando experimentos para ir practicando. Y entonces escuché hablar de GitHub Pages.
+Para el alojamiento web no tenía claro qué contratar, porque yo no quería algo profesional sino más ir publicando experimentos para ir practicando. Y entonces escuché hablar de GitHub Pages y tuve mi momento eureka.
 
 ## Cinematógrafo
 
