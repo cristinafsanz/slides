@@ -1,4 +1,4 @@
-# Guión charla 30 minutos
+# Guión charla Codemotion
 
 ## Ilusionismo con GitHub Pages
 
@@ -164,9 +164,9 @@ Os voy a contar algunos casos de uso que considero interesantes.
 
 🎨 [Truco mujer a la izquierda y un esqueleto a la derecha] 
 
-Voy a usar el truco de parra para explicar este caso de uso.
+Voy a usar el truco de parar para explicar este caso de uso.
 
-Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabas.
+Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.
 
 Yo os voy a enseñar el mismo proyecto en 2 repositorios. En el segundo voy a añadir una librería como idea para usar en ejercicios de cursos.
 
@@ -175,7 +175,8 @@ Voy a partir de 2 ejemplos del curso de Flexbox de Diana Aceves.
 Vamos a subir estos ejemplos a la rama master y habilitamos master para GitHub Pages. Con esto tenemos los ejemplos en:
 
 https://username.github.io/repo/example1/
-https://username.github.io/repo/example2/.
+
+https://username.github.io/repo/example2/
 
 🎨 [Ejemplo con demo, código y notas]
 
@@ -183,8 +184,9 @@ Ahora añado una librería que se llama Jotted, que es similar a un emulador com
 
 🎨 [Librería Jotted y resultado]
 
-Tenemos los mismos ejemplos que antes en https://username.github.io/repo/example1/
-https://username.github.io/repo/example2/. 
+Tenemos los mismos ejemplos que antes en:        https://username.github.io/repo/example1/
+
+https://username.github.io/repo/example2/ 
 
 Sin embargo en la misma página tenemos el código html, css y js en distintas pestañas y en otra el resultado de cómo se ve en un navegador.
 
@@ -247,3 +249,7 @@ Porque puedo tener código, demo y notas en el mismo sitio.
 Georges Méliès combinó distintas pasiones que tenía utilizando los instrumentos que encontró a su alcance. Yo solo os he contado uno que encontré, pero espero que esto os sirva de inspiración para encontrar el vuestro o para probar éste. ¿Os imagináis qué podríais crear?
 
 ¡Gracias!
+
+## Guión miniatura
+
+![Imagen con slides en miniatura](static/images/guion.jpg?raw=true)
