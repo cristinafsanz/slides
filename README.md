@@ -22,6 +22,13 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
     * [Guión](techshessions2017/30min/guion.md)
 
+## Codemotion:
+
+    * [Slides](https://cristinafsanz.github.io/slides/codemotion2017/#slide=1)
+
+    * [Guión](codemotion2017/guion.md)
+
+
 ## Ideas diseño slides
 
 * [Que cumplan 4 reglas](https://speakerdeck.com/mseckington/the-art-of-slide-design): 
