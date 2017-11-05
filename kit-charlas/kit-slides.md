@@ -32,4 +32,4 @@
 
 - Probar con resolución de 1024px.
 
-- Formato presentación 16:9.
+- Formato presentación 16:9 (ej. 1024px ancho, 576px alto).
