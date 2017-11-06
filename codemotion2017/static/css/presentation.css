@@ -139,3 +139,7 @@ ul.description.description-small li {
     font-size: 10rem;
     line-height: 12rem;
 }
+
+.grid > .column {
+    padding: 0.5em;
+}
