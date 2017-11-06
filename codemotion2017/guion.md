@@ -2,9 +2,13 @@
 
 ## Ilusionismo con GitHub Pages
 
-🎨 [Cartel de magia con el título de la charla]
+🎨 [Cartel de Viaje a la luna con el título de la charla]
 
 Bienvenidos a la charla de "Ilusionismo con GitHub Pages.
+
+Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
+
+😂  Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. Fue director, guionista, actor, decorador, operador y montador. Se le considera un gran artista full-stack.
 
 ## Presentación
 
