@@ -8,13 +8,13 @@ Bienvenidos a la charla de "Ilusionismo con GitHub Pages.
 
 Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
 
-😂  Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. Fue director, guionista, actor, decorador, operador y montador. Se le considera un gran artista full-stack.
+Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. Fue director, guionista, actor, decorador, operador y montador. 😂 Se le considera un gran artista full-stack.
 
 ## Presentación
 
 🎨 [Avatar a la izquierda y mi nombre, qué soy y dónde trabajo a la derecha]
 
-Me presento, soy Cristina Fernández, trabajo como desarrolladora Front-end y desde hace unos meses trabajo en Kairós Digital Solutions.
+Me presento, soy Cristina Fernández, trabajo como desarrolladora Front-end y me podéis seguir en las redes como @cristinafsanz, tanto en twitter como en GitHub.
 
 ## 📌 Agenda
 
@@ -36,55 +36,27 @@ En la charla voy a hablar de:
 
 🎨 [Porfolio web]
 
-Cuando empecé como desarrolladora front-end quería realizar un portfolio con todas las maquetaciones web que fuera realizando.
+Cuando empecé como desarrolladora front-end quería tener un portfolio con todas las maquetaciones web que fuera realizando. Después me di cuenta que sería también útil poder acceder al código de esas maquetaciones para poder consultarlo y reutilizarlo en otros proyectos. 
 
-Para ello necesitaba: 
+🎨 [GitHub]
 
-🎨 [💻 </> ✍️]
+Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite alojar repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos.
 
-- 💻Un alojamiento web para tenerlo publicado en Internet.
-
-Sin embargo, también quería:
-
-- </> Tener disponible el código para poder consultarlo en los siguientes desarrollos.
-
-- ✍️ Poder consultar las notas que iba apuntando al crear las maquetaciones.
-
-## </> GitHub
-
-🎨 [</> Imagen de GitHub]
-
-Para tener disponible el código podía utilizar la plataforma GitHub, que permite alojar el código en remoto a través de repositorios y tener distintas versiones del mismo usando el sistema de control de versiones Git.
-
-## ✍️ Notas
-
-🎨 [✍️ Imagen de notas]
-
-Para las notas estaba usando Evernote, que te permite acceder a ellas desde distintos dispositivos.
-
-## 💻 Alojamiento web
-
-🎨 [💻]
-
-Para el alojamiento web no tenía claro qué contratar, porque yo no quería algo profesional sino más ir publicando experimentos para ir practicando. Y entonces escuché hablar de GitHub Pages y tuve mi momento eureka.
+Sin embargo veía la publicación de la página web y el alojamiento del código como 2 procesos separados. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
 
 ## Cinematógrafo
 
-Para explicaros cómo me sentí voy a utilizar la historia de un personaje de finales del siglo XIX.
+Para explicaros cómo me sentí voy a retroceder a finales del siglo XIX.
 
 🎨 [Gif de una de las primeras películas representadas con el cinematógrafo]
 
-Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio similar, el Animatógrafo de Robert W. Paul, transformándolo para que sirviera también como cámara para hacer películas. Ya tenía una cámara-proyector para hacer sus experimentos, el Kinetógrafo, y llegó a hacer más de 500 películas.
+Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. Con él llegó a hacer más de 500 películas. 😂 Yo por ahora llevo 29 repositorios de GitHub, pero dadme tiempo.
 
 ## 📌GitHub Pages
 
 🎨 [Repo y página web]
 
-GitHub Pages es una funcionalidad de GitHub que te permite publicar en Internet el código que tienes subido en un repositorio, es decir, GitHub te proporciona un alojamiento web.
-
-🎨 [Gif de alegría relacionado con Méliès]
-
-Permite publicar código estático (html, css y JavaScript), que es lo que yo quiero. Y es gratuito, siempre que tengas los repositorios públicos, así que para experimentos también me viene bien.
+GitHub Pages es una funcionalidad de GitHub que te permite publicar en Internet el código web estático (html, css y JavaScript) que tienes subido en un repositorio.
 
 ## User Site y Project Sites
 
@@ -188,7 +160,9 @@ Ahora añado una librería que se llama Jotted, que es similar a un emulador com
 
 🎨 [Librería Jotted y resultado]
 
-Tenemos los mismos ejemplos que antes en:        https://username.github.io/repo/example1/
+Tenemos los mismos ejemplos que antes en:        
+
+https://username.github.io/repo/example1/
 
 https://username.github.io/repo/example2/ 
 
