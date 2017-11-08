@@ -231,3 +231,13 @@ Georges Méliès combinó distintas pasiones que tenía utilizando los instrumen
 ## Guión miniatura
 
 ![Imagen con slides en miniatura](static/images/guion.jpg?raw=true)
+
+## Recursos utilizados
+
+- Giphy
+
+- Youtube to gif: https://github.com/F1LT3R/youtube-to-gif
+
+Ejemplo:
+
+youtube-to-gif -u https://www.youtube.com/watch\?v\=uvfwgA6mBu0 -b 40 -d 14 -s 500x375
