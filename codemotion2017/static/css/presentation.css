@@ -125,6 +125,18 @@ ul.description.description-small li {
     flex: 1 0 0;
 }
 
+.flexbox-bigitem a {
+    display: flex;
+    direction: column;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.flexbox-bigitem a svg {
+    margin-right: 0.8rem;
+}
+
 .description > li {
     margin-top: 2rem;
 }
@@ -146,4 +158,10 @@ ul.description.description-small li {
 
 .flexblock.steps {
     font-size: 2em;
+}
+
+.grid.vertical-align .column.column-text {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.7em;
 }
