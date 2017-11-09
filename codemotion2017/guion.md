@@ -8,7 +8,7 @@ Bienvenidos a la charla de "Ilusionismo con GitHub Pages.
 
 Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
 
-Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. Fue director, guionista, actor, decorador, operador y montador. 😂 Se le considera un gran artista full-stack.
+Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. En sus películas era director, guionista, actor, decorador, operador y montador. __Se le considera un gran artista full-stack__ 😂 .
 
 ## Presentación
 
@@ -50,11 +50,9 @@ Para explicaros cómo me sentí voy a retroceder a finales del siglo XIX.
 
 🎨 [Gif de una de las primeras películas representadas con el cinematógrafo]
 
-Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. Con él llegó a hacer más de 500 películas. 😂 Yo por ahora llevo 29 repositorios de GitHub, pero dadme tiempo.
+Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. Con él llegó a hacer más de 500 películas. 	__Yo por ahora llevo 29 repositorios de GitHub con algunos experimentos, pero dadme tiempo__ 😂 .
 
 ## 📌GitHub Pages
-
-🎨 [Repo y página web]
 
 GitHub Pages es una funcionalidad de GitHub que te permite publicar en Internet el código web estático (html, css y JavaScript) que tienes subido en un repositorio.
 
@@ -68,7 +66,7 @@ Cuando habilitas esta funcionalidad te proporciona un dominio que puede ser de 2
 
 - Para cualquier otro nombre de repositorio tendrás una url https://username.github.io/repo.
 
- 🎨 [Imagen una cabeza Méliès y varias cabezas]
+🎨 [Ejemplo página web de User Site]
 
  Puedes tener un único User Site y múltiples Project Sites.
 
@@ -88,9 +86,9 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 🎨 [Subir el código]
 
-🎨 Habilitar GitHub Pages]
+🎨 [Habilitar GitHub Pages]
 
-🎨 [Repo con url: código y README + resultado con url]
+🎨 [Imagen de la luna como si fuera un ejemplo de página web publicada]
 
 ## 📌 Qué código publicas
 
@@ -98,13 +96,13 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 Para explicar desde dónde podemos publica voy a basarme en el truco de sobreimpresión, donde Méliès tenía que rebobinar la cinta para grabar su cabeza varias veces en distintos sitios.
 
-🎨 [Orígenes en Settings]
-
-Yo voy a utilizar el proyecto que usó Jose Dongil en su charla de Vue y voy a publicarlo de distintas formas.
-
 🎨 [Octotree]
 
-Para explicarlo mejor voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
+Para explicar mejor mi versión del truco voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
+
+🎨 [Página web resultante del proyecto de Jose para Codenares]
+
+Yo voy a utilizar el proyecto que usó Jose Dongil en su charla de Vue y voy a publicarlo de distintas formas.
 
  🎨 [Proyecto en rama master]
 
