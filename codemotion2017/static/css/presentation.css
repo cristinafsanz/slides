@@ -125,7 +125,7 @@ ul.description.description-small li {
     flex: 1 0 0;
 }
 
-.flexbox-bigitem a {
+.flexbox-bigitem a, .instructions a {
     display: flex;
     direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ ul.description.description-small li {
     margin-top: 5rem;
 }
 
-.flexbox-bigitem a svg {
+.flexbox-bigitem a svg, .instructions a svg {
     margin-right: 0.8rem;
 }
 
