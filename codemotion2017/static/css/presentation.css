@@ -143,3 +143,7 @@ ul.description.description-small li {
 .grid > .column {
     padding: 0.5em;
 }
+
+.flexblock.steps {
+    font-size: 2em;
+}
