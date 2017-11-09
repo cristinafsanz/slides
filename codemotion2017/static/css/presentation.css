@@ -86,11 +86,14 @@ ul.description.description-final li {
     line-height: 6rem;
 }
 ul.description.description-small li {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
-.credits {
+.credits-big {
     line-height: 6rem;
+}
+.credits {
+    line-height: 3rem;
 }
 
 .normal-main, .bold-main {
