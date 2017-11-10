@@ -128,7 +128,7 @@ ul.description.description-small li {
     flex: 1 0 0;
 }
 
-.flexbox-bigitem a, .instructions a {
+.flexbox-bigitem a, .flexbox-mediumitem a, .instructions a {
     display: flex;
     direction: column;
     justify-content: center;
@@ -136,8 +136,12 @@ ul.description.description-small li {
     margin-top: 5rem;
 }
 
-.flexbox-bigitem a svg, .instructions a svg {
+.flexbox-bigitem a svg, .flexbox-mediumitem a svg,.instructions a svg {
     margin-right: 0.8rem;
+}
+
+.flexbox-bigitem.alternatives a, .flexbox-mediumitem.alternatives a {
+    margin-top: 2rem;
 }
 
 .description > li {
