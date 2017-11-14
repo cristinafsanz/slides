@@ -144,6 +144,15 @@ ul.description.description-small li {
     margin-top: 2rem;
 }
 
+.flexbox-bigitem.links {
+    margin-top: -1rem;
+}
+
+.fa-big {
+    width: 9em !important;
+    height: 9em !important;
+}
+
 .description > li {
     margin-top: 2rem;
 }
