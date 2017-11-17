@@ -232,11 +232,11 @@ De hecho GitHub se puede utilizar para casi todo: para escribir novelas, como JJ
 
 ## 📌Conclusión
 
+Espero que esta historia os haya inspirado para buscar vuestra propia manera de experimentar, ya sea con GitHub Pages o con otro medio que encontréis.
+
 Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y __lo he convertido en charla__ 😂.
 
-Espero que esta historia os haya inspirado para buscar vuestra propia manera de experimentar. ¿Os imagináis qué podríais crear?
-
-¡Gracias!
+¡Muchas gracias!
 
 ## Recursos utilizados
 
