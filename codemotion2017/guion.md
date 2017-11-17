@@ -52,11 +52,11 @@ Sin embargo veía la publicación de la página web y el alojamiento del código
 
 ## Cinematógrafo
 
-Para explicaros cómo me sentí voy a retroceder a finales del siglo XIX.
+__Para explicaros cómo me sentí voy a retroceder a finales del siglo XIX.__ 😍
 
 🎨 [Gif de una de las primeras películas representadas con el cinematógrafo]
 
-Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. __Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas, él llegó a crear 500 películas y yo he llegado a tener 30 repositorios, a lo mejor os parecen pocos, pero dadme tiempo.__ 😂.
+__Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función.__ 😍 Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. __Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas, él llegó a crear 500 películas y yo he llegado a tener 30 repositorios, a lo mejor os parecen pocos, pero dadme tiempo.__ 😂.
 
 ## 📌GitHub Pages
 
@@ -104,7 +104,7 @@ __Ha llegado el momento de explicar los trucos de magia__ 😂 y para ellos voy 
 
 🎨 [Truco de sobreimpresión]
 
-Para explicar las formas en las que podemos publicar voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba la cinta para grabar su cabeza en distintos sitios.
+Para explicar las formas en las que podemos publicar __voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba la cinta para grabar su cabeza en partes distintas de ella.__ 😍
 
 🎨 [Página web resultante del proyecto de Jose para Codenares]
 
@@ -148,9 +148,7 @@ Os voy a contar algunos casos de uso que considero interesantes.
 
 🎨 [Truco mujer a la izquierda y un esqueleto a la derecha] 
 
-Voy a usar el truco de parar para explicar este caso de uso.
-
-Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.
+__Voy a usar el truco de parar para explicar este caso de uso. Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.__ 😍
 
 Yo basándome en este truco os voy a enseñar el mismo proyecto de dos formas distintas. En el segundo repositorio voy a añadir una librería que nos puede venir bien al subir nuestros cursos.
 
