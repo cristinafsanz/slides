@@ -232,9 +232,9 @@ De hecho GitHub se puede utilizar para casi todo: para escribir novelas, como JJ
 
 ## 📌Conclusión
 
-Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y he empezado a experimentar con el código web.
+Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y __lo he convertido en charla__ 😂.
 
-Espero que esta charla os inspire para buscar el medio para hacer vuestro arte. ¿Os imagináis qué podríais crear?
+Espero que esta historia os haya inspirado para buscar vuestra propia manera de experimentar. ¿Os imagináis qué podríais crear?
 
 ¡Gracias!
 
