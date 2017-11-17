@@ -6,7 +6,7 @@ Bromas accionadas por [Roger Prat](https://twitter.com/presentablees) en [Humor 
 
 - Hablo de versiones anteriores del código
 
-- Se podría hablar de mejores versiones de un ex o de mí misma. 
+- Se podría hablar de mejores versiones de un ex o de mí misma.
 
 ## Storytelling Georges Méliès
 
@@ -16,7 +16,7 @@ Bromas accionadas por [Roger Prat](https://twitter.com/presentablees) en [Humor 
 
 ## Comparación entre Méliès y yo
 
-- Georges Mél¡ès y yo tenemos vidas paralelas, él llegó a crear 500 películas y yo he llegado a crear 29 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo.
+- Georges Méliès y yo tenemos vidas paralelas, él llegó a crear 500 películas y yo he llegado a crear 29 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo.
 
 ## Recurso brain vomiting
 
