@@ -8,7 +8,17 @@
 
 - Aprender cómo se pone en **pantalla completa** la **presentación** en el navegador con el ordenador que vayamos a utilizar y cómo se **cambia** el **tamaño del texto**.
 
+    - Para Mac: 
+    
+        - En "Ver" desmarcar "Mostrar siempre la barra de herramientas en el modo de pantalla completa".
+
+        - Ctrl + Command + F para pantalla completa (aparece también en "Ver").
+
+        - Command + y command - para cambiar tamaño (opciones Acercar y alejar de "Ver").
+
 - Comprobar que **no se va a apagar la pantalla** por **ahorro de energía**.
+
+    - Para Mac en el economizador que no se apague la pantalla hasta 1 hora.
 
 - **Mutear** el ordenador y **quitar notificaciones**.
 

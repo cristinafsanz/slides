@@ -34,7 +34,7 @@ En la charla voy a hablar de:
 
 - ¿Por qué elijo GitHub Pages?
 
-__Además, para amenizar la charla voy a explicar varios trucos de magia que creó Georges Méliès. Y es que antes de pionero del cine fue ilusionista__ 😍
+__Además, para amenizar la charla voy a incluir varios trucos de magia que creó Georges Méliès. Y es que antes de pionero del cine fue ilusionista__ 😍
 
 ## 📌¿Por qué surge esta charla?
 
@@ -52,7 +52,7 @@ Un tiempo después me di cuenta que sería también útil poder acceder al códi
 
 Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite alojar repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos. __Lo de poder volver atrás en el tiempo siempre me ha gustado, como buena fan de Regreso al Futuro__ 😂
 
-Sin embargo veía la publicación de la página web y el alojamiento del código para 2 situaciones distintas. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
+Sin embargo no veía conexión entre la publicación de la página web y el alojamiento del código con GitHub. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
 
 ## Cinematógrafo
 
@@ -112,7 +112,7 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 ![Octotree](imagenes-guion/20.octotree.png?raw=true)
 
-__Ha llegado el momento de explicar los trucos de magia__ 😂 y para ellos voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
+__Ha llegado el momento de explicar los trucos de magia__ 😂 y para ello voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
 
 ![Truco de sobreimpresión](imagenes-guion/21.truco-sobreimpresion.png?raw=true)
 
@@ -130,7 +130,7 @@ Basándome en ese truco voy a utilizar el proyecto que usó Jose Dongil en su ch
 
  Para el primer repositorio voy a utilizar el origen más común, master. El código que subes en master es el que se publica.
 
- Se trata de un proyecto vue que utiliza webpack para preparar la aplicación para producción. El código que quiero generar lo tenemos en el directorio dist, por lo que si habilitamos GitHub Pages desde master, tendremos la aplicación en https://username.github.io/repo/dist.
+ Se trata de un proyecto vue que utiliza webpack para preparar la aplicación para producción. El código que quiero publicar lo tenemos en el directorio dist, por lo que si habilitamos GitHub Pages desde master, tendremos la aplicación en https://username.github.io/repo/dist.
 
 ![Proyecto en directorio /docs de rama master](imagenes-guion/25.vue-docs.png?raw=true)
 
@@ -148,9 +148,9 @@ Este proceso es un poco más enfarragoso porque hay que hacer push a 2 ramas con
 
 ![Fichero Travis.yml](imagenes-guion/27.vue-gh-pages-travis.png?raw=true)
 
-Por ello normalmente se utiliza un servicio de integración continua como Travis para que cuando hagas push a master, se genere el código de producción y se haga push automáticamente a gh-pages.
+Por ello normalmente se utiliza un servicio de integración continua como Travis para que cuando hagas push a master, se genere el código de producción y se haga push a gh-pages automáticamente.
 
-Además ahora Travis integra con GitHub Pages y sólo necesitas añadir un fichero travis.yml añadiendo el script necesario para generar los ficheros de producción, el directorio y la rama origen.
+Además ahora Travis integra con GitHub Pages de forma más sencilla y sólo necesitas añadir un fichero travis.yml. En él indicas el script para generar los ficheros de producción, dónde se generan y la rama origen.
 
 ## 📌Casos de uso
 
@@ -228,7 +228,7 @@ El truco es que __he usado un generador estático en concreto, no por la velocid
 
 Puedes documentar un proyecto para explicar de qué va usando el fichero README o la wiki disponible en GitHub.
 
-Un truco que he visto si no quieres complicarte añadiendo un estilo inicial es usar GitHub theme, que activa un diseño entre unos cuantos posibles usando el generador estático por defecto GitHub.
+Un truco que he visto si no quieres complicarte añadiendo un estilo inicial es usar GitHub theme en la pestaña de Settings, que activa un diseño entre unos cuantos posibles usando el generador estático por defecto de GitHub, Jekyll.
 
 ![Ejemplo de diseños predefinidos](imagenes-guion/44.tema-jekyll-inicial.png?raw=true)
 
