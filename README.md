@@ -30,7 +30,7 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
     * [Guión](codemotion2017/guion.md)
 
-    * [PDF](codemotion2017/imagenes-guion/ilusionismo-github-pages.pdf)
+    * [PDF](https://cristinafsanz.github.io/slides/codemotion2017/imagenes-guion/ilusionismo-github-pages.pdf)
 
 
 ## Ideas diseño slides
