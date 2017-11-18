@@ -1,0 +1,1043 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks,
+      @jlantunez.
+    -->
+
+    <!-- SEO -->
+    <title>Ilusionismo con GitHub Pages</title>
+    <meta name="description" content="Presentación para explicar sGitHub Pages">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+
+    <!-- Style changed for current presentation -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/presentation.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cristinafsanz">
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@cristinafsanz">
+    <!-- EDIT -->
+    <meta name="twitter:title" content="Cristina Fernández Sanz">
+    <!-- EDIT -->
+    <meta name="twitter:description" content="Desarrolladora front-end.">
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+</head>
+
+<body>
+    <main role="main">
+        <article id="webslides">
+            <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/portada.jpg')"></span>
+                <h1 style="display: none;">Ilusionismo con GitHub Pages</h1>
+            </section>
+
+            <section class="aligncenter fullscreen">
+                <div class="card-40 bg-white">
+                    <figure>
+                        <img src="static/images/avatar.jpg">
+                    </figure>
+                    <div class="flex-content">
+                        <h2 class="presentation">Cristina Fernández</h2>
+                        <p>
+                            <span class="bold-second">Desarrolladora</span> <span class="bold-main">front-end</span> 
+                            <span class="bold-second">en Kairós DS.</span>
+                        </p>
+                        <ul class="description presentation">
+                            <li>
+                                <a class="bold-main" rel="external" href="https://twitter.com/cristinafsanz" title="Twitter">
+                                    <svg class="fa-twitter">
+                                        <use xlink:href="#fa-twitter"></use>
+                                    </svg>
+                                    <em>@cristinafsanz</em>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="bold-main" rel="external" href="https://github.com/cristinafsanz" title="GitHub">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <em>cristinafsanz</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-calendar-times-o">
+                            <use xlink:href="#fa-calendar-times-o"></use>
+                        </svg>
+                        Agenda
+                    </h2>
+                    <ul class="flexblock steps">
+                        <li>
+                            <svg class="fa-history aligncenter">
+                                <use xlink:href="#fa-history"></use>
+                            </svg>
+                            <div class="aligncenter">Origen</div>
+                        </li>
+                        <li>
+                            <svg class="fa-github aligncenter">
+                                <use xlink:href="#fa-github"></use>
+                            </svg>
+                            <div class="aligncenter">GitHub Pages</div>
+                        </li>
+                        <li>
+                            <svg class="fa-user aligncenter">
+                                <use xlink:href="#fa-user"></use>
+                            </svg>
+                            <div class="aligncenter">Casos de uso</div>
+                        </li>
+                        <li>
+                            <svg class="fa-smile-o aligncenter">
+                                <use xlink:href="#fa-smile-o"></use>
+                            </svg>
+                            <div class="aligncenter">Alternativas</div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-por-que-surge.jpg')"></span>
+                <h2 style="display: none;">¿Por qué surge esta charla?</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Publicar portfolio web
+                    </h2>
+                    <img src="static/images/portfolio-melies.jpg">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-code">
+                            <use xlink:href="#fa-code"></use>
+                        </svg>
+                        Alojar código
+                    </h2>
+                    <img src="static/images/github-logo.png">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-file-video-o">
+                            <use xlink:href="#fa-file-video-o"></use>
+                        </svg>
+                        Cinematógrafo (1895)
+                    </h2>
+                    <img src="static/images/llegada-tren-estacion-Ciotat.jpg">
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-github-pages.jpg')"></span>
+                <h2 style="display: none;">¿Qué es GitHub Pages?</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        User site y Project sites
+                    </h2>
+                    <div class="grid vertical-align">
+                        <div class="column">          
+                            <img src="static/images/user-site.png" alt="Ejemplo repositorio de usuario (cristinafsanz.github.io)">
+                            <pre>https://user.github.io</pre>
+                        </div>
+                        <div class="column">
+                            <img src="static/images/project-site.png" alt="Ejemplo repositorio de proyecto (projects)">
+                            <pre>https://user.github.io/repo</pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                    <div class="wrap">
+                        <h2>
+                            <svg class="fa-desktop">
+                                <use xlink:href="#fa-desktop"></use>
+                            </svg>
+                            https://user.github.io
+                        </h2>
+                        <img src="static/images/user-site-ejemplo.jpg" alt="Ejemplo página web">
+                    </div>
+                </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-que-necesitas.jpg')"></span>
+                <h2 style="display: none;">¿Qué necesitas saber?</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        github.com: Crear repositorio
+                    </h2>
+                    <img src="static/images/crear-repositorio.png" alt="Crear un repositorio añadiendo nombre y un README.">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-terminal">
+                            <use xlink:href="#fa-terminal"></use>
+                        </svg>
+                        Clonar repositorio
+                    </h2>
+                    <ul class="description">
+                        <li>
+                            <svg class="fa-terminal">
+                                <use xlink:href="#fa-terminal"></use>
+                            </svg>
+                            <span class="bold-main">git clone</span> <span class="bold-second">git@github.com/user/repository.git</span>
+                        </li>
+                    </ul>
+                    <p>
+                        <img class="aligncenter" src="static/images/clone.jpg" alt="Gif con Georges Méliès duplicándose a sí mismo (como espectáculo de magia).">
+                    </p>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-terminal">
+                            <use xlink:href="#fa-terminal"></use>
+                        </svg>
+                       Añadir código al proyecto
+                    </h2>
+                    <img src="static/images/anadir-git.jpg" alt="Añadir código a Git (gif de cohete en Viaje a la Luna, de Georges Méliès)">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-terminal">
+                            <use xlink:href="#fa-terminal"></use>
+                        </svg>
+                        Subir el código
+                    </h2>
+                    <ul class="description">
+                        <li>
+                            <svg class="fa-terminal">
+                                <use xlink:href="#fa-terminal"></use>
+                            </svg>
+                            <span class="bold-main">git add</span> <span class="bold-second">.</span></li>
+                        <li>
+                            <svg class="fa-terminal">
+                                <use xlink:href="#fa-terminal"></use>
+                            </svg>
+                            <span class="bold-main">git commit</span> <span class="bold-second">-m "Mensaje"</span></li>
+                        <li>
+                            <svg class="fa-terminal">
+                                <use xlink:href="#fa-terminal"></use>
+                            </svg>
+                            <span class="bold-main">git push</span> <span class="bold-second">origin master</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Código en GitHub
+                    </h2>
+                    <img src="static/images/GitHub.jpg" alt="GitHub (gif de la luna en Viaje a la Luna cuando impacta el cohete)">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Habilitar GitHub Pages
+                    </h2>
+                    <img src="static/images/habilitar-github-pages.png" alt="Habilitar GitHub Pages desde la pestaña Settings, eligiendo desde el dropdown las posibilidades.">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Página web publicada
+                    </h2>
+                    <img src="static/images/pagina-web-resultado.jpg" alt="Resultado en GitHub (ya en la luna, en Viaje a la Luna, de Georges Méliès)">
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-que-codigo.jpg')"></span>
+                <h2 style="display: none;">¿Qué código publicas?</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-chrome">
+                            <use xlink:href="#fa-chrome"></use>
+                        </svg>
+                        Extensión de Chrome Octotree
+                    </h2>
+                    <img src="static/images/octotree.jpg" alt="Extensión que añade un panel a la izquierda con proyecto en forma de árbol">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-magic">
+                            <use xlink:href="#fa-magic"></use>
+                        </svg>
+                       Truco de sobreimpresión
+                    </h2>
+                    <img src="static/images/truco-sobreimpresion.jpg" alt="Gif con Georges Méliès duplicándose a sí mismo (como espectáculo de magia).">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        1 proyecto publicado de 4 formas
+                    </h2>
+                    <img src="static/images/vue-repositorios.png" alt="4 repositorios del mismo proyecto">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Vue (Jose Dongil)
+                    </h2>
+                    <img src="static/images/proyecto-vue.jpg" alt="Proyecto buscador de películas">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Vue master
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/vue-master.png" alt="Código Vue master en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem">
+                                <a href="https://github.com/cristinafsanz/vue-master">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://cristinafsanz.github.io/vue-master/dist">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo/dist</span>   
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Vue master /docs
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/vue-master-docs.png" alt="Código Vue master en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem">
+                                <a href="https://github.com/cristinafsanz/vue-master-docs">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://cristinafsanz.github.io/vue-master-docs">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo</span>   
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Vue gh-pages
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/vue-gh-pages-gh-pages.png" alt="Código Vue gh-pages en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem">
+                                <a href="https://github.com/cristinafsanz/vue-gh-pages">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://cristinafsanz.github.io/vue-gh-pages">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo</span>   
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Vue gh-pages Travis
+                    </h2>
+                    <img src="static/images/vue-gh-pages-travis.jpg" alt="Fichero Travis en Master">
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-casos-uso.jpg')"></span>
+                <h2 style="display: none;">Casos de uso</h2>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-casos-uso-cursos.jpg')"></span>
+                <h2 style="display: none;">Cursos</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-magic">
+                            <use xlink:href="#fa-magic"></use>
+                        </svg>
+                       Truco de parar
+                    </h2>
+                    <img src="static/images/truco-parar.jpg" alt="Gif con Georges Méliès duplicándose a sí mismo (como espectáculo de magia).">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        1 proyecto con una librería añadida
+                    </h2>
+                    <img src="static/images/flexbox-repositorios.png" alt="2 repositorios del mismo proyecto">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Flexbox (Diana Aceves)
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/flexbox-master.png" alt="Código css master en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem">
+                                <a href="https://github.com/cristinafsanz/flexbox-master">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://cristinafsanz.github.io/flexbox-master/01-align-elements/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo/exercise</span>   
+                                </a>
+                                <a href="https://github.com/cristinafsanz/flexbox-master/blob/master/README.md">
+                                    <svg class="fa-sticky-note-o">
+                                        <use xlink:href="#fa-sticky-note-o"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo/README</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Ejercicio
+                    </h2>
+                    <img src="static/images/flexbox-ejercicio.png" alt="Página web con ejercicio CSS">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap-80">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        <a href="https://github.com/ghinda/jotted">Jotted</a>
+                    </h2>
+                    <img src="static/images/jotted-uso.png" alt="Código para usarlo, en página web de jotted">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Flexbox con Jotted
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/flexbox-jotted.png" alt="Código css master en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem">
+                                <a href="https://github.com/cristinafsanz/flexbox-jotted">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://cristinafsanz.github.io/flexbox-jotted/01-align-elements/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo/exercise</span>   
+                                </a>
+                                <a href="https://github.com/cristinafsanz/flexbox-jotted/blob/master/README.md">
+                                    <svg class="fa-sticky-note-o">
+                                        <use xlink:href="#fa-sticky-note-o"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo/README</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Ejercicio con Jotted
+                    </h2>
+                    <img src="static/images/flexbox-ejercicio-jotted.png" alt="Página web con ejercicio CSS con pestañas HTML, CSS y Resultado">
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-casos-uso-presentacion.jpg')"></span>
+                <h2 style="display: none;">Presentación</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Esta presentación
+                    </h2>
+                    <img src="static/images/portada.jpg" alt="Portada esta presentación">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Instrucciones
+                    </h2>
+                    <div class="instructions">
+                        <a href="https://github.com/cristinafsanz/melies-origen">
+                            <svg class="fa-sticky-note-o">
+                                <use xlink:href="#fa-sticky-note-o"></use>
+                            </svg>
+                            <span class="bold-second">github.com/cristinafsanz/</span><span class="bold-main">melies-origen</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-casos-uso-blog.jpg')"></span>
+                <h2 style="display: none;">Blog</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Instrucciones
+                    </h2>
+                    <div class="instructions">
+                        <a href="https://github.com/cristinafsanz/melies-hugo">
+                            <svg class="fa-sticky-note-o">
+                                <use xlink:href="#fa-sticky-note-o"></use>
+                            </svg>
+                            <span class="bold-second">github.com/cristinafsanz/</span><span class="bold-main">melies-hugo</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-file-video-o">
+                            <use xlink:href="#fa-file-video-o"></use>
+                        </svg>
+                        Hugo
+                    </h2>
+                    <img src="static/images/hugo.jpg" alt="Hugo, película homenaje a Méliès">
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-casos-uso-documentacion.jpg')"></span>
+                <h2 style="display: none;">Documentación</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Tema Jekyll inicial
+                    </h2>
+                    <img src="static/images/choose-theme.jpg" alt="Elegir un tema de Jekyll">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-desktop">
+                            <use xlink:href="#fa-desktop"></use>
+                        </svg>
+                        Instrucciones
+                    </h2>
+                    <div class="instructions">
+                        <a href="https://github.com/cristinafsanz/github-page-theme">
+                            <svg class="fa-sticky-note-o">
+                                <use xlink:href="#fa-sticky-note-o"></use>
+                            </svg>
+                            <span class="bold-second">github.com/cristinafsanz/</span><span class="bold-main">github-page-theme</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-alternativas.jpg')"></span>
+                <h2 style="display: none;">Alternativas</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap-80">
+                    <h2>
+                        Hosting (Jorge Aznar)
+                    </h2>
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <p class="text-end">
+                                <a href="http://jorgeatgu.com/ejemplos/css-grid/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                </a>
+                            </p>
+                            <img src="static/images/jorge-aznar-demo-blog.png" alt="Ejemplo en el navegador">
+                        </div>
+                        <div class="column">
+                            <p class="text-end">
+                                <a href="https://github.com/jorgeatgu/ejemplos-blog/tree/master/css-grid">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                </a>
+                            </p>
+                            <img src="static/images/jorge-aznar-github.png" alt="Repo con un código ejemplo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        Codepen (Sarah Drasner)
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-bigitem alternatives">
+                            <p class="text-end">
+                                <a href="https://codepen.io/sdras/pen/d953d844fb3bed2c053fb83874844f64?editors=0110">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                </a>
+                            </p>
+                            <img src="static/images/sarah-drasner-codepen.png" alt="Ejemplo mostrado en Codepen: con CSS, JS y resultado"> 
+                        </div>
+                        <div class="flexbox-mediumitem alternatives">          
+                            <p class="text-end">
+                                <a href="https://github.com/sdras/JS-stroll/blob/master/1-chapter-1-1-nature-of-code-in-js-svg/js/index.js">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                </a>
+                            </p>
+                            <img src="static/images/sarah-drasner-github.png" alt="Fichero JS con un código ejemplo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div>
+                    <h2>
+                        <svg class="fa-github">
+                            <use xlink:href="#fa-github"></use>
+                        </svg>
+                        Surge o Netlify
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-mediumitem">          
+                            <img src="static/images/rock-open-source.png" alt="Código en GitHub">
+                        </div>
+                        <div class="flexbox-bigitem links">
+                                <a href="https://github.com/Angelmmiguel/rock-the-open-source">
+                                    <svg class="fa-github">
+                                        <use xlink:href="#fa-github"></use>
+                                    </svg>
+                                    <span class="bold-second">github.com/user/</span><span class="bold-main">repo</span>
+                                </a>
+                                <a href="https://angelmmiguel.github.io/rock-the-open-source/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-second">user.github.io/</span><span class="bold-main">repo</span>   
+                                </a>
+                                <a href="https://rock-the-open-source.surge.sh/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-main">repo</span><span class="bold-second">.surge.sh</span>   
+                                </a>
+                                <a href="https://rock-the-open-source.netlify.com/">
+                                    <svg class="fa-desktop">
+                                        <use xlink:href="#fa-desktop"></use>
+                                    </svg>
+                                    <span class="bold-main">repo</span><span class="bold-second">.netlify.com</span>   
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=-MXVtFwS6Gw">
+                                    <svg class="fa-youtube">
+                                        <use xlink:href="#fa-youtube"></use>
+                                    </svg>
+                                    <span class="bold-second">Explanation</span>   
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        <svg class="fa-code">
+                            <use xlink:href="#fa-code"></use>
+                        </svg>
+                        GitLab
+                    </h2>
+                    <img src="static/images/gitlab-logo.png">
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-por-que-github-pages.jpg')"></span>
+                <h2 style="display: none;">¿Por qué GitHub Pages?</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>
+                        Un único sitio
+                    </h2>
+                    <div class="flexbox-asymetric">
+                        <div class="flexbox-smallitem">
+                            <svg class="fa-github fa-big">
+                                <use xlink:href="#fa-github"></use>
+                            </svg>
+                        </div>
+                        <div class="flexbox-smallitem">
+                            <svg class="fa-desktop fa-big">
+                                <use xlink:href="#fa-desktop"></use>
+                            </svg>
+                        </div>
+                        <div class="flexbox-smallitem">
+                            <svg class="fa-sticky-note-o fa-big">
+                                <use xlink:href="#fa-sticky-note-o"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <span class="background" style="background-size: cover; background-image:url('static/images/encabezado-conclusion.jpg')"></span>
+                <h2 style="display: none;">Conclusión</h2>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                        <h2>
+                            Busca tu medio y a experimentar
+                        </h2>
+                    <img class="img-70" src="static/images/goodbye.jpg">
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap">
+                    <h1 class="text-end-title">¡Gracias!</h1>
+
+                    <ul class="description">
+                        <li>
+                            <span class="bold-second">
+                                Repo proyecto
+                                <svg class="fa-github">
+                                    <use xlink:href="#fa-github"></use>
+                                </svg>:
+                            </span> 
+                            <a class="bold-main" href="https://github.com/cristinafsanz/github-pages">
+                                cristinafsanz/github-pages
+                            </a>
+                        </li>
+                        <li>
+                            <span class="bold-second"> 
+                                Slides 
+                                <svg class="fa-github">
+                                    <use xlink:href="#fa-github"></use>
+                                </svg>:
+                            </span>
+                            <a class="bold-main" href="https://github.com/cristinafsanz/slides#codemotion">
+                                cristinafsanz/slides#codemotion
+                            </a>
+                        </li>
+                        <li>
+                            <span class="bold-second">
+                                Blog proyecto
+                                <svg class="fa-desktop">
+                                    <use xlink:href="#fa-desktop"></use>
+                                </svg>:
+                            </span>
+                            <a class="bold-main" href="https://melies-hugo.js.org/">
+                                https://melies-hugo.js.org
+                            </a>
+                        </li>
+                        <li>
+                            <a class="bold-main" rel="external" href="https://twitter.com/cristinafsanz" title="Twitter">
+                                <svg class="fa-twitter">
+                                    <use xlink:href="#fa-twitter"></use>
+                                </svg>
+                                <em>@cristinafsanz</em>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>Créditos</h2>
+                    <div class="grid vertical-align size-70">
+                        <div class="column">
+                            <ul class="description">
+                                <li class="credits-big">
+                                    <a class="bold-main" href="https://webslides.tv/">WebSlides</a> es una solución open
+                                    source creada por <a class="bold-second" href="https://twitter.com/jlantunez">@jlantunez</a>,
+                                    <a class="bold-second" href="https://twitter.com/Belelros">@Belelros</a> y <a class="bold-second"
+                                        href="https://twitter.com/luissacristan">@luissacristan</a>. Si quieres saber más,
+                                    <a href="https://twitter.com/webslides" title="@WebSlides">¡ponte en contacto!</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aligncenter">
+                <div class="wrap">
+                    <h2>Créditos</h2>
+                    <div class="grid vertical-align">
+                        <div class="column">
+                            <ul class="description description-small">
+                                <li class="credits">
+                                    Gifs de Méliès a partir de <a class="bold-main" href="https://giphy.com/search/georges-melies/">Giphy</a> y 
+                                    <a class="bold-main" href="https://www.youtube.com/">Youtube</a> utilizando el recurso 
+                                    <a class="bold-main" href="https://github.com/F1LT3R/youtube-to-gif">Youtube to Gif</a>. 
+                                </li>
+                                <li class="credits">
+                                    Portfolio web creado a partir de búsqueda de <a class="bold-main" href="https://images.google.com/">Google Images</a>.
+                                </li>
+                                <li class="credits">
+                                    Imagen de portada modificada a partir de una de la página <a class="bold-main" href="http://www.correodelmaestro.com/anteriores/2010/marzo/2artistas166.htm">Artistas artesanos</a>.
+                                </li>
+                                <li class="credits">
+                                    Mi avatar creado por <a class="bold-main" href="https://twitter.com/oneeyedman">@oneeyedman</a>.
+                                </li>
+                                <li class="credits">
+                                    Proyecto Vue a partir del <a class="bold-main" href="https://github.com/jdonsan/charla-aprendiendo-vuejs">repositorio</a> de Jose Dongil.
+                                </li>
+                                <li class="credits">
+                                    Ejemplos CSS a partir del <a class="bold-main" href="https://escuela.it/cursos/taller-profesional-flexbox">curso de EscuelaIT</a> de Diana Aceves.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+        <!-- end article -->
+    </main>
+    <!-- end main -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.min.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+</body>
+
+</html>

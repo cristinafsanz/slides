@@ -26,11 +26,13 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
 * Codemotion 2017:
 
-    * [Slides](https://cristinafsanz.github.io/slides/codemotion2017/#slide=1)
+    * [Slides](https://cristinafsanz.github.io/slides/github-pages/#slide=1)
+
+    * [Slides con gifs](https://cristinafsanz.github.io/slides/codemotion2017/#slide=1)
 
     * [Guión](codemotion2017/guion.md)
 
-    * [PDF](https://cristinafsanz.github.io/slides/codemotion2017/imagenes-guion/ilusionismo-github-pages.pdf)
+    * [PDF](https://cristinafsanz.github.io/slides/codemotion2017/imagenes-guion/ilusionismo-github-pages-compressed.pdf)
 
 
 ## Ideas diseño slides
