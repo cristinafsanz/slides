@@ -309,3 +309,11 @@ Os comparto el repo donde tengo todos los casos de uso, las slides con el guión
 Ejemplo:
 
 youtube-to-gif -u https://www.youtube.com/watch\?v\=uvfwgA6mBu0 -b 40 -d 14 -s 500x375
+
+## Convertir a PDF
+
+Versión inicial: Todas las imágenes de la carpeta imagenes-guion pasarlas de png a archivo pdf con https://pdfcandy.com/png-to-pdf.html.
+
+Después usar la funcionalidad de recortar pdf para adaptarlo al tamaño de la imagen.
+
+
