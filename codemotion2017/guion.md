@@ -8,13 +8,19 @@ Bienvenidos a la charla de "Ilusionismo con GitHub Pages".
 
 Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
 
-Voy a mezclar la charla de hoy con la historia de Georges Méliès, uno de los pioneros del cine. En sus películas era director, guionista, actor, decorador, operador y montador.  __Creo que sólo le faltaba vender las palomitas. En nuestro sector se le considera un gran artista full-stack__ 😂 .
+Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador y montador.  __Vamos, sólo le faltaba vender las palomitas. Él sí que era un verdadero full-stack, en su caso artista full-stack (mirando a @gprosemary, que es full-stack y afirmando como el niño del diario de Patricia en el minuto 0:26 https://www.youtube.com/watch?v=kzCbrDC0UAE )__ 😂 .
 
 ## Presentación
 
 ![Avatar a la izquierda y mi nombre, qué soy y dónde trabajo a la derecha](imagenes-guion/2.presentacion.png?raw=true)
 
-Me presento, soy Cristina Fernández, trabajo como desarrolladora Front-end y me podéis seguir en las redes como @cristinafsanz, tanto en twitter como en GitHub. Trabajo actualmente en Kairos Digital Solutions aunque la charla de hoy la he hecho a partir de un proyecto personal.
+Y después de esta pequeña reflexión, me presento. 
+
+Soy Cristina Fernández, trabajo como desarrolladora Front-end, es decir, hago aplicaciones del lado cliente con html, CSS y JavaScript. 
+
+Trabajo actualmente en Kairós Digital Solutions aunque la charla de hoy la he creado a partir de un proyecto personal.
+
+Y me podéis seguir en las redes como @cristinafsanz, tanto en twitter como en GitHub. 
 
 ## 📌 Agenda
 
@@ -22,19 +28,15 @@ Me presento, soy Cristina Fernández, trabajo como desarrolladora Front-end y me
 
 En la charla voy a hablar de:
 
-- ¿Por qué surge esta charla?
+- ¿Por qué surgió esta charla?
 
-- ¿Qué es GitHub Pages?
+- ¿Qué es GitHub Pages y qué necesitáis saber para empezar?
 
-- ¿Qué necesitas saber?
+- Casos de casos que me han parecido interesantes
 
-- Casos de casos
+- Alternativas y por qué elijo GitHub Pages?
 
-- Alternativas
-
-- ¿Por qué elijo GitHub Pages?
-
-__Además, para amenizar la charla voy a incluir varios trucos de magia que creó Georges Méliès. Y es que antes de pionero del cine fue ilusionista__ 😍
+__Además, para amenizar la charla voy a incluir algunos trucos de magia que creó Georges Méliès. Porque antes de cineasta fue ilusionista__ 😍
 
 ## 📌¿Por qué surge esta charla?
 
@@ -42,39 +44,41 @@ __Además, para amenizar la charla voy a incluir varios trucos de magia que cre�
 
 ![Porfolio web](imagenes-guion/5.portfolio.png?raw=true)
 
-Cuando empecé como desarrolladora front-end quería tener un portfolio con todas las maquetaciones web que fuera realizando. 
+Cuando empecé como desarrolladora front-end me propuse crear un portfolio para mostrar los proyectos que fuera realizando a nivel personal. 
 
-__En la presentación os pongo cómo hubiera sido el portfolio de Méliès, que me parece más curioso__ 😂
+__Por cierto, en la presentación no aparece mi portfolio sino el de Méliès, si hubieran existido los portfolios hace 100 años__ 😂
 
-Un tiempo después me di cuenta que sería también útil poder acceder al código de esas páginas web, para poder consultarlo y reutilizarlo en otros proyectos.
+Un tiempo después de tener la idea del portfolio me di cuenta que sería también my útil poder acceder al código de esas páginas web desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
 
 ![GitHub](imagenes-guion/6.github.png?raw=true)
 
-Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite alojar repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos. __Lo de poder volver atrás en el tiempo siempre me ha gustado, como buena fan de Regreso al Futuro__ 😂
+Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite tener repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos. __A mí lo de poder volver atrás en el tiempo siempre me ha gustado, como buena fan de Regreso al Futuro__ 😂
 
 Sin embargo no veía conexión entre la publicación de la página web y el alojamiento del código con GitHub. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
 
 ## Cinematógrafo
 
-__Para explicaros cómo me sentí voy a retroceder a finales del siglo XIX.__ 😍
+__Para que véais cómo me sentí voy a retroceder a finales del siglo XIX.__ 😍
 
 ![Gif de una de las primeras películas representadas con el cinematógrafo](imagenes-guion/7.cinematografo.png?raw=true)
 
-__Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado y se decidió a incluirlo en su función.__ 😍 Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara-proyector para hacer sus experimentos. __Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas, él llegó a crear 500 películas y yo he llegado a tener 30 repositorios, a lo mejor os parecen pocos, pero dadme tiempo.__ 😂.
+__Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado (como yo con GitHub Pages) y se decidió a incluirlo en su función.__ 😍 Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara y proyector para hacer sus experimentos. __Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas. Él llegó a crear 500 películas y yo he actualmente tengo 30 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo.__ 😂.
 
 ## 📌GitHub Pages
 
 ![Qué es GitHub Pages](imagenes-guion/8.que-es-ghp.png?raw=true)
 
-GitHub Pages es una funcionalidad de GitHub que te permite publicar en Internet el código web estático (html, css y JavaScript) que tienes subido en un repositorio.
+GitHub Pages es una funcionalidad de GitHub que te permite publicar páginas web estáticas a partir del código que subes en un repositorio.
+
+El código que publicas tiene que ser código del lado del cliente, es decir, html, css y JavaScript, pero como los proyectos que hago son front-end, a mí me sirve.
 
 ## User Site y Project Sites
 
-Cuando habilitas esta funcionalidad te proporciona un dominio (__por desgracia no un dominio de la tecnología, sino un dominio web__ 😂.) El dominio que te da es a partir de tu nombre de usuario:
+Cuando habilitas esta funcionalidad te proporciona un subdominio de github.io con tu nombre de usuario en GitHub:
 
 ![Repo + url user site / Repo + url Project site](imagenes-guion/9.usersite-projectsites.png?raw=true)
 
-- Para un repositorio que nombres como "username.github.io" tendrás la url https://username.github.io.
+- Para un repositorio con nombre "username.github.io" tendrás la url https://username.github.io.
 
 - Para cualquier otro nombre de repositorio tendrás una url https://username.github.io/repo.
 
@@ -138,7 +142,9 @@ GitHub Pages nos permite publicar lo que se sube a la carpeta /docs de master, a
 
 Como sólo queremos publicar lo que hay en una carpeta /dist, podemos renombrar esta carpeta destino para que se llame /docs. Así tendremos la aplicación directamente en https://username.github.io/repo.
 
-Sé que puede quedar un poco raro que tengas en una carpeta docs cosas que no son documentación, lo que pasa es que GitHub Pages sólo admite este nombre de carpeta por ahora, así que mucho no podemos hacer.
+Sé que puede quedar un poco raro que tengas en una carpeta docs cosas que no son documentación, lo que pasa es que GitHub Pages sólo admite este nombre de carpeta por ahora, así que más no podemos hacer.
+
+Además hay mucha gente que no quiere subir a GitHub el código generado para producción, no quiere subir esa carpeta de distribución.
 
 ![Proyecto en rama gh-pages](imagenes-guion/26.vue-gh-pages.png?raw=true)
 
@@ -170,6 +176,8 @@ Yo basándome en este truco os voy a enseñar el mismo proyecto de dos formas di
 
 Voy a partir de 2 ejemplos del curso de Flexbox de Diana Aceves. 
 
+Antes de subir nada, hay que saber si tenemos permiso para alojar los cursos de una determinada escuela. En el caso de EscuelaIT les pregunté y me dijeron que no había problema y pregunté después a Diana Aceves y también aceptó.
+
 ![Un proyecto y una librería](imagenes-guion/31.unproyecto-libreria.png?raw=true)
 
 Vamos a subir estos ejemplos a la rama master y habilitamos master para GitHub Pages. Con esto tenemos los ejemplos en:
@@ -196,7 +204,9 @@ https://username.github.io/repo/example2/
 
 ![Ejercicio Flexbox Jotted](imagenes-guion/36.ejercicio-jotted.png?raw=true)
 
-Sin embargo en la misma página tenemos el código html, css y js en distintas pestañas y en otra el resultado de cómo se ve en un navegador.
+Con esto en la misma página tenemos el código html, css y js en distintas pestañas y en otra el resultado de cómo se ve en un navegador. 
+
+Tanto en el caso de subir el curso sin esta librería como con ella tenemos la ventaja de que podemos ver la demo sin tener que bajarnos el código de GitHub a local para ver el resultado, lo que agiliza mucho las cosas. Esta aplicación de GitHub Pages es la más interesante para mí de todos los casos de uso posible.
 
 ## Presentación
 
@@ -270,7 +280,7 @@ Porque es bastante usado en la comunidad y puedes tener ayuda de mucha gente que
 
 Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio.
 
-De hecho GitHub se puede utilizar para casi todo: para escribir novelas, como JJMerelo; para organizarse una charla, como he estado haciendo yo. __Sólo faltaría poder grabar y proyectar películas para que fuese perfecto__ 😂.
+De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ Merelo), organizar una charla, mostrar tus herramientas de trabajo y mucho más. __Sólo faltaría poder grabar y proyectar películas para que fuese perfecto__ 😂.
 
 ## 📌Conclusión
 
@@ -315,5 +325,11 @@ youtube-to-gif -u https://www.youtube.com/watch\?v\=uvfwgA6mBu0 -b 40 -d 14 -s 5
 Versión inicial: Todas las imágenes de la carpeta imagenes-guion pasarlas de png a archivo pdf con https://pdfcandy.com/png-to-pdf.html.
 
 Después usar la funcionalidad de recortar pdf para adaptarlo al tamaño de la imagen.
+
+## Dominio propio
+
+Si quieres tener un dominio propio tienes que añadir un fichero CNAME con el dominio contratado. 
+
+La desventaja es que pierdes el https y si quieres mantenerlo como en el caso de username.github.io tienes que utilizar CloudFlare u otra alternativa, aunque yo no lo he probado por ahora, para los experimentos que hago suelo dejar el dominio por defecto.
 
 
