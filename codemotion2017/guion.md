@@ -48,7 +48,7 @@ Cuando empecé como desarrolladora front-end me propuse crear un portfolio para 
 
 __Por cierto, en la presentación no aparece mi portfolio sino el de Méliès, si hubieran existido los portfolios hace 100 años__ 😂
 
-Un tiempo después de tener la idea del portfolio me di cuenta que sería también my útil poder acceder al código de esas páginas web desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
+Un tiempo después de tener la idea del portfolio me di cuenta que sería también my útil poder acceder al código de esos proyectos web desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
 
 ![GitHub](imagenes-guion/6.github.png?raw=true)
 
@@ -68,7 +68,7 @@ __Georges Méliès era un ilusionista que  asistió, invitado por los hermanos L
 
 ![Qué es GitHub Pages](imagenes-guion/8.que-es-ghp.png?raw=true)
 
-GitHub Pages es una funcionalidad de GitHub que te permite publicar páginas web estáticas a partir del código que subes en un repositorio.
+GitHub Pages es una funcionalidad de GitHub que te permite publicar sitios web estáticos a partir del código que subes en un repositorio.
 
 El código que publicas tiene que ser código del lado del cliente, es decir, html, css y JavaScript, pero como los proyectos que hago son front-end, a mí me sirve.
 
@@ -82,9 +82,13 @@ Cuando habilitas esta funcionalidad te proporciona un subdominio de github.io co
 
 - Para cualquier otro nombre de repositorio tendrás una url https://username.github.io/repo.
 
-![Ejemplo página web de User Site](imagenes-guion/10.usersite-ejemplo.png?raw=true)
+![Ejemplo sitio web de User Site](imagenes-guion/10.usersite-ejemplo.png?raw=true)
 
  Puedes tener un único User Site y múltiples Project Sites.
+
+ Ejemplo User Site: https://cristinafsanz.github.io/.
+
+ Ejemplo Project Site: https://cristinafsanz.github.io/projects/.
 
 ## 📌¿Qué necesitas saber?
 
@@ -116,7 +120,7 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 ![Octotree](imagenes-guion/20.octotree.png?raw=true)
 
-__Ha llegado el momento de explicar los trucos de magia__ 😂 y para ello voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
+__Ha llegado el momento de explicar los trucos de magia__ 😂 y para ello voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página web de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
 
 ![Truco de sobreimpresión](imagenes-guion/21.truco-sobreimpresion.png?raw=true)
 
@@ -124,13 +128,21 @@ Para explicar las formas en las que podemos publicar __voy a basarme en el truco
 
 ![4 repositorios de código](imagenes-guion/22.unproyecto-4formas.png?raw=true)
 
+Basándome en ese truco voy a usar el mismo proyecto y lo voy a publicar de 4 formas distintas, utilizando un repositorio para cada una.
+
+https://github.com/cristinafsanz/vue-master
+
+https://github.com/cristinafsanz/vue-master-docs
+
+https://github.com/cristinafsanz/vue-gh-pages
+
+https://github.com/cristinafsanz/vue-gh-pages-travis
+
 ![Página web resultante del proyecto de Jose para Codenares](imagenes-guion/23.vue.png?raw=true)
 
-Basándome en ese truco voy a utilizar el proyecto que usó Jose Dongil en su charla de Vue y voy a publicarlo de distintas formas.
+He cogido __al azar__😂  el proyecto que usó Jose Dongil en su charla de Vue. __Hay amigos suyos en el público (@EduDBermejo y @rGomezBertoli) que pueden corroborar que se trata del mismo proyecto de Codenares (les pregunto a ellos directamente). Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar__😂.
 
  ![Proyecto en rama master](imagenes-guion/24.vue-master.png?raw=true)
-
- Voy a subir el mismo proyecto a 3 repositorios distintos y en cada uno de ellos voy a publicar desde un origen distinto. 
 
  Para el primer repositorio voy a utilizar el origen más común, master. El código que subes en master es el que se publica.
 
@@ -172,13 +184,17 @@ Os voy a contar algunos casos de uso que considero interesantes.
 
 __Voy a usar el truco de parar para explicar este caso de uso. Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.__ 😍
 
+![Un proyecto y una librería](imagenes-guion/31.unproyecto-libreria.png?raw=true)
+
 Yo basándome en este truco os voy a enseñar el mismo proyecto de dos formas distintas. En el segundo repositorio voy a añadir una librería que nos puede venir bien al subir nuestros cursos.
 
-Voy a partir de 2 ejemplos del curso de Flexbox de Diana Aceves. 
+https://github.com/cristinafsanz/flexbox-master
+
+https://github.com/cristinafsanz/flexbox-jotted
+
+Voy a partir de 2 ejemplos del curso de Flexbox de Diana Aceves.
 
 Antes de subir nada, hay que saber si tenemos permiso para alojar los cursos de una determinada escuela. En el caso de EscuelaIT les pregunté y me dijeron que no había problema y pregunté después a Diana Aceves y también aceptó.
-
-![Un proyecto y una librería](imagenes-guion/31.unproyecto-libreria.png?raw=true)
 
 Vamos a subir estos ejemplos a la rama master y habilitamos master para GitHub Pages. Con esto tenemos los ejemplos en:
 
@@ -218,6 +234,10 @@ __Estáis viendo un caso de uso en esta misma presentación, ese es el truco__ �
 
 ![Ejemplo esta presentacion](imagenes-guion/38.esta-presentacion.png?raw=true)
 
+https://cristinafsanz.github.io/slides/codemotion2017/#slide=1
+
+https://github.com/cristinafsanz/melies-origen
+
 ![Instrucciones presentacion](imagenes-guion/39.instrucciones-presentacion.png?raw=true)
 
 ## Blog
@@ -225,6 +245,10 @@ __Estáis viendo un caso de uso en esta misma presentación, ese es el truco__ �
 Me creé un blog para hablar del proceso de esta charla, pero también para probar un generador estático distinto al de por defecto (Jekyll).
 
 ![Blog](imagenes-guion/40.blog.png?raw=true)
+
+https://github.com/cristinafsanz/melies-hugo
+
+https://melies-hugo.js.org/
 
 ![Instrucciones Blog](imagenes-guion/41.instrucciones-blog.png?raw=true)
 
@@ -240,6 +264,8 @@ Puedes documentar un proyecto para explicar de qué va usando el fichero README 
 
 Un truco que he visto si no quieres complicarte añadiendo un estilo inicial es usar GitHub theme en la pestaña de Settings, que activa un diseño entre unos cuantos posibles usando el generador estático por defecto de GitHub, Jekyll.
 
+https://github.com/cristinafsanz/github-page-theme
+
 ![Ejemplo de diseños predefinidos](imagenes-guion/44.tema-jekyll-inicial.png?raw=true)
 
 ![Instrucciones tema Jekyll](imagenes-guion/45.instrucciones-tema-jekyll.png?raw=true)
@@ -254,13 +280,31 @@ Como primera alternativa podemos contratar un hosting y enlazar con el repositor
 
 Un ejemplo de esto lo podemos encontrar en el blog de Jorge Aznar en el que explica Grid Layout.
 
+http://jorgeatgu.com/ejemplos/css-grid/
+
+https://github.com/jorgeatgu/ejemplos-blog/tree/master/css-grid
+
 ![Demo en blog y código en GitHub](imagenes-guion/47.hosting.png?raw=true)
 
 También podemos usar Codepen u otro emulador como JSFiddle para publicar la demo de un código que tenemos en GitHub, como hace Sarah Drasner.
 
+https://codepen.io/sdras/pen/d953d844fb3bed2c053fb83874844f64?editors=0110
+
+https://github.com/sdras/JS-stroll/blob/master/1-chapter-1-1-nature-of-code-in-js-svg/js/index.js
+
 ![Repo y Codepen](imagenes-guion/48.codepen.png?raw=true)
 
 Y como última alternativa que os propongo podemos tener el código en GitHub y publicarlo en otras plataformas como Surge o Netlify, como hace Angel de Miguel en un proyecto de Open Source.
+
+https://github.com/Angelmmiguel/rock-the-open-source
+
+https://angelmmiguel.github.io/rock-the-open-source/
+
+https://rock-the-open-source.surge.sh/
+
+https://rock-the-open-source.netlify.com/
+
+https://www.youtube.com/watch?v=-MXVtFwS6Gw
 
 ![Repo con urls a las distintas plataformas](imagenes-guion/49.surge-netlify.png?raw=true)
 

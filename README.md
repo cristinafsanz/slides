@@ -34,6 +34,12 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
     * [PDF](https://cristinafsanz.github.io/slides/codemotion2017/imagenes-guion/ilusionismo-github-pages-compressed.pdf)
 
+    * [Kanban organización](https://tree.taiga.io/project/cristinafsanz-ilusionismo-con-github-pages/kanban)
+
+    * [Repo casos de uso](https://github.com/cristinafsanz/github-pages)
+
+    * [Blog proyecto](https://melies-hugo.js.org/)
+
 
 ## Ideas diseño slides
 
