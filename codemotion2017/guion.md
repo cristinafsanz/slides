@@ -8,7 +8,7 @@ Bienvenidos a la charla de "Ilusionismo con GitHub Pages".
 
 Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
 
-Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador y montador.  __Él sí que era un verdadero full-stack, en su caso artista full-stack (mirando a @gprosemary, que es full-stack)__ 😂 .
+Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador, montador...  __Sólo le falta vender las palomitas. Digamos que era un verdadero full-stack, en su caso artista full-stack (mirando a @gprosemary, que es full-stack)__ 😂 .
 
 ## Presentación
 
