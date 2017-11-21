@@ -330,9 +330,15 @@ De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ
 
 ![Conclusión](imagenes-guion/53.conclusion.png?raw=true)
 
+Como dije al principio, cuando empecé como desarrolladora front-end quería crear un portfolio que mostrara los proyectos que fuera realizando, lo que no me esperaba es que el medio para exponerlo fuera GitHub.
+
+Con cada repositorio explico lo que hecho y cómo lo he hecho. Me sirve tanto para alojar proyectos web como para organizarme y centralizar lo que aprendo. Y puedo compartirlo con otros a los que les pueda servir. 
+
+Creo que mi objetivo ha sido cumplido.
+
 ![Busca tu medio](imagenes-guion/54.busca-tu-medio.png?raw=true)
 
-Espero que esta historia os haya inspirado para buscar vuestra propia manera de experimentar, ya sea con GitHub Pages o con otro medio que encontréis.
+Espero que esta historia os haya inspirado para buscar vuestra manera de experimentar y exponer vuestros trabajos. Puede ser GitHub Pages o cualquier otro medio que encontréis.
 
 Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y __lo he convertido en charla__ 😂.
 
