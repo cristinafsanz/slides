@@ -58,7 +58,7 @@ Sin embargo no veía conexión entre la publicación de la página web y el aloj
 
 ## Cinematógrafo
 
-__Para que véais cómo me sentí voy a retroceder a finales del siglo XIX.__ 😍
+__Para que véais cómo me sentí, vamos a retroceder hasta finales del siglo XIX.__ 😍. (__Ya os decía que me gustaban los viajes en el tiempo__ 😂)
 
 ![Gif de una de las primeras películas representadas con el cinematógrafo](imagenes-guion/7.cinematografo.png?raw=true)
 
