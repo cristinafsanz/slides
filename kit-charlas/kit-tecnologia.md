@@ -2,9 +2,15 @@
 
 ## Preparar antes
 
-- Llevar **adaptadores** hdmi/vga del ordenador.
+- **Portátil**.
 
-- Comprar **pasador de diapositivas** (para no tener que ir al ordenador a cambiar de slides).
+- **Adaptadores** hdmi/vga.
+
+- **Cargador** de batería.
+
+- **Pendrive** para tener copia de la presentación.
+
+    - Llevar slides en **pendrive**, en **local** y **online**. Versión normal (web, Powerpoint, Google Slides...) y **PDF**. Demos **local** (ej. JSFiddle) y **online**. 
 
 - Aprender cómo se pone en **pantalla completa** la **presentación** en el navegador con el ordenador que vayamos a utilizar y cómo se **cambia** el **tamaño del texto**.
 
@@ -22,18 +28,22 @@
 
 - **Mutear** el ordenador y **quitar notificaciones**.
 
-- Llevar slides en **pendrive**, en **local** y **online**. Demos **local** (ej. JSFiddle) y **online**.
+    - La aplicación [Pliim](https://zehfernandes.github.io/pliim/) oculta iconos de escritorio, deshabilita notificaciones y oculta aplicaciones activas.
 
-- Si se va a hacer una **demo** llevar un **backup** también.
+- Si se va a hacer una **demo** llevar un **plan B** también por si no saliera.
 
-## En la charla
+## En la charla  
 
-- Colocar **micrófono por debajo** y enrollando lo que sobra del cable.
+- Comprobar que el ordenador está **muteado** y **sin notificaciones**.
 
 - **Cargar** el **ordenador** mientras se hace la presentación.
 
-- Para unas slides en web **que no se vea el cursor** poniéndolo a un lado.
+- Versión **pantalla completa** presentación.
+
+    - Para unas slides en web **que no se vea el cursor** poniéndolo a un lado.
+
+- Colocar **micrófono por debajo** y enrollando lo que sobra del cable.
 
 ## Después
 
-- ¡¡Descansar!!
+- ¡¡Descansar y disfrutar de lo que se ha conseguido!!

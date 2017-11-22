@@ -33,3 +33,5 @@
 - Probar con resolución de 1024px.
 
 - Formato presentación 16:9 (ej. 1024px ancho, 576px alto).
+
+    - También podría variar, por ejemplo track 6 de Codemotion tiene 1920x1200 (con hdmi y vga), que equivaldría a 1024x640.
