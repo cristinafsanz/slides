@@ -122,7 +122,9 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 ![Octotree](imagenes-guion/20.octotree.png?raw=true)
 
-__Ha llegado el momento de explicar los trucos de magia__ 😂 y para ello voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página web de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público.
+Para explicar las distintas formas de publicar con GitHub Pages voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página web de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público. También lo usaré al mostrar otros repositorios de ejemplo.
+
+__Y ahora ha llegado el momento de explicar los trucos de magia, estaba pensando en usar el truco de Méliès de fundido en negro al acabar una escena, pero lo de fundido en negro ya está muy utilizado en política, así que voy a usar otros para esta charla__ 😂 
 
 ![Truco de sobreimpresión](imagenes-guion/21.truco-sobreimpresion.png?raw=true)
 
