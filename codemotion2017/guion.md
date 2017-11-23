@@ -2,6 +2,8 @@
 
 ## [Ilusionismo con GitHub Pages]((https://cristinafsanz.github.io/slides/codemotion2017/#slide=1))
 
+Advertencia: Se han subrayado algunos fragmentos del texto en los que hay humor y storytelling. Se trata de un reto personal a partir de escuchar el podcast de [Humor en público](http://humorenpublico.com/).
+
 ![Cartel de Viaje a la luna con el título de la charla](imagenes-guion/1.portada.png?raw=true)
 
 Bienvenidos a la charla de "Ilusionismo con GitHub Pages".
@@ -359,10 +361,6 @@ Os comparto el repo donde tengo todos los casos de uso, las slides con el guión
 ![Creditos](imagenes-guion/56.creditos.png?raw=true)
 
 ![Creditos](imagenes-guion/57.creditos2.png?raw=true)
-
-## Humor en público
-
-Se han subrayado algunos fragmentos del texto en los que hay humor y storytelling. Se trata de un reto personal a partir de escuchar el podcast de [Humor en público](http://humorenpublico.com/).
 
 ## Recursos utilizados
 
