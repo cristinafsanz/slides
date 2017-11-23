@@ -322,7 +322,7 @@ Porque me ha sido más sencillo de utilizar al conocer GitHub.
 
 Porque es bastante usado en la comunidad y puedes tener ayuda de mucha gente que lo utiliza.
 
-Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio.
+Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio. No hace falta bajarte el código del repo a local para ver el resultado, sólo acceder a la url de la demo. 
 
 De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ Merelo), organizar una charla, mostrar tus herramientas de trabajo y mucho más. __Sólo faltaría poder grabar y proyectar películas para que fuese perfecto__ 😂.
 
@@ -359,6 +359,10 @@ Os comparto el repo donde tengo todos los casos de uso, las slides con el guión
 ![Creditos](imagenes-guion/56.creditos.png?raw=true)
 
 ![Creditos](imagenes-guion/57.creditos2.png?raw=true)
+
+## Humor en público
+
+Se han subrayado algunos fragmentos del texto en los que hay humor y storytelling. Se trata de un reto personal a partir de escuchar el podcast de [Humor en público](http://humorenpublico.com/).
 
 ## Recursos utilizados
 
