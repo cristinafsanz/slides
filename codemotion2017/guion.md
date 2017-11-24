@@ -144,7 +144,7 @@ https://github.com/cristinafsanz/vue-gh-pages-travis
 
 ![Página web resultante del proyecto de Jose para Codenares](imagenes-guion/23.vue.png?raw=true)
 
-He cogido __al azar__😂  el proyecto que usó Jose Dongil en su charla de Vue. __Hay amigos suyos en el público (@EduDBermejo y @rGomezBertoli) que pueden corroborar que se trata del mismo proyecto de Codenares (les pregunto a ellos directamente). Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar__😂.
+He cogido __al azar__😂  el proyecto que usó Jose Dongil en su charla de Vue. __Hay gente en el público (@RaulGM_83 entre ellos) que pueden corroborar que se trata del mismo proyecto de Codenares. Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar__😂.
 
  ![Proyecto en rama master](imagenes-guion/24.vue-master.png?raw=true)
 
