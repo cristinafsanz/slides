@@ -2,19 +2,21 @@
 
 ## [Ilusionismo con GitHub Pages]((https://cristinafsanz.github.io/slides/codemotion2017/#slide=1))
 
+Advertencia: Se han subrayado algunos fragmentos del texto en los que hay humor y storytelling. Se trata de un reto personal a partir de escuchar el podcast de [Humor en público](http://humorenpublico.com/).
+
 ![Cartel de Viaje a la luna con el título de la charla](imagenes-guion/1.portada.png?raw=true)
 
 Bienvenidos a la charla de "Ilusionismo con GitHub Pages".
 
 Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
 
-Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador, montador...  Él sí que era un verdadero full-stack (en su caso artista full-stack).
+Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador, montador...  __Sólo le falta vender las palomitas. Digamos que era un verdadero full-stack, en su caso artista full-stack (mirando a @gprosemary, que es full-stack)__ 😂 .
 
 ## Presentación
 
 ![Avatar a la izquierda y mi nombre, qué soy y dónde trabajo a la derecha](imagenes-guion/2.presentacion.png?raw=true)
 
-Y después de esta pequeña introducción, me presento. 
+Y después de esta pequeña reflexión, me presento. 
 
 Soy Cristina Fernández, trabajo como desarrolladora Front-end, es decir, hago aplicaciones del lado cliente con html, CSS y JavaScript. 
 
@@ -36,7 +38,7 @@ En la charla voy a hablar de:
 
 - Alternativas y por qué elijo GitHub Pages?
 
-Además, para amenizar la charla voy a incluir algunos trucos de magia que creó Georges Méliès. Porque antes de cineasta fue ilusionista.
+__Además, para amenizar la charla voy a incluir algunos trucos de magia que creó Georges Méliès. Porque antes de cineasta fue ilusionista__ 😍
 
 ## 📌¿Por qué surge esta charla?
 
@@ -46,23 +48,23 @@ Además, para amenizar la charla voy a incluir algunos trucos de magia que creó
 
 Cuando empecé como desarrolladora front-end me propuse crear un portfolio para mostrar los proyectos que fuera realizando a nivel personal. 
 
-Por cierto, en la presentación no aparece mi portfolio sino el de Méliès, si hubieran existido los portfolios hace 100 años...
+__Por cierto, en la presentación no aparece mi portfolio sino el de Méliès, si hubieran existido los portfolios hace 100 años__ 😂
 
 Un tiempo después de tener la idea del portfolio me di cuenta que sería también my útil poder acceder al código de esos proyectos web desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
 
 ![GitHub](imagenes-guion/6.github.png?raw=true)
 
-Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite tener repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos.
+Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite tener repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos. __A mí lo de poder volver atrás en el tiempo siempre me ha gustado, como buena fan de Regreso al Futuro__ 😂
 
 Sin embargo no veía conexión entre la publicación de la página web y el alojamiento del código con GitHub. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
 
 ## Cinematógrafo
 
-Para que véais cómo me sentí, vamos a retroceder hasta finales del siglo XIX.
+__Para que véais cómo me sentí, vamos a retroceder hasta finales del siglo XIX.__ 😍. (__Ya os decía que me gustaban los viajes en el tiempo__ 😂)
 
 ![Gif de una de las primeras películas representadas con el cinematógrafo](imagenes-guion/7.cinematografo.png?raw=true)
 
-Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado (como yo con GitHub Pages) y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara y proyector para hacer sus experimentos. Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas. Él llegó a crear 500 películas y yo he actualmente tengo 30 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo...
+__Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado (como yo con GitHub Pages) y se decidió a incluirlo en su función.__ 😍 Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara y proyector para hacer sus experimentos. __Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas. Él llegó a crear 500 películas y yo he actualmente tengo 30 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo.__ 😂.
 
 ## 📌GitHub Pages
 
@@ -84,7 +86,7 @@ Cuando habilitas esta funcionalidad te proporciona un subdominio de github.io co
 
 ![Ejemplo sitio web de User Site](imagenes-guion/10.usersite-ejemplo.png?raw=true)
 
- Puedes tener un único User Site y múltiples Project Sites. En la presentación pongo el ejemplo de mi User Site, donde pongo los enlaces a las redes sociales y al blog que tengo.
+ Puedes tener un único User Site y múltiples Project Sites.
 
  Ejemplo User Site: https://cristinafsanz.github.io/.
 
@@ -102,33 +104,17 @@ Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo h
 
 ![Crear repo](imagenes-guion/12.crear-repositorio.png?raw=true)
 
-Hay que crearse un repositorio en GitHub para almacenar allí tu código.
-
 ![Clonar en local](imagenes-guion/13.clonar-repositorio.png?raw=true)
-
-Clonamos el repo en local para incluir todos los ficheros en nuestro local. 
-
-En la presentación añado un gif de Méliès donde se clona a sí mismo y me pareció muy apropiado para esta slide.
 
 ![Añadir el código al repo](imagenes-guion/14.anadir-codigo.png?raw=true)
 
-Añadimos al código dentro el proyecto clonado.
-
 ![Subir el código](imagenes-guion/15.subir-codigo.png?raw=true)
-
-Subes el código a GitHub primero añadiendo el código en local con git add y git commit y luego haciendo push al repositorio remoto.
 
 ![Código en GitHub](imagenes-guion/16.codigo-github.png?raw=true)
 
-Los gifs de esta parte son de la película viaje a la luna (de 1902) y el gif actual es como me imagino que llega el código a remoto.
-
 ![Habilitar GitHub Pages](imagenes-guion/17.habilitar-github-pages.png?raw=true)
 
-Una vez subido el código vas a la pestaña Settings a la sección de GitHub Pages y habilitas GitHub Pages. Lo más común sería elegir la opción de publicar desde master, aunque os explicaré a continuación un caso donde podría resultar mejor subir desde otro origen.
-
 ![Imagen de la luna como si fuera un ejemplo de página web publicada](imagenes-guion/18.pagina-web-publicada.png?raw=true)
-
-Una vez habilitado GitHub Pages tenemos la página web publicada en la url de User Site o Project Site, dependiendo de qué repositorio hayamos utilizado.
 
 ## 📌 Qué código publicas
 
@@ -138,13 +124,11 @@ Una vez habilitado GitHub Pages tenemos la página web publicada en la url de Us
 
 Para explicar las distintas formas de publicar con GitHub Pages voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página web de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público. También lo usaré al mostrar otros repositorios de ejemplo.
 
-A mí me resulta muy útil para ver toda la estructura del proyecto.
+__Y ahora ha llegado el momento de explicar los trucos de magia, estaba pensando en usar el truco de Méliès de fundido en negro al acabar una escena, pero lo de fundido en negro ya está muy utilizado en política, así que voy a usar otros para esta charla__ 😂 
 
 ![Truco de sobreimpresión](imagenes-guion/21.truco-sobreimpresion.png?raw=true)
 
-Para explicar las formas en las que podemos publicar voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba la cinta para grabar su cabeza en partes distintas de ella.
-
-En la presentación apreciamos que a Méliès también le gustaba clonar su cabeza.
+Para explicar las formas en las que podemos publicar __voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba la cinta para grabar su cabeza en partes distintas de ella.__ 😍
 
 ![4 repositorios de código](imagenes-guion/22.unproyecto-4formas.png?raw=true)
 
@@ -160,7 +144,7 @@ https://github.com/cristinafsanz/vue-gh-pages-travis
 
 ![Página web resultante del proyecto de Jose para Codenares](imagenes-guion/23.vue.png?raw=true)
 
-He cogido al azar  el proyecto que usó Jose Dongil en su charla de Vue. Hay gente en el público que pueden corroborar que se trata del mismo proyecto de Codenares. Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar.
+He cogido __al azar__ 😂  el proyecto que usó Jose Dongil en su charla de Vue. __Hay gente en el público (@RaulGM_83 entre ellos) que pueden corroborar que se trata del mismo proyecto de Codenares. Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar__ 😂.
 
  ![Proyecto en rama master](imagenes-guion/24.vue-master.png?raw=true)
 
@@ -202,11 +186,11 @@ Os voy a contar algunos casos de uso que considero interesantes.
 
 ![Truco mujer a la izquierda y después vacío](imagenes-guion/30.truco-parar.png?raw=true)
 
-Voy a usar el truco de parar para explicar este caso de uso. Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.
+__Voy a usar el truco de parar para explicar este caso de uso. Se grababa una escena, se paraba la cámara, se añadían o quitaban elementos y se volvía a grabar.__ 😍
 
 ![Un proyecto y una librería](imagenes-guion/31.unproyecto-libreria.png?raw=true)
 
-Yo basándome en este truco os voy a enseñar el mismo proyecto de dos formas distintas. En el segundo repositorio voy a añadir una librería que nos puede venir bien al subir nuestros cursos (o tutoriales, manuales, ...).
+Yo basándome en este truco os voy a enseñar el mismo proyecto de dos formas distintas. En el segundo repositorio voy a añadir una librería que nos puede venir bien al subir nuestros cursos.
 
 https://github.com/cristinafsanz/flexbox-master
 
@@ -214,7 +198,7 @@ https://github.com/cristinafsanz/flexbox-jotted
 
 Voy a partir de 2 ejemplos del curso de Flexbox de Diana Aceves.
 
-Antes de subir nada, hay que saber si tenemos permiso para alojar los cursos de una determinada escuela. En el caso de EscuelaIT les pregunté a ellos y a Diana y me dijeron que no había problema.
+Antes de subir nada, hay que saber si tenemos permiso para alojar los cursos de una determinada escuela. En el caso de EscuelaIT les pregunté y me dijeron que no había problema y pregunté después a Diana Aceves y también aceptó.
 
 Vamos a subir estos ejemplos a la rama master y habilitamos master para GitHub Pages. Con esto tenemos los ejemplos en:
 
@@ -242,7 +226,7 @@ https://username.github.io/repo/example2/
 
 Con esto en la misma página tenemos el código html, css y js en distintas pestañas y en otra el resultado de cómo se ve en un navegador. 
 
-Tanto en el caso de subir el curso sin esta librería como con ella tenemos la ventaja de que podemos ver la demo sin tener que bajarnos el código de GitHub a local para ver el resultado, lo que agiliza mucho las cosas. Esta aplicación de GitHub Pages es la que me parece más interesante y que quiero seguir probando en el futuro.
+Tanto en el caso de subir el curso sin esta librería como con ella tenemos la ventaja de que podemos ver la demo sin tener que bajarnos el código de GitHub a local para ver el resultado, lo que agiliza mucho las cosas. Esta aplicación de GitHub Pages es la más interesante para mí de todos los casos de uso posible.
 
 ## Presentación
 
@@ -250,7 +234,7 @@ Para hacer esta presentación he utilizado el proyecto WebSlides y el resultado 
 
 ![Presentacion](imagenes-guion/37.presentacion.png?raw=true)
 
-Estáis viendo un caso de uso en esta misma presentación, ese es el truco.
+__Estáis viendo un caso de uso en esta misma presentación, ese es el truco__ 😂.
 
 ![Ejemplo esta presentacion](imagenes-guion/38.esta-presentacion.png?raw=true)
 
@@ -272,7 +256,7 @@ https://melies-hugo.js.org/
 
 ![Instrucciones Blog](imagenes-guion/41.instrucciones-blog.png?raw=true)
 
-El truco es que he usado un generador estático en concreto, no por la velocidad o la tecnologías, sino por el nombre que tiene. Se llama igual que una película que homenajea a Georges Méliès. Éste es el truco.
+El truco es que __he usado un generador estático en concreto, no por la velocidad o la tecnologías, sino por el nombre que tiene__ 😂. Se llama igual que una película que homenajea a Georges Méliès. Éste es el truco.
 
 ![Película Hugo](imagenes-guion/42.hugo.png?raw=true)
 
@@ -330,8 +314,6 @@ https://www.youtube.com/watch?v=-MXVtFwS6Gw
 
 También podemos probar GitLab en vez de GitHub. A muchos desarrolladores les gusta más porque la plataforma en sí es open source.
 
-GitLab también tiene un servicio GitLab Pages.
-
 ![GitLab](imagenes-guion/50.gitlab.png?raw=true)
 
 ## Por qué elijo GitHub Pages
@@ -346,7 +328,7 @@ Porque es bastante usado en la comunidad y puedes tener ayuda de mucha gente que
 
 Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio. No hace falta bajarte el código del repo a local para ver el resultado, sólo acceder a la url de la demo. 
 
-De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ Merelo), organizar una charla, mostrar tus herramientas de trabajo y mucho más. Sólo faltaría poder grabar y proyectar películas para que fuese perfecto.
+De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ Merelo), organizar una charla, mostrar tus herramientas de trabajo y mucho más. __Sólo faltaría poder grabar y proyectar películas para que fuese perfecto__ 😂.
 
 ## 📌Conclusión
 
@@ -354,7 +336,7 @@ De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ
 
 Como dije al principio, cuando empecé como desarrolladora front-end quería crear un portfolio que mostrara los proyectos que fuera realizando, lo que no me esperaba es que el medio para exponerlo fuera GitHub.
 
-Con cada repositorio explico lo que hecho y cómo lo he hecho. Me sirve tanto para alojar proyectos web como para organizarme y centralizar lo que aprendo. Y puedo compartirlo con otros a los que les pueda servir. Me sirve para mostrar parte de mi trabajo.
+Con cada repositorio explico lo que hecho y cómo lo he hecho. Me sirve tanto para alojar proyectos web como para organizarme y centralizar lo que aprendo. Y puedo compartirlo con otros a los que les pueda servir. 
 
 Creo que mi objetivo ha sido cumplido.
 
@@ -362,7 +344,7 @@ Creo que mi objetivo ha sido cumplido.
 
 Espero que esta historia os haya inspirado para buscar vuestra manera de experimentar y exponer vuestros trabajos. Puede ser GitHub Pages o cualquier otro medio que encontréis.
 
-Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y lo he convertido en charla.
+Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y __lo he convertido en charla__ 😂.
 
 ![Muchas gracias](imagenes-guion/55.gracias.png?raw=true)
 
