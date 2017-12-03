@@ -22,6 +22,8 @@
 
 ## En la charla
 
+- Truco Elena Torró: para bajar las pulsaciones frenéticas hacer saliva con la boca para que no esté seca.
+
 - Haz **pausas**. Intenta **hablar despacio** y **vocalizar**. No olvidarse de **respirar**. Lo importante es que la audiencia se entere.
 
 - **Muévete por el escenario**, quita nervios. **Mover brazos y manos**.
