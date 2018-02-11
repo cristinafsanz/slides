@@ -32,14 +32,19 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
     * [Guión](codemotion2017/guion.md)
 
-    * [PDF](https://cristinafsanz.github.io/slides/codemotion2017/imagenes-guion/ilusionismo-github-pages-compressed.pdf)
-
     * [Kanban organización](https://tree.taiga.io/project/cristinafsanz-ilusionismo-con-github-pages/kanban)
 
     * [Repo casos de uso](https://github.com/cristinafsanz/github-pages)
 
     * [Blog proyecto](https://melies-hugo.js.org/)
 
+## Comunidad CODE:
+
+  * Comunidad CODE 2018:
+
+    * [Slides](https://cristinafsanz.github.io/slides/github-pages/#slide=1)
+
+    * [Guión](comunidadcode2018/guion.md)
 
 ## Ideas diseño slides
 
