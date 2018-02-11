@@ -1,22 +1,22 @@
-# Guión charla Comunidad CODE
+# [Guión charla Comunidad CODE](https://cristinafsanz.github.io/slides/comunidadcode2018/guion)
 
-## [Ilusionismo con GitHub Pages]((https://cristinafsanz.github.io/slides/github-pages/#slide=1))
+## [Ilusionismo con GitHub Pages](https://cristinafsanz.github.io/slides/github-pages/#slide=1)
 
 ![Cartel de Viaje a la luna con el título de la charla](../codemotion2017/imagenes-guion/1.portada.png?raw=true)
 
 Bienvenidos a la charla de "Ilusionismo con GitHub Pages".
 
-Antes de empezar me gustaría contar un poco el por qué de usar este cartel.
+Antes de empezar me gustaría contar un poco el por qué de usar este cartel como portada.
 
-Para esta charla voy a basarme en la historia de Georges Méliès, uno de los pioneros del cine. En sus películas participaba en todo, era director, guionista, actor, decorador, operador, montador...  Él sí que era un verdadero full-stack (en su caso artista full-stack).
+Para esta charla voy a contar **la historia de Georges Méliès, uno de los pioneros del cine**. En sus películas hacía de todo, era director, guionista, actor, decorador, operador, montador... Aunque os parezca raro, **sí que tiene un por qué el incluirlo en esta charla**.
+
+Si queréis saber más, hay un libro que escribió el mismo sobre su vida: ["Vida y obra de un pionero del cine / Georges Méliès"](http://www.madrid.org/biblio_publicas/cgi-bin/abnetopac?TITN=999193#absysNET) en bibliotecas de la Comunidad de Madrid.
 
 ## Presentación
 
 ![Avatar a la izquierda y mi nombre, qué soy y dónde trabajo a la derecha](../codemotion2017/imagenes-guion/2.presentacion.png?raw=true)
 
-Y después de esta pequeña introducción, me presento. 
-
-Soy Cristina Fernández, trabajo como desarrolladora Front-end, es decir, hago aplicaciones del lado cliente con html, CSS y JavaScript. 
+Soy Cristina Fernández, trabajo como desarrolladora Front-end, es decir, hago aplicaciones del lado cliente con HTML, CSS y JavaScript. 
 
 Trabajo actualmente en Kairós Digital Solutions aunque la charla de hoy la he creado a partir de un proyecto personal.
 
@@ -36,7 +36,7 @@ En la charla voy a hablar de:
 
 - Alternativas y por qué elijo GitHub Pages?
 
-Además, para amenizar la charla voy a incluir algunos trucos de magia que creó Georges Méliès. Porque antes de cineasta fue ilusionista.
+Además, para amenizar la charla **voy a incluir algunos trucos de magia** que creó Georges Méliès. Porque **antes de cineasta ya trabajaba como ilusionista**.
 
 ## 📌¿Por qué surge esta charla?
 
@@ -44,43 +44,39 @@ Además, para amenizar la charla voy a incluir algunos trucos de magia que creó
 
 ![Porfolio web](../codemotion2017/imagenes-guion/5.portfolio.png?raw=true)
 
-Cuando empecé como desarrolladora front-end me propuse crear un portfolio para mostrar los proyectos que fuera realizando a nivel personal. 
-
-Por cierto, en la presentación no aparece mi portfolio sino el de Méliès, si hubieran existido los portfolios hace 100 años...
-
-Un tiempo después de tener la idea del portfolio me di cuenta que sería también my útil poder acceder al código de esos proyectos web desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
+Cuando empecé como desarrolladora front-end quería **crear una página web a modo de portfolio** para mostrar los proyectos que fuera realizando a nivel personal. Y veía que podía ser también my **útil poder acceder al código** de esos proyectos desde cualquier sitio, para poder consultarlo y reutilizarlo en otros proyectos.
 
 ![GitHub](../codemotion2017/imagenes-guion/6.github.png?raw=true)
 
-Para alojar el código una alternativa bastante popular es GitHub, una plataforma que te permite tener repositorios de código en remoto. Además usa el sistema de control de versiones Git, que te permite volver a anteriores versiones de tus proyectos.
+Para **alojar el código** una alternativa bastante popular es **GitHub**, una plataforma que te permite tener repositorios de código en remoto.
 
-Sin embargo no veía conexión entre la publicación de la página web y el alojamiento del código con GitHub. Fue entonces cuando escuché hablar de GitHub Pages y tuve mi momento eureka.
+Sin embargo **no veía conexión entre la publicación de la página web y el alojamiento del código con GitHub**. Fue entonces cuando **escuché hablar de GitHub Pages** y tuve mi momento **eureka**.
 
 ## Cinematógrafo
 
-Para que véais cómo me sentí, vamos a retroceder hasta finales del siglo XIX.
+Para que **véais cómo me sentí**, vamos a **retroceder hasta finales del siglo XIX**.
 
 ![Gif de una de las primeras películas representadas con el cinematógrafo](../codemotion2017/imagenes-guion/7.cinematografo.png?raw=true)
 
-Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la primera representación del Cinematógrafo. Méliès quedó impresionado (como yo con GitHub Pages) y se decidió a incluirlo en su función. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara y proyector para hacer sus experimentos. Y aquí es cuando me di cuenta de que Georges Méliès y yo tenemos vidas paralelas. Él llegó a crear 500 películas y yo he actualmente tengo 30 repositorios, que a lo mejor os parecen pocos, pero dadme tiempo...
+Georges Méliès era un ilusionista que  asistió, invitado por los hermanos Lumière, a la **primera representación del Cinematógrafo**. Méliès quedó **impresionado** (como yo con GitHub Pages) y se **decidió a incluirlo en su función**. Como los hermanos Lumière no se lo quisieron vender, se compró un artilugio de la competencia y lo transformó para que sirviera como cámara y proyector para hacer sus experimentos. Él **llegó a crear 500 películas**.
+
+Con el **descubrimiento de GitHub Pages me pasó algo parecido** aunque a menor escala, porque llevo **30 repositorios** para **publicar distintos experimentos**. 
 
 ## 📌GitHub Pages
 
 ![Qué es GitHub Pages](../codemotion2017/imagenes-guion/8.que-es-ghp.png?raw=true)
 
-GitHub Pages es una funcionalidad de GitHub que te permite publicar sitios web estáticos a partir del código que subes en un repositorio.
-
-El código que publicas tiene que ser código del lado del cliente, es decir, html, css y JavaScript, pero como los proyectos que hago son front-end, a mí me sirve.
+**GitHub Pages es una funcionalidad de GitHub** que te permite **publicar sitios web estáticos** a partir del **código** que subes en un **repositorio**.
 
 ## User Site y Project Sites
 
-Cuando habilitas esta funcionalidad te proporciona un subdominio de github.io con tu nombre de usuario en GitHub:
+Cuando **habilitas esta funcionalidad** GitHub te proporciona un **subdominio de github.io** con tu **nombre de usuario** en GitHub:
 
 ![Repo + url user site / Repo + url Project site](../codemotion2017/imagenes-guion/9.usersite-projectsites.png?raw=true)
 
-- Para un repositorio con nombre "username.github.io" tendrás la url https://username.github.io.
+- Para un repositorio con nombre **"username.github.io"** tendrás tu **código publicado en la url https://username.github.io**. Donde username es tu nombre de usuario.
 
-- Para cualquier otro nombre de repositorio tendrás una url https://username.github.io/repo.
+- Para cualquier **otro nombre** de repositorio tendrás tu **código publicado en la url https://username.github.io/repo**.
 
 ![Ejemplo sitio web de User Site](../codemotion2017/imagenes-guion/10.usersite-ejemplo.png?raw=true)
 
@@ -94,7 +90,7 @@ Cuando habilitas esta funcionalidad te proporciona un subdominio de github.io co
 
 ![Qué necesitas saber](../codemotion2017/imagenes-guion/11.que-necesitas-saber.png?raw=true)
 
-Nivel básico de Git y del terminal para ejecutar los comandos. Y nivel básico de cómo trabajar con la interfaz gráfica de GitHub.
+**Nivel básico** de **Git** y del **terminal** para ejecutar los comandos. Y nivel básico de **cómo trabajar con la aplicación web de GitHub**.
 
 Para que veáis que es sencillo trabajar, os pongo la lista de pasos que suelo hacer:
 
@@ -106,13 +102,15 @@ Hay que crearse un repositorio en GitHub para almacenar allí tu código.
 
 ![Clonar en local](../codemotion2017/imagenes-guion/13.clonar-repositorio.png?raw=true)
 
-Clonamos el repo en local para incluir todos los ficheros en nuestro local. 
+Clonamos el repo en local para incluir todos los ficheros en nuestro local.
 
-En la presentación añado un gif de Méliès donde se clona a sí mismo y me pareció muy apropiado para esta slide.
+Dentro del repo puedes copiar la url para hacer "git clone" haciendo click en "Clone or download".
+
+Como podéis ver, a Méliès le gustaba clonarse a sí mismo para sus películas.
 
 ![Añadir el código al repo](../codemotion2017/imagenes-guion/14.anadir-codigo.png?raw=true)
 
-Añadimos al código dentro el proyecto clonado.
+Añadimos al código dentro el proyecto clonado. Para ello en el terminal haces "cd nombre-proyecto" para añadir desde ahí el código.
 
 ![Subir el código](../codemotion2017/imagenes-guion/15.subir-codigo.png?raw=true)
 
@@ -126,9 +124,11 @@ Los gifs de esta parte son de la película viaje a la luna (de 1902) y el gif ac
 
 Una vez subido el código vas a la pestaña Settings a la sección de GitHub Pages y habilitas GitHub Pages. Lo más común sería elegir la opción de publicar desde master, aunque os explicaré a continuación un caso donde podría resultar mejor subir desde otro origen.
 
+Podéis ver todos los pasos juntos en https://github.com/cristinafsanz/github-pages#origen.
+
 ![Imagen de la luna como si fuera un ejemplo de página web publicada](../codemotion2017/imagenes-guion/18.pagina-web-publicada.png?raw=true)
 
-Una vez habilitado GitHub Pages tenemos la página web publicada en la url de User Site o Project Site, dependiendo de qué repositorio hayamos utilizado.
+Una vez habilitado GitHub Pages tenemos la página web publicada en la url de User Site o Project Site, dependiendo de qué repositorio hayamos creado.
 
 ## 📌 Qué código publicas
 
@@ -136,19 +136,17 @@ Una vez habilitado GitHub Pages tenemos la página web publicada en la url de Us
 
 ![Octotree](../codemotion2017/imagenes-guion/20.octotree.png?raw=true)
 
-Para explicar las distintas formas de publicar con GitHub Pages voy a utilizar la extensión de Chrome Octotree, que añade un panel a la izquierda en la página web de GitHub y que muestra el proyecto en forma de árbol, siempre que el proyecto sea público. También lo usaré al mostrar otros repositorios de ejemplo.
+Para explicar las distintas formas de publicar con GitHub Pages voy a utilizar la **extensión de Chrome** **Octotree**, que **añade un panel a la izquierda** en la página web de GitHub y que muestra el **proyecto en forma de árbol**, siempre que el proyecto sea público. También lo usaré al mostrar otros repositorios de ejemplo.
 
 A mí me resulta muy útil para ver toda la estructura del proyecto.
 
 ![Truco de sobreimpresión](../codemotion2017/imagenes-guion/21.truco-sobreimpresion.png?raw=true)
 
-Para explicar las formas en las que podemos publicar voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba la cinta para grabar su cabeza en partes distintas de ella.
-
-En la presentación apreciamos que a Méliès también le gustaba clonar su cabeza.
+Para explicar las formas en las que podemos publicar voy a basarme en el truco de sobreimpresión, donde Méliès rebobinaba unas cuantas veces la cinta para grabar un mismo elemento en partes distintas de ella y hacer un efecto de duplicación.
 
 ![4 repositorios de código](../codemotion2017/imagenes-guion/22.unproyecto-4formas.png?raw=true)
 
-Basándome en ese truco voy a usar el mismo proyecto y lo voy a publicar de 4 formas distintas, utilizando un repositorio para cada una.
+Basándome en ese truco voy a usar el mismo proyecto y lo voy a publicar de 3 formas distintas, utilizando un repositorio para cada una. Para la última forma se va a explicar a su vez distintas formas de hacerlo.
 
 https://github.com/cristinafsanz/vue-master
 
@@ -158,15 +156,19 @@ https://github.com/cristinafsanz/vue-gh-pages
 
 https://github.com/cristinafsanz/vue-gh-pages-travis
 
+https://github.com/cristinafsanz/vue-gh-pages-npm
+
 ![Página web resultante del proyecto de Jose para Codenares](../codemotion2017/imagenes-guion/23.vue.png?raw=true)
 
-He cogido al azar  el proyecto que usó Jose Dongil en su charla de Vue. Hay gente en el público que pueden corroborar que se trata del mismo proyecto de Codenares. Y ahora que está demostrado que no hay ninguna trampa en el truco voy a comenzar.
+He cogido el proyecto que usó Jose Dongil en su charla de Vue para explicar las distintas formas de publicar.
 
  ![Proyecto en rama master](../codemotion2017/imagenes-guion/24.vue-master.png?raw=true)
 
  Para el primer repositorio voy a utilizar el origen más común, master. El código que subes en master es el que se publica.
 
- Se trata de un proyecto vue que utiliza webpack para preparar la aplicación para producción. El código que quiero publicar lo tenemos en el directorio dist, por lo que si habilitamos GitHub Pages desde master, tendremos la aplicación en https://username.github.io/repo/dist.
+ En **un ejemplo más sencillo**, como https://github.com/cristinafsanz/cristinafsanz.github.io, lo que queremos es que **todo el código del repositorio se publique**, por lo que habilitando master lo conseguiríamos.
+
+ Pero en el caso del **proyecto de Vue** se utiliza **webpack** para preparar la aplicación para producción. **El código que quiero publicar lo tenemos en el directorio dist**, por lo que si habilitamos GitHub Pages desde master, tendremos la aplicación en https://username.github.io/repo/dist.
 
 ![Proyecto en directorio /docs de rama master](../codemotion2017/imagenes-guion/25.vue-docs.png?raw=true)
 
@@ -189,6 +191,8 @@ Este proceso es un poco más enfarragoso porque hay que hacer push a 2 ramas con
 Por ello normalmente se utiliza un servicio de integración continua como Travis para que cuando hagas push a master, se genere el código de producción y se haga push a gh-pages automáticamente.
 
 Además ahora Travis integra con GitHub Pages de forma más sencilla y sólo necesitas añadir un fichero travis.yml. En él indicas el script para generar los ficheros de producción, dónde se generan y la rama origen.
+
+Y también existe la posibilidad de hacer esta publicación en gh-pages usando un plugin de npm: https://github.com/cristinafsanz/vue-gh-pages-npm. Sigues las instrucciones (un par de comandos) y ya lo tienes en gh-pages sin necesidad de complicarte.
 
 ## 📌Casos de uso
 
@@ -226,7 +230,7 @@ https://username.github.io/repo/example2/
 
 ![Ejemplo Flexbox](../codemotion2017/imagenes-guion/33.ejercicio-flexbox.png?raw=true)
 
-Ahora añado una librería que se llama Jotted, que es similar a un emulador como JSFiddle pero para demos que queremos tener en un entorno propio:
+Ahora añado una **librería** que se llama **Jotted**, que es **similar** a un **emulador como JSFiddle** pero para **demos** que queremos tener **en un entorno propio**:
 
 ![Librería Jotted](../codemotion2017/imagenes-guion/34.jotted.png?raw=true)
 
@@ -242,7 +246,13 @@ https://username.github.io/repo/example2/
 
 Con esto en la misma página tenemos el código html, css y js en distintas pestañas y en otra el resultado de cómo se ve en un navegador. 
 
-Tanto en el caso de subir el curso sin esta librería como con ella tenemos la ventaja de que podemos ver la demo sin tener que bajarnos el código de GitHub a local para ver el resultado, lo que agiliza mucho las cosas. Esta aplicación de GitHub Pages es la que me parece más interesante y que quiero seguir probando en el futuro.
+Tanto en el caso de subir el curso sin esta librería como con ella tenemos la ventaja de que **podemos ver la demo sin tener que bajarnos el código de GitHub a local para ver el resultado**, lo que agiliza mucho las cosas. Esta aplicación de GitHub Pages es la que me parece más interesante y que quiero seguir probando en el futuro.
+
+Tengo pendiente mejorar la organización para los cursos y tutoriales que vaya haciendo. Un ejemplo de mejor organización puede ser el que propone Elena Torró con su [e-journal](https://github.com/elenatorro/e-journal).
+
+- Estructura en el fichero INDEX. 3 niveles en carpetas: Curso, Lección y Actividades.
+
+- Calendario para mostrar progreso.
 
 ## Presentación
 
@@ -282,7 +292,17 @@ El truco es que he usado un generador estático en concreto, no por la velocidad
 
 Puedes documentar un proyecto para explicar de qué va usando el fichero README o la wiki disponible en GitHub.
 
-Un truco que he visto si no quieres complicarte añadiendo un estilo inicial es usar GitHub theme en la pestaña de Settings, que activa un diseño entre unos cuantos posibles usando el generador estático por defecto de GitHub, Jekyll.
+Un **ejemplo** de documentación sería para las **configuraciones de desarrollo** que tengas (extensiones editor, Chrome, scripts, terminal...): **[Setup](https://github.com/cristinafsanz/setup)**. Así te puede servir para ti y para otros.
+
+Un ejemplo de documentación muy completo es el de **[Guías, tutoriales y snippets](https://github.com/taniarascia/guides) de Tania Rascia**.
+
+La documentación que subes a GitHub se puede escribir en **Markdown**, un lenguaje de marcado más rápido que html:
+
+- [¿Qué es?](https://dev.to/kazz/boost-your-productivity-using-markdown-1be)
+
+- [Extensión de VSCode para ver cómo queda antes de subir a GitHub](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview).
+
+Un truco que he visto si no quieres complicarte **añadiendo un estilo inicial** es usar **GitHub theme** en la pestaña de Settings, que activa un diseño entre unos cuantos posibles usando el generador estático por defecto de GitHub, Jekyll.
 
 https://github.com/cristinafsanz/github-page-theme
 
@@ -344,25 +364,25 @@ Porque me ha sido más sencillo de utilizar al conocer GitHub.
 
 Porque es bastante usado en la comunidad y puedes tener ayuda de mucha gente que lo utiliza.
 
-Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio. No hace falta bajarte el código del repo a local para ver el resultado, sólo acceder a la url de la demo. 
+Y sobre todo porque puedo tener código, demostraciones y notas en el mismo sitio. No hace falta bajarte el código del repo a local para ver el resultado, sólo acceder a la url de la demo.
 
-De hecho GitHub se puede utilizar para casi todo: para escribir novelas (como JJ Merelo), organizar una charla, mostrar tus herramientas de trabajo y mucho más. Sólo faltaría poder grabar y proyectar películas para que fuese perfecto.
+Un ejemplo de esto lo podéis ver con el repositorio https://github.com/cristinafsanz/vuejs-primeros-pasos donde cree una carpeta para publicar los ejercicios del libro de vue de Jose Dongil y tener demo, notas y código en un mismo sitio: https://github.com/cristinafsanz/vuejs-primeros-pasos/tree/master/libro-vue#cap%C3%ADtulo-4-creando-componentes.
 
 ## 📌Conclusión
 
 ![Conclusión](../codemotion2017/imagenes-guion/53.conclusion.png?raw=true)
 
-Como dije al principio, cuando empecé como desarrolladora front-end quería crear un portfolio que mostrara los proyectos que fuera realizando, lo que no me esperaba es que el medio para exponerlo fuera GitHub.
+Como dije al principio, cuando empecé como desarrolladora front-end quería **crear un portfolio** que **mostrara los proyectos** que fuera realizando, lo que no me esperaba es que el **medio para exponerlo** fuera **GitHub**.
 
-Con cada repositorio explico lo que hecho y cómo lo he hecho. Me sirve tanto para alojar proyectos web como para organizarme y centralizar lo que aprendo. Y puedo compartirlo con otros a los que les pueda servir. Me sirve para mostrar parte de mi trabajo.
+Con cada repositorio explico lo que hecho y cómo lo he hecho. Me sirve tanto para alojar proyectos web como para organizarme y **centralizar lo que aprendo y utilizo**. Y puedo compartirlo con otros a los que les pueda servir. Me sirve para mostrar parte de mi trabajo.
 
 Creo que mi objetivo ha sido cumplido.
 
 ![Busca tu medio](../codemotion2017/imagenes-guion/54.busca-tu-medio.png?raw=true)
 
-Espero que esta historia os haya inspirado para buscar vuestra manera de experimentar y exponer vuestros trabajos. Puede ser GitHub Pages o cualquier otro medio que encontréis.
+Espero que esta historia os haya **inspirado** para buscar **vuestra manera de experimentar** y exponer vuestros trabajos. Puede ser GitHub Pages o cualquier otro medio que encontréis.
 
-Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y lo he convertido en charla.
+**Los hermanos Lumiere inventaron el cine pero Méliès lo convirtió en arte. Yo encontré GitHub y lo he convertido en charla.**
 
 ![Muchas gracias](../codemotion2017/imagenes-guion/55.gracias.png?raw=true)
 
@@ -372,7 +392,7 @@ Os comparto el repo donde tengo todos los casos de uso, las slides con el guión
 
 [Repo Casos Uso GitHub Pages](https://github.com/cristinafsanz/github-pages)
 
-[Slides y guión](https://github.com/cristinafsanz/slides#codemotion)
+[Slides y guión](https://github.com/cristinafsanz/slides#comunidad-code)
 
 [Blog](https://melies-hugo.js.org/)
 

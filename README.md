@@ -44,7 +44,7 @@ Todas las slides las he hecho con [WebSlides](https://webslides.tv/#slide=1). Es
 
     * [Slides](https://cristinafsanz.github.io/slides/github-pages/#slide=1)
 
-    * [Guión](comunidadcode2018/guion.md)
+    * [Guión](https://cristinafsanz.github.io/slides/comunidadcode2018/guion)
 
 ## Ideas diseño slides
 
