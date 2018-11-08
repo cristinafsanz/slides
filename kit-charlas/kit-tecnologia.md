@@ -47,3 +47,5 @@
 ## Después
 
 - ¡¡Descansar y disfrutar de lo que se ha conseguido!!
+
+Nota: Revisar slides y vídeo de la charla [Confessions of a nervious public speaker](https://speakerdeck.com/jthomas/confessions-of-a-nervous-public-speaker). Charla de @thomasj en #DevRelCon London 2018 (7 Noviembre).
